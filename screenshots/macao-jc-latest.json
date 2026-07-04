@@ -5,7 +5,7 @@
   "finalUrl": "https://d2.innocenhigh.com/pc/#/",
   "title": "澳門六合彩官方網站",
   "status": 200,
-  "capturedAt": "2026-07-04T13:10:57.585Z",
+  "capturedAt": "2026-07-04T14:21:48.600Z",
   "screenshotMode": "random-config-url-viewport-with-browser-frame",
   "waitSeconds": 20,
   "viewport": {
@@ -15,6 +15,6 @@
   "files": {
     "latestPreview": "screenshots/macao-jc-latest.png",
     "publicLatestPreview": "screenshots/latest.png",
-    "runArtifact": "macao-jc-browser-frame-2026-07-04T13-10-57-373Z.png"
+    "runArtifact": "macao-jc-browser-frame-2026-07-04T14-21-48-347Z.png"
   }
 }
