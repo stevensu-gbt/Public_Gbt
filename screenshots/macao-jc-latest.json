@@ -1,0 +1,18 @@
+{
+  "url": "https://d2.chenzhoukb.com/pc/#/",
+  "finalUrl": "https://d2.chenzhoukb.com/pc/#/",
+  "title": "澳門六合彩官方網站",
+  "status": 200,
+  "capturedAt": "2026-07-04T10:24:47.978Z",
+  "screenshotMode": "natural-redirect-viewport-with-browser-frame",
+  "waitSeconds": 20,
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "files": {
+    "latestPreview": "screenshots/macao-jc-latest.png",
+    "publicLatestPreview": "screenshots/latest.png",
+    "runArtifact": "macao-jc-browser-frame-2026-07-04T10-24-47-744Z.png"
+  }
+}
