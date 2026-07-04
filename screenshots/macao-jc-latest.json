@@ -1,11 +1,11 @@
 {
-  "url": "https://d2.innocenhigh.com/pc/",
-  "selectedUrl": "https://d2.innocenhigh.com/pc/",
+  "url": "https://d2.xiyangjia.com/pc/",
+  "selectedUrl": "https://d2.xiyangjia.com/pc/",
   "candidateUrlsCount": 2,
-  "finalUrl": "https://d2.innocenhigh.com/pc/#/",
+  "finalUrl": "https://d2.xiyangjia.com/pc/#/",
   "title": "澳門六合彩官方網站",
   "status": 200,
-  "capturedAt": "2026-07-04T16:38:03.920Z",
+  "capturedAt": "2026-07-04T16:44:59.310Z",
   "screenshotMode": "random-config-url-viewport-with-browser-frame",
   "waitSeconds": 20,
   "viewport": {
@@ -15,6 +15,6 @@
   "files": {
     "latestPreview": "screenshots/macao-jc-latest.png",
     "publicLatestPreview": "screenshots/latest.png",
-    "runArtifact": "macao-jc-browser-frame-2026-07-04T16-38-03-673Z.png"
+    "runArtifact": "macao-jc-browser-frame-2026-07-04T16-44-59-034Z.png"
   }
 }
