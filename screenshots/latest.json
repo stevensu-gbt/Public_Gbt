@@ -3,7 +3,7 @@
   "finalUrl": "https://d2.chenzhoukb.com/pc/#/",
   "title": "澳門六合彩官方網站",
   "status": 200,
-  "capturedAt": "2026-07-04T10:30:36.989Z",
+  "capturedAt": "2026-07-04T10:34:21.327Z",
   "screenshotMode": "natural-redirect-viewport-with-browser-frame",
   "waitSeconds": 20,
   "viewport": {
@@ -13,6 +13,6 @@
   "files": {
     "latestPreview": "screenshots/macao-jc-latest.png",
     "publicLatestPreview": "screenshots/latest.png",
-    "runArtifact": "macao-jc-browser-frame-2026-07-04T10-30-36-724Z.png"
+    "runArtifact": "macao-jc-browser-frame-2026-07-04T10-34-21-120Z.png"
   }
 }
