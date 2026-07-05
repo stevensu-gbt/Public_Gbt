@@ -1,0 +1,52 @@
+[hls @ 0x556bc6ca69c0] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x556bc6ca69c0] Opening 'https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_ipad.m3u8?20260703170752' for reading
+[hls @ 0x556bc6ca69c0] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x556bc6ca69c0] Skip ('#EXT-X-ALLOW-CACHE:YES')
+[https @ 0x556bc6cb1e80] Opening 'https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd.m3u8?20260703170752' for reading
+[hls @ 0x556bc6ca69c0] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x556bc6ca69c0] Skip ('#EXT-X-ALLOW-CACHE:YES')
+[hls @ 0x556bc6ca69c0] Opening 'https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_ipad000.ts?20260703170751' for reading
+[hls @ 0x556bc6ca69c0] Opening 'https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_ipad001.ts?20260703170751' for reading
+[hls @ 0x556bc6ca69c0] Opening 'https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd000.ts?20260703170812' for reading
+[hls @ 0x556bc6ca69c0] Opening 'https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd001.ts?20260703170812' for reading
+Input #0, hls, from 'https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M.m3u8?t=1783107785':
+  Duration: 00:10:38.36, start: 1.416778, bitrate: 0 kb/s
+  Program 0 
+    Metadata:
+      variant_bitrate : 1196000
+  Stream #0:0: Video: h264 (High) ([27][0][0][0] / 0x001B), yuv420p(tv, bt709), 576x324 [SAR 1:1 DAR 16:9], 25 fps, 25 tbr, 90k tbn
+    Metadata:
+      variant_bitrate : 1196000
+  Stream #0:1(eng): Audio: aac (LC) ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 1196000
+  Program 1 
+    Metadata:
+      variant_bitrate : 2296000
+  Stream #0:2: Video: h264 (High) ([27][0][0][0] / 0x001B), yuv420p(tv, bt709), 1280x720 [SAR 1:1 DAR 16:9], 25 fps, 25 tbr, 90k tbn
+    Metadata:
+      variant_bitrate : 2296000
+  Stream #0:3(eng): Audio: aac (LC) ([15][0][0][0] / 0x000F), 44100 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 2296000
+Output #0, mp4, to '/home/runner/work/Auto_Browser/Auto_Browser/recordings/oncc/raw-source.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 576x324 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 25 tbr, 90k tbn
+    Metadata:
+      variant_bitrate : 1196000
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 1196000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+size=       0kB time=-00:00:00.01 bitrate=  -0.0kbits/s speed=N/A    [hls @ 0x556bc6ca69c0] No longer receiving playlist 1 ('https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd.m3u8?20260703170752')
+[https @ 0x556bc7006980] Opening 'https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_ipad002.ts?20260703170751' for reading
+[mpegts @ 0x556bc6ffd180] Packet corrupt (stream = 0, dts = 662400).
+[hls @ 0x556bc6ca69c0] Packet corrupt (stream = 0, dts = 658800).
+[in#0/hls @ 0x556bc6ca68c0] corrupt input packet in stream 0
+[mp4 @ 0x556bc81db240] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x556bc6ca6640] video:679kB audio:83kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.697040%
+size=     768kB time=00:00:09.98 bitrate= 629.9kbits/s speed= 262x    
