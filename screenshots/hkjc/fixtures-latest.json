@@ -1,0 +1,16 @@
+{
+  "key": "fixtures",
+  "url": "https://bet.hkjc.com/ch/marksix/fixtures",
+  "finalUrl": "https://common.hkjc.com/maint/generic.html",
+  "title": "The Hong Kong Jockey Club",
+  "status": 200,
+  "capturedAt": "2026-07-05T11:25:17.021Z",
+  "screenshotMode": "viewport-with-browser-frame",
+  "waitSeconds": 12,
+  "viewport": {
+    "width": 1365,
+    "height": 768
+  },
+  "publicImagePath": "screenshots/hkjc/fixtures-latest.png",
+  "bodyTextPreview": " \n\n很抱歉！此網頁暫時無法使用。\n\n請稍後重試您的請求。\n返回主頁，請 按此。\n感謝您的忍耐！\n\n \n\nWe're sorry! The page is currently unavailable.\n\nPlease retry your request later.\nBack to home page, please click here.\nThank you for your patience.  \n\n "
+}
