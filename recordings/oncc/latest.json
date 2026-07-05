@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "site": "tv.on.cc",
+  "task": "oncc-record-video",
+  "targetUrl": "https://tv.on.cc/?section=683",
+  "finalUrl": "https://tv.on.cc/?section=683",
+  "clicked": {
+    "method": "coordinate-fallback",
+    "x": 860,
+    "y": 118
+  },
+  "requestedDurationSec": 120,
+  "capturedAt": "2026-07-05T09:46:20.070Z",
+  "viewport": {
+    "width": 1365,
+    "height": 768
+  },
+  "videoFile": "latest.webm",
+  "metadataFile": "latest.json",
+  "publicRawVideoUrl": "https://raw.githubusercontent.com/stevensu-gbt/Public_Gbt/main/recordings/oncc/latest.webm",
+  "publicRawJsonUrl": "https://raw.githubusercontent.com/stevensu-gbt/Public_Gbt/main/recordings/oncc/latest.json",
+  "overlay": {
+    "closed": false
+  },
+  "recordingStartedAt": "2026-07-05T09:44:19.285Z",
+  "recordingEndedAt": "2026-07-05T09:46:19.286Z",
+  "videoBytes": 19503852
+}
