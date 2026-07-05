@@ -4,8 +4,8 @@
   "finalUrl": "https://common.hkjc.com/maint/generic.html",
   "title": "The Hong Kong Jockey Club",
   "status": 200,
-  "capturedAt": "2026-07-05T11:44:23.520Z",
-  "screenshotMode": "viewport-with-browser-frame",
+  "capturedAt": "2026-07-05T11:50:18.229Z",
+  "screenshotMode": "headed-google-chrome-with-xvfb",
   "waitSeconds": 12,
   "viewport": {
     "width": 1365,

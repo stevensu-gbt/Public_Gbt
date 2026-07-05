@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-05T11:44:39.577Z",
+  "capturedAt": "2026-07-05T11:50:34.273Z",
   "hongKongDate": "2026-07-05",
   "year": "2026",
   "month": "07",
@@ -22,8 +22,8 @@
       "finalUrl": "https://common.hkjc.com/maint/generic.html",
       "title": "The Hong Kong Jockey Club",
       "status": 200,
-      "capturedAt": "2026-07-05T11:44:23.520Z",
-      "screenshotMode": "viewport-with-browser-frame",
+      "capturedAt": "2026-07-05T11:50:18.229Z",
+      "screenshotMode": "headed-google-chrome-with-xvfb",
       "waitSeconds": 12,
       "viewport": {
         "width": 1365,
@@ -38,8 +38,8 @@
       "finalUrl": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=07",
       "title": "新聞 - 新聞及公司活動 - 馬會知多少 - 香港賽馬會",
       "status": 200,
-      "capturedAt": "2026-07-05T11:44:39.569Z",
-      "screenshotMode": "viewport-with-browser-frame",
+      "capturedAt": "2026-07-05T11:50:34.258Z",
+      "screenshotMode": "headed-google-chrome-with-xvfb",
       "waitSeconds": 12,
       "viewport": {
         "width": 1365,

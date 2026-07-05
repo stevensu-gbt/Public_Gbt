@@ -4,8 +4,8 @@
   "finalUrl": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=07",
   "title": "新聞 - 新聞及公司活動 - 馬會知多少 - 香港賽馬會",
   "status": 200,
-  "capturedAt": "2026-07-05T11:44:39.569Z",
-  "screenshotMode": "viewport-with-browser-frame",
+  "capturedAt": "2026-07-05T11:50:34.258Z",
+  "screenshotMode": "headed-google-chrome-with-xvfb",
   "waitSeconds": 12,
   "viewport": {
     "width": 1365,
