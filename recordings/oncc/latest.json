@@ -1,35 +1,33 @@
 {
   "ok": true,
   "site": "tv.on.cc",
-  "task": "oncc-record-video",
+  "task": "oncc-record-video-v2",
+  "recordMode": "browser-video-fallback",
   "targetUrl": "https://tv.on.cc/?section=683",
   "tabText": "東網視頻",
-  "resolvedRecordUrl": "https://tv.on.cc/?section=20209001",
-  "finalUrl": "https://tv.on.cc/?section=20209001",
+  "sourceUrl": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M.m3u8?t=1783107785",
+  "finalUrl": "https://tv.on.cc/?section=683",
   "clicked": {
-    "method": "real-mouse-target",
-    "tag": "DIV",
-    "text": "東呼即應東網視頻繽FUN星網 修改 登入 登出",
-    "href": null,
-    "onclick": null,
-    "x": 683,
-    "y": 42,
-    "top": 0,
-    "left": 183,
-    "width": 1000,
-    "height": 84,
-    "finalUrl": "https://tv.on.cc/?section=20209001"
+    "method": "coordinate-fallback",
+    "x": 642,
+    "y": 80,
+    "finalUrl": "https://tv.on.cc/?section=683"
   },
   "requestedDurationSec": 10,
-  "capturedAt": "2026-07-05T09:53:27.460Z",
+  "capturedAt": "2026-07-05T10:11:41.292Z",
   "viewport": {
     "width": 1365,
     "height": 768
   },
-  "videoFile": "latest.webm",
-  "metadataFile": "latest.json",
-  "publicRawVideoUrl": "https://raw.githubusercontent.com/stevensu-gbt/Public_Gbt/main/recordings/oncc/latest.webm",
+  "outputFiles": [
+    "before-click.png",
+    "after-click.png",
+    "source-detect.png",
+    "latest.webm"
+  ],
+  "publicRawVideoUrl": "https://raw.githubusercontent.com/stevensu-gbt/Public_Gbt/main/recordings/oncc/latest.mp4",
   "publicRawJsonUrl": "https://raw.githubusercontent.com/stevensu-gbt/Public_Gbt/main/recordings/oncc/latest.json",
+  "publicFallbackWebmUrl": "https://raw.githubusercontent.com/stevensu-gbt/Public_Gbt/main/recordings/oncc/latest.webm",
   "overlay": [
     {
       "ok": true,
@@ -47,34 +45,269 @@
     }
   ],
   "beforeClickScreenshot": "before-click.png",
-  "detectedTarget": {
-    "tag": "DIV",
-    "text": "東呼即應東網視頻繽FUN星網 修改 登入 登出",
-    "href": null,
-    "onclick": null,
-    "x": 683,
-    "y": 42,
-    "top": 0,
-    "left": 183,
-    "width": 1000,
-    "height": 84
-  },
+  "detectedTarget": null,
   "afterClickScreenshot": "after-click.png",
-  "recordingContextClick": {
-    "method": "real-mouse-target",
-    "tag": "DIV",
-    "text": "東呼即應東網視頻繽FUN星網 修改 登入 登出",
-    "href": null,
-    "onclick": null,
-    "x": 683,
-    "y": 42,
-    "top": 0,
-    "left": 183,
-    "width": 1000,
-    "height": 84,
-    "finalUrl": "https://tv.on.cc/?section=20209001"
+  "sourceCandidates": [
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M.m3u8?t=1783107785",
+      "type": "hls",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:31.299Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_ipad.m3u8?20260703170752",
+      "type": "hls",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:38.113Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_ipad000.ts?20260703170751",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:38.234Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd.m3u8?20260703170752",
+      "type": "hls",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:38.925Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd001.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:38.939Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd002.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:39.062Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd003.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:39.181Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd004.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:39.458Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd005.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:39.756Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd006.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:39.973Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd007.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.080Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd008.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.145Z"
+    },
+    {
+      "url": "https://tv.on.cc/utm/video_view_counter.html?para2=HKVV&para1=/web/ontv/683/OCM260703-11849-101-M.m3u8&title=(9.2)%E6%9D%B1%E5%91%BC%E5%8D%B3%E6%87%89_%E7%86%AC%E5%A4%9C%E7%9D%87%E6%B3%A2%E5%8B%81%E8%82%9A%E9%A4%93%E3%80%80%E5%95%A4%E9%85%92%E9%9B%B6%E9%A3%9F%E4%B9%9F%E5%8F%AF%E5%81%A5%E5%BA%B7%EF%BC%9F&t=1783246240152",
+      "type": "hls",
+      "from": "request",
+      "resourceType": "document",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.169Z"
+    },
+    {
+      "url": "https://on.cc/mlog/matomo.php?idsite=28&rec=1&action_name=%289.2%29%25E6%259D%25B1%25E5%2591%25BC%25E5%258D%25B3%25E6%2587%2589_%25E7%2586%25AC%25E5%25A4%259C%25E7%259D%2587%25E6%25B3%25A2%25E5%258B%2581%25E8%2582%259A%25E9%25A4%2593%25E3%2580%2580%25E5%2595%25A4%25E9%2585%2592%25E9%259B%25B6%25E9%25A3%259F%25E4%25B9%259F%25E5%258F%25AF%25E5%2581%25A5%25E5%25BA%25B7%25EF%25BC%259F&url=https%3A%2F%2Fvideo_view.on.cc%2Fweb%2Fontv%2F683%2FOCM260703-11849-101-M.m3u8_HKVV&urlref=https%3A%2F%2Ftv.on.cc%2F%3Fsection%3D683&rand=1783246240156",
+      "type": "hls",
+      "from": "request",
+      "resourceType": "image",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.169Z"
+    },
+    {
+      "url": "https://tv.on.cc/utm/video_view/__utm.gif?utmwv=1&utmn=123669193&utmcs=UTF-8&utmsr=1365x768&utmsc=24-bit&utmul=zh-hk&utmje=0&utmfl=-&utmdt=(9.2)%E6%9D%B1%E5%91%BC%E5%8D%B3%E6%87%89_%E7%86%AC%E5%A4%9C%E7%9D%87%E6%B3%A2%E5%8B%81%E8%82%9A%E9%A4%93%E3%80%80%E5%95%A4%E9%85%92%E9%9B%B6%E9%A3%9F%E4%B9%9F%E5%8F%AF%E5%81%A5%E5%BA%B7%EF%BC%9F&utmhn=tv.on.cc&utmr=0&utmp=/web/ontv/683/OCM260703-11849-101-M.m3u8_HKVV",
+      "type": "hls",
+      "from": "request",
+      "resourceType": "image",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.298Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd009.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.307Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd010.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.396Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd011.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.458Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd012.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.514Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd013.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.561Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd014.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.623Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd015.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.680Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd016.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.724Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd017.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.764Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd018.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.805Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd019.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.851Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd020.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.893Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd021.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.939Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd022.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:40.985Z"
+    },
+    {
+      "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M_hd023.ts?20260703170812",
+      "type": "segment",
+      "from": "request",
+      "resourceType": "xhr",
+      "contentType": null,
+      "seenAt": "2026-07-05T10:10:41.028Z"
+    }
+  ],
+  "selectedSource": {
+    "url": "https://video-cdn.on.cc/Video/202607/OCM260703-11849-101-M.m3u8?t=1783107785",
+    "type": "hls",
+    "from": "request",
+    "resourceType": "xhr",
+    "contentType": null,
+    "seenAt": "2026-07-05T10:10:31.299Z",
+    "score": 1030
   },
-  "recordingStartedAt": "2026-07-05T09:53:16.762Z",
-  "recordingEndedAt": "2026-07-05T09:53:26.764Z",
-  "videoBytes": 5900116
+  "sourceDetectScreenshot": "source-detect.png",
+  "ffmpegCopyError": "spawn ffmpeg ENOENT",
+  "sourceRecordError": "spawn ffmpeg ENOENT",
+  "recordingContextClick": {
+    "method": "coordinate-fallback",
+    "x": 642,
+    "y": 80,
+    "finalUrl": "https://tv.on.cc/?section=683"
+  },
+  "recordingStartedAt": "2026-07-05T10:11:30.494Z",
+  "recordingEndedAt": "2026-07-05T10:11:40.496Z",
+  "latestWebmBytes": 6141422
 }
