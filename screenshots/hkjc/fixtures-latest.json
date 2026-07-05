@@ -1,10 +1,10 @@
 {
   "key": "fixtures",
-  "url": "https://bet.hkjc.com/ch/marksix/fixtures",
+  "url": "https://bet.hkjc.com/ch/marksix",
   "finalUrl": "https://common.hkjc.com/maint/generic.html",
   "title": "The Hong Kong Jockey Club",
   "status": 200,
-  "capturedAt": "2026-07-05T11:32:59.818Z",
+  "capturedAt": "2026-07-05T11:38:32.552Z",
   "screenshotMode": "viewport-with-browser-frame",
   "waitSeconds": 12,
   "viewport": {

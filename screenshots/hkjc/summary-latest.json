@@ -1,11 +1,11 @@
 {
-  "capturedAt": "2026-07-05T11:33:16.234Z",
+  "capturedAt": "2026-07-05T11:38:48.004Z",
   "hongKongDate": "2026-07-05",
   "year": "2026",
   "month": "07",
   "day": "05",
   "urls": {
-    "fixtures": "https://bet.hkjc.com/ch/marksix/fixtures",
+    "fixtures": "https://bet.hkjc.com/ch/marksix",
     "news": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=07"
   },
   "files": {
@@ -18,11 +18,11 @@
   "results": [
     {
       "key": "fixtures",
-      "url": "https://bet.hkjc.com/ch/marksix/fixtures",
+      "url": "https://bet.hkjc.com/ch/marksix",
       "finalUrl": "https://common.hkjc.com/maint/generic.html",
       "title": "The Hong Kong Jockey Club",
       "status": 200,
-      "capturedAt": "2026-07-05T11:32:59.818Z",
+      "capturedAt": "2026-07-05T11:38:32.552Z",
       "screenshotMode": "viewport-with-browser-frame",
       "waitSeconds": 12,
       "viewport": {
@@ -38,7 +38,7 @@
       "finalUrl": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=07",
       "title": "新聞 - 新聞及公司活動 - 馬會知多少 - 香港賽馬會",
       "status": 200,
-      "capturedAt": "2026-07-05T11:33:16.224Z",
+      "capturedAt": "2026-07-05T11:38:48.000Z",
       "screenshotMode": "viewport-with-browser-frame",
       "waitSeconds": 12,
       "viewport": {
