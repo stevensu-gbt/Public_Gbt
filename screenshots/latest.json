@@ -5,7 +5,7 @@
   "finalUrl": "https://d2.xiyangjia.com/pc/#/",
   "title": "澳門六合彩官方網站",
   "status": 200,
-  "capturedAt": "2026-07-06T11:59:50.903Z",
+  "capturedAt": "2026-07-06T12:29:42.097Z",
   "screenshotMode": "random-config-url-viewport-with-browser-frame",
   "waitSeconds": 20,
   "viewport": {
@@ -15,6 +15,6 @@
   "files": {
     "latestPreview": "screenshots/macao-jc-latest.png",
     "publicLatestPreview": "screenshots/latest.png",
-    "runArtifact": "macao-jc-browser-frame-2026-07-06T11-59-50-652Z.png"
+    "runArtifact": "macao-jc-browser-frame-2026-07-06T12-29-41-843Z.png"
   }
 }
