@@ -1,53 +1,16 @@
 {
   "key": "fixtures",
-  "url": "https://www.hkjc.com/zh-hk/index",
-  "navigationMode": "home-page-menu-click-to-mark-six",
-  "capturedAt": "2026-07-05T11:56:05.579Z",
-  "screenshotMode": "headed-google-chrome-with-xvfb-video",
+  "url": "https://bet.hkjc.com/ch/marksix/fixtures",
+  "finalUrl": "https://bet.hkjc.com/ch/marksix/fixtures",
+  "title": "香港賽馬會 - 六合彩",
+  "status": 200,
+  "capturedAt": "2026-07-06T07:37:55.946Z",
+  "screenshotMode": "viewport-with-browser-frame",
   "waitSeconds": 12,
-  "recordSeconds": 60,
   "viewport": {
     "width": 1365,
     "height": 768
   },
   "publicImagePath": "screenshots/hkjc/fixtures-latest.png",
-  "actions": [
-    {
-      "action": "goto-home",
-      "url": "https://www.hkjc.com/zh-hk/index"
-    },
-    {
-      "action": "click-top-right-ewin-menu",
-      "x": 1320,
-      "y": 92
-    },
-    {
-      "action": "click-mark-six-by-text",
-      "ok": false,
-      "error": "locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for getByRole('link', { name: /六合彩/ }).last()\n"
-    },
-    {
-      "action": "click-mark-six-by-text",
-      "ok": false,
-      "error": "locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for getByText('六合彩', { exact: true }).last()\n"
-    },
-    {
-      "action": "click-mark-six-by-text",
-      "ok": false,
-      "error": "locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator('text=六合彩').last()\n    - locator resolved to <div class=\"text-body-3 rounded-[5px] h-fit break-words\">有節制體育博彩及六合彩獎券</div>\n  - attempting click action\n    2 × waiting "
-    },
-    {
-      "action": "click-mark-six-by-coordinate-fallback",
-      "x": 1320,
-      "y": 236
-    },
-    {
-      "action": "after-click-final-url",
-      "url": "https://www.hkjc.com/zh-hk/index"
-    }
-  ],
-  "finalUrl": "https://www.hkjc.com/zh-hk/index",
-  "title": "香港賽馬會",
-  "bodyTextPreview": "馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\n\n我們是致力建設更美好社會的\n世界級體育及娛樂機構。\n\n發現更多\n最新消息\n精選\n賽馬資訊\n慈善及社區貢獻\n公司事務\n精彩盛事\n賽馬資訊\n|\n2026年7月4日\n周俊樂及霍宏聲聯同何澤堯合組「香港隊」出戰識價盃\n精彩盛事\n|\n2026年6月17日\n立即投選你的最愛　有機會贏港幣$5,000的沙田馬場餐飲券\n賽馬資訊\n|\n2026年7月3日\n2026年香港國際馬匹拍賣會「遙遠星空」子嗣以高達九百二十萬港元成交\n精彩盛事\n|\n2026年7月5日\n香港賽馬會乘足球熱舉辦別具一格「八戰百勝」賽事 　以足球八強爭勝為靈感讓賽駒與騎師組隊合演精彩賽事\n賽馬資訊\n|\n2026年6月25日\n2025/2026年度香港賽馬會冠軍人馬獎候選馬匹名單\n公司事務\n|\n2026年7月5日\n馬會旗下香港賽馬證書課程獲納入廣東終身資歷框架名冊\n慈善及社區貢獻\n|\n2026年7月3日\n馬會支持國家大型原創舞劇《騎兵》在港上演\n精彩盛事\n|\n2026年5月28日\n「夏令賽事」強勢回歸！賽事均於下午4時開跑，訪客可盡情感受世界級賽馬的熱情及一系列夏日玩樂精選\n慈善及社區貢獻\n|\n2026年6月29日\n公益慈善研究院與香港賽馬會慈善信託基金攜手支持「給孩子們的大師講堂」香港活動\n應家柏網誌\n更多文章\n「香港隊」出戰識價盃帶來振奮人心機遇\n國際賽事一向是所有頂尖運動員追求的最高舞台，一眾世界級騎師當然也絕不例外。\n閱讀更多\n2026年7月5日\n探索香港賽馬會\n馬場娛樂\n馬場娛樂\n一同體驗精彩難忘的賽馬活動\n場地預訂\n最新動向\n賽馬\n賽馬\n緊貼最新的賽事資訊和新聞，深入探索世界級的賽事\n焦點賽馬日\n賽馬新聞\n足球\n足球\n掌握最新的足球賽事資訊，配合專業分析，助你洞悉賽事形勢\n賠率及賽程\n專業分析\n慈善及社區貢獻\n慈善及社區貢獻\n \n探索善行成果\n我們的工作\n並肩同行\n團隊簡介\n團隊故事\n加入香港賽馬會\nVictor\n滿貫廳餐廳經理\nCher\n業務發展經理\nNick\n高級零售經理\nDereck\n馬房領班\nSaurabh\n資訊科技方案及敏捷項目管理助理執行經理\n馬場活動\n焦點賽馬日及一級賽事\n快活星期三\n餐飲及活動場地\n計劃行程\n賽馬資訊\n報名表\n排位表\n即時賠率\n賽果\n視聽播放區\n速勢能量\n足球資訊\n賠率及賽程\n賽果\n世盃狂熱\n專業分析\n投注參考\n通知\n馬會會員\n關於會籍\nThe Hilltop in The Valley\n沙田會所\n雙魚河鄉村會所\n北京會所\n競駿會\n慈善及社區貢獻\n我們的工作\n社區項目\n精彩活動\n社區足跡\n馬會知多少\n應家柏網誌\n傳媒專用區\n盛事連年\n奬項及榮譽\n職位空缺\n新供應商登記\n有節制博彩\n\n未滿十八歲人士不得投注或進入可投注的地方。\n\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線1834 633。\n\n常見問題\n | \n聯絡我們\n | \n傳媒專用區\n | \n網頁指南\n | \n規例\n | \n提倡有節制博彩\n | \n私隱條款\n | \n免責聲明\n | \n網絡保安\n版權所有 不得轉載 © 2000-2026 香港賽馬會",
-  "videoArtifact": "capture-result/hkjc/fixtures-navigation-latest.webm"
+  "bodyTextPreview": "主頁\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\nENG\n賽馬\n足智彩\n六合彩\n網上渠道\n投注處及電話投注\n投注資料\n客戶支援\n主頁\n核對中獎號碼\n過去攪珠結果\n攪珠日期表\n六合彩計算機\n攪珠結果統計\n六合彩指南\n下期攪珠\n自選單式\n自選複式\n自選膽拖\n運財號碼\n攪珠日期表\n2026年 7月\n日\n一\n二\n三\n四\n五\n六\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n1\n攪珠日\n金多寶\n預售日\n本月金多寶\n\n21-07-2026 - 暑期金多寶\n\n詳情請留意馬會最新公佈。\n\n登入\n申請網上\n投注服務\n無法登入\n總注數:\n0\n總投注金額:\n$0\n發送注項\n傳媒通訊系統\n博彩要有節制\n\n未滿十八歲人士不得投注或進入可投注的地方。\n\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線1834 633。\n\n常見問題聯絡我們網頁指南提倡有節制博彩規例私隱條款免責聲明網絡保安\n版權所有 不得轉載\n © 2006-2026 香港馬會獎券有限公司"
 }
