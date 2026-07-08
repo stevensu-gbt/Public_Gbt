@@ -5,7 +5,7 @@
   "finalUrl": "https://d2.innocenhigh.com/pc/#/",
   "title": "澳門六合彩官方網站",
   "status": 200,
-  "capturedAt": "2026-07-08T18:04:59.783Z",
+  "capturedAt": "2026-07-08T18:09:14.958Z",
   "taipeiDate": "2026-07-09",
   "screenshotMode": "random-config-url-viewport-with-browser-frame",
   "waitSeconds": 20,
@@ -14,22 +14,22 @@
     "height": 1000
   },
   "slot": {
-    "id": "2030",
-    "label": "20:30",
+    "id": "2100",
+    "label": "21:00",
     "dateCompact": "20260709",
     "source": "github-schedule"
   },
   "files": {
     "latestPreview": "screenshots/macao-jc-latest.png",
     "publicLatestPreview": "screenshots/latest.png",
-    "slotPreview": "screenshots/slots/20260709/2030.png",
-    "slotMetadata": "screenshots/slots/20260709/2030.json",
-    "publicSlotPreview": "screenshots/slots/20260709/2030.png",
-    "publicSlotMetadata": "screenshots/slots/20260709/2030.json",
-    "shallowPreview": "screenshots/macao-jc-20260709-2030.png",
-    "shallowMetadata": "screenshots/macao-jc-20260709-2030.json",
-    "publicShallowPreview": "screenshots/macao-jc-20260709-2030.png",
-    "publicShallowMetadata": "screenshots/macao-jc-20260709-2030.json",
-    "runArtifact": "macao-jc-browser-frame-2026-07-08T18-04-59-783Z.png"
+    "slotPreview": "screenshots/slots/20260709/2100.png",
+    "slotMetadata": "screenshots/slots/20260709/2100.json",
+    "publicSlotPreview": "screenshots/slots/20260709/2100.png",
+    "publicSlotMetadata": "screenshots/slots/20260709/2100.json",
+    "shallowPreview": "screenshots/macao-jc-20260709-2100.png",
+    "shallowMetadata": "screenshots/macao-jc-20260709-2100.json",
+    "publicShallowPreview": "screenshots/macao-jc-20260709-2100.png",
+    "publicShallowMetadata": "screenshots/macao-jc-20260709-2100.json",
+    "runArtifact": "macao-jc-browser-frame-2026-07-08T18-09-14-958Z.png"
   }
 }
