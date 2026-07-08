@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-08T09:04:07.231Z",
+  "capturedAt": "2026-07-08T09:11:45.464Z",
   "hongKongDate": "2026-07-08",
   "dateCompact": "20260708",
   "year": "2026",
@@ -19,7 +19,9 @@
     "dailyFixturesJson": "screenshots/hkjc/daily/20260708/fixtures.json",
     "dailyNewsImage": "screenshots/hkjc/daily/20260708/news.png",
     "dailyNewsJson": "screenshots/hkjc/daily/20260708/news.json",
-    "dailySummaryJson": "screenshots/hkjc/daily/20260708/summary.json"
+    "dailySummaryJson": "screenshots/hkjc/daily/20260708/summary.json",
+    "shallowFixturesImage": "screenshots/hkjc/fixtures-20260708.png",
+    "shallowNewsImage": "screenshots/hkjc/news-20260708.png"
   },
   "results": [
     {
@@ -28,7 +30,7 @@
       "finalUrl": "https://bet.hkjc.com/ch/marksix/fixtures",
       "title": "香港賽馬會 - 六合彩",
       "status": 200,
-      "capturedAt": "2026-07-08T09:03:50.998Z",
+      "capturedAt": "2026-07-08T09:11:30.172Z",
       "hongKongDate": "2026-07-08",
       "dateCompact": "20260708",
       "screenshotMode": "viewport-with-browser-frame",
@@ -41,6 +43,7 @@
       "publicJsonPath": "screenshots/hkjc/fixtures-latest.json",
       "dailyImagePath": "screenshots/hkjc/daily/20260708/fixtures.png",
       "dailyJsonPath": "screenshots/hkjc/daily/20260708/fixtures.json",
+      "shallowImagePath": "screenshots/hkjc/fixtures-20260708.png",
       "bodyTextPreview": "主頁\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\nENG\n賽馬\n足智彩\n六合彩\n網上渠道\n投注處及電話投注\n投注資料\n客戶支援\n主頁\n核對中獎號碼\n過去攪珠結果\n攪珠日期表\n六合彩計算機\n攪珠結果統計\n六合彩指南\n下期攪珠\n自選單式\n自選複式\n自選膽拖\n運財號碼\n攪珠日期表\n2026年 7月\n日\n一\n二\n三\n四\n五\n六\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n1\n攪珠日\n金多寶\n預售日\n本月金多寶\n\n21-07-2026 - 暑期金多寶\n\n詳情請留意馬會最新公佈。\n\n登入\n申請網上\n投注服務\n無法登入\n總注數:\n0\n總投注金額:\n$0\n發送注項\n傳媒通訊系統\n博彩要有節制\n\n未滿十八歲人士不得投注或進入可投注的地方。\n\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線1834 633。\n\n常見問題聯絡我們網頁指南提倡有節制博彩規例私隱條款免責聲明網絡保安\n版權所有 不得轉載\n © 2006-2026 香港馬會獎券有限公司"
     },
     {
@@ -49,7 +52,7 @@
       "finalUrl": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=07",
       "title": "新聞 - 新聞及公司活動 - 馬會知多少 - 香港賽馬會",
       "status": 200,
-      "capturedAt": "2026-07-08T09:04:07.227Z",
+      "capturedAt": "2026-07-08T09:11:45.453Z",
       "hongKongDate": "2026-07-08",
       "dateCompact": "20260708",
       "screenshotMode": "viewport-with-browser-frame",
@@ -62,6 +65,7 @@
       "publicJsonPath": "screenshots/hkjc/news-latest.json",
       "dailyImagePath": "screenshots/hkjc/daily/20260708/news.png",
       "dailyJsonPath": "screenshots/hkjc/daily/20260708/news.json",
+      "shallowImagePath": "screenshots/hkjc/news-20260708.png",
       "bodyTextPreview": "登入 / 登記 / 常見問題\nEnglish\n香港賽馬會\n主頁\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\n馬會知多少\n公司簡介\n新聞及公司活動\n新聞及公司活動\n新聞\n馬會刊物《駿步人生》\n馬會馬術發展\n業務營運\n歷史及業務報告\n首頁\nEnglish\n登入\n/ 登記\n常見問題\n賽馬\n足智彩\n六合彩\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\n公司簡介\n新聞及公司活動\n業務營運\n歷史及業務報告\n新聞及公司活動\n新聞\n2026\n2025\n2024\n2023\n2022\n2021\n2020\n馬會刊物《駿步人生》\n馬會馬術發展\n新聞\n字型\n\n下文載列馬會最新的新聞公佈，按此了解本會賽馬業務的最新動向，亦可於新聞資料庫重溫昔日馬會新聞及賽馬新聞。\n\n七月\n六月\n五月\n四月\n三月\n二月\n一月\n馬會旗下香港賽馬證書課程獲納入廣東終身資歷框架名冊\n05/07/2026\n香港賽馬會（馬會）今天（7月5日）宣佈，旗下六個香港賽馬證書課程獲納入廣東終身資歷框架名冊，標誌香港與廣東省在推動職業教育方面的合作邁上新台階。同時，馬會位於廣東體育職業技術學院（學院）的賽馬文化長廊揭幕，成為雙方深化「校企合作」的標誌性成果，體現大灣區職業教育融合發展，支持建設大灣區成為世界級馬產業中心。\n香港賽馬會乘足球熱舉辦別具一格「八戰百勝」賽事 　以足球八強爭勝為靈感讓賽駒與騎師組隊合演精彩賽事\n05/07/2026\n香港賽馬會（馬會）將於7月8日星期三跑馬地夜賽舉行一場別具一格的爭霸戰，把全城足球狂熱與世界級賽馬共冶一爐。隨著全球最矚目的足球盛事進入八強階段，吸引全球數十億人全情投入之際，馬會將在享譽盛名的跑馬地馬場上，安排八匹賽駒亮相由Lenovo呈獻的「八戰百勝」賽事，分別象徵八強隊伍，以別開生面形式，上演一場結合速度與鬥志的精彩較量。跑馬地馬場作為亞洲最具標誌性的體育賽場之一，當晚將會搖身一變成為令人最意想不到的足球舞台。\n馬會支持國家大型原創舞劇《騎兵》在港上演\n03/07/2026\n香港賽馬會呈獻——舞劇《騎兵》今日（7月3日）起一連三天在東九文化中心劇院上演，是香港賽馬會（馬會）馬年系列活動之一。馬會獨家贊助紫荊文化集團主辦在香港的演出，積極響應國家《十五五規劃綱要》，支持香港成為中外文化藝術交流中心，弘揚中華優秀傳統文化，促進藝術發展。\n馬會舉辦香港共慶回歸賽馬日 慶祝特區成立29周年\n01/07/2026\n為慶祝香港特別行政區成立29周年，香港賽馬會(「馬會」)（7月1日）在沙田馬場舉行「香港共慶回歸賽馬日」。入場觀眾除了觀看連場精彩賽事之外，還可參與場內各項活動，包括欣賞開幕表演等精彩演出。市民可免費進入沙田及跑馬地馬場公眾席，共慶回歸，並以優惠價享用指定餐廳套餐及選購指定商品，一同投入匯聚賽馬、體育及娛樂的豐富體驗。\n博彩要有節制\n未滿十八歲人士不得投注或進入可投注的地方。\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線1834 633。\n常見問題 |\n 聯絡我們 |\n 傳媒專用區 |\n 網頁指南 |\n 規例 |\n 提倡有節制博彩 |\n 私隱條款 |\n 免責聲明 |\n 網絡保安 \n\n版權所有 不得轉載 © 2000-2026 香港賽馬會"
     }
   ]
