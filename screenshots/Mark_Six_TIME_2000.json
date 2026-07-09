@@ -1,11 +1,11 @@
 {
-  "url": "https://d2.innocenhigh.com/pc/",
-  "selectedUrl": "https://d2.innocenhigh.com/pc/",
+  "url": "https://d2.xiyangjia.com/pc/",
+  "selectedUrl": "https://d2.xiyangjia.com/pc/",
   "candidateUrlsCount": 2,
-  "finalUrl": "https://d2.innocenhigh.com/pc/#/",
+  "finalUrl": "https://d2.xiyangjia.com/pc/#/",
   "title": "澳門六合彩官方網站",
   "status": 200,
-  "capturedAt": "2026-07-09T06:30:38.614Z",
+  "capturedAt": "2026-07-09T06:45:15.873Z",
   "taipeiDate": "2026-07-09",
   "screenshotMode": "random-config-url-viewport-with-browser-frame",
   "waitSeconds": 20,
@@ -20,21 +20,11 @@
     "source": "nearest-taipei-time"
   },
   "files": {
-    "latestPreview": "screenshots/macao-jc-latest.png",
-    "publicLatestPreview": "screenshots/latest.png",
     "fixedSlotBaseName": "Mark_Six_TIME_2000",
     "fixedSlotPreview": "screenshots/Mark_Six_TIME_2000.png",
     "fixedSlotMetadata": "screenshots/Mark_Six_TIME_2000.json",
     "publicFixedSlotPreview": "screenshots/Mark_Six_TIME_2000.png",
     "publicFixedSlotMetadata": "screenshots/Mark_Six_TIME_2000.json",
-    "slotPreview": "screenshots/Mark_Six_TIME_2000.png",
-    "slotMetadata": "screenshots/Mark_Six_TIME_2000.json",
-    "publicSlotPreview": "screenshots/Mark_Six_TIME_2000.png",
-    "publicSlotMetadata": "screenshots/Mark_Six_TIME_2000.json",
-    "shallowPreview": "screenshots/Mark_Six_TIME_2000.png",
-    "shallowMetadata": "screenshots/Mark_Six_TIME_2000.json",
-    "publicShallowPreview": "screenshots/Mark_Six_TIME_2000.png",
-    "publicShallowMetadata": "screenshots/Mark_Six_TIME_2000.json",
-    "runArtifact": "macao-jc-browser-frame-2026-07-09T06-30-38-614Z.png"
+    "runArtifact": "macao-jc-browser-frame-2026-07-09T06-45-15-873Z.png"
   }
 }
