@@ -1,0 +1,186 @@
+name: Update Mark Six latest image URLs
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - screenshots/Mark_Six_TIME_2000.png
+      - screenshots/Mark_Six_TIME_2000.json
+      - screenshots/Mark_Six_TIME_2030.png
+      - screenshots/Mark_Six_TIME_2030.json
+      - screenshots/Mark_Six_TIME_2100.png
+      - screenshots/Mark_Six_TIME_2100.json
+  schedule:
+    # Asia/Taipei 20:02, 20:32 and 21:02 fallback runs.
+    - cron: "2 12 * * *"
+    - cron: "32 12 * * *"
+    - cron: "2 13 * * *"
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: Slot to rebuild
+        required: true
+        default: all
+        type: choice
+        options:
+          - all
+          - "2000"
+          - "2030"
+          - "2100"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-mark-six-latest-urls
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine slots to update
+        id: slots
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          REQUESTED_SLOT: ${{ inputs.slot }}
+          BEFORE_SHA: ${{ github.event.before }}
+          CURRENT_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+
+          slots=""
+
+          case "$EVENT_NAME" in
+            workflow_dispatch)
+              if [[ "$REQUESTED_SLOT" == "all" ]]; then
+                slots="2000 2030 2100"
+              else
+                slots="$REQUESTED_SLOT"
+              fi
+              ;;
+
+            schedule)
+              case "$EVENT_SCHEDULE" in
+                "2 12 * * *") slots="2000" ;;
+                "32 12 * * *") slots="2030" ;;
+                "2 13 * * *") slots="2100" ;;
+                *) slots="" ;;
+              esac
+              ;;
+
+            push)
+              if [[ -z "$BEFORE_SHA" || "$BEFORE_SHA" =~ ^0+$ ]]; then
+                changed_files="$(git ls-tree -r --name-only "$CURRENT_SHA")"
+              else
+                changed_files="$(git diff --name-only "$BEFORE_SHA" "$CURRENT_SHA")"
+              fi
+
+              for slot in 2000 2030 2100; do
+                if grep -Eq "^screenshots/Mark_Six_TIME_${slot}\\.(png|json)$" <<< "$changed_files"; then
+                  slots+="${slots:+ }${slot}"
+                fi
+              done
+              ;;
+          esac
+
+          echo "slots=$slots" >> "$GITHUB_OUTPUT"
+          echo "Slots selected: ${slots:-none}"
+
+      - name: Generate daily copies and URL pointer files
+        if: steps.slots.outputs.slots != ''
+        shell: bash
+        env:
+          SLOTS: ${{ steps.slots.outputs.slots }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          git fetch origin main
+          git checkout -B main origin/main
+          mkdir -p screenshots/daily
+
+          for slot in $SLOTS; do
+            image="screenshots/Mark_Six_TIME_${slot}.png"
+            metadata="screenshots/Mark_Six_TIME_${slot}.json"
+            pointer="screenshots/latest-image-url-${slot}.txt"
+
+            if [[ ! -s "$image" ]]; then
+              echo "Missing or empty image: $image" >&2
+              exit 1
+            fi
+
+            if [[ ! -s "$metadata" ]]; then
+              echo "Missing or empty metadata: $metadata" >&2
+              exit 1
+            fi
+
+            date_compact="$(node -e '
+              const fs = require("fs");
+              const slot = process.argv[1];
+              const metadataPath = process.argv[2];
+              const data = JSON.parse(fs.readFileSync(metadataPath, "utf8"));
+              const metadataSlot = String(data?.slot?.id ?? "");
+              const dateCompact = String(data?.slot?.dateCompact ?? "").trim();
+
+              if (metadataSlot !== slot) {
+                throw new Error(`Metadata slot mismatch: expected ${slot}, received ${metadataSlot}`);
+              }
+
+              if (!/^\\d{8}$/.test(dateCompact)) {
+                throw new Error(`Invalid dateCompact for slot ${slot}: ${dateCompact}`);
+              }
+
+              process.stdout.write(dateCompact);
+            ' "$slot" "$metadata")"
+
+            daily_image="screenshots/daily/Mark_Six_TIME_${slot}_${date_compact}.png"
+            daily_metadata="screenshots/daily/Mark_Six_TIME_${slot}_${date_compact}.json"
+            image_url="https://raw.githubusercontent.com/${REPOSITORY}/main/${daily_image}"
+
+            cp "$image" "$daily_image"
+            cp "$metadata" "$daily_metadata"
+            printf '%s\n' "$image_url" > "$pointer"
+
+            if [[ "$(cat "$pointer")" != "$image_url" ]]; then
+              echo "Pointer verification failed for slot $slot" >&2
+              exit 1
+            fi
+
+            echo "Updated slot $slot -> $image_url"
+          done
+
+      - name: Commit generated files
+        if: steps.slots.outputs.slots != ''
+        shell: bash
+        env:
+          SLOTS: ${{ steps.slots.outputs.slots }}
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add screenshots/daily screenshots/latest-image-url-2000.txt screenshots/latest-image-url-2030.txt screenshots/latest-image-url-2100.txt
+
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update latest Mark Six image URLs (${SLOTS// /, })"
+
+          if ! git push origin HEAD:main; then
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
