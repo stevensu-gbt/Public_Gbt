@@ -5,8 +5,8 @@
   "finalUrl": "https://d2.xiyangjia.com/pc/#/",
   "title": "澳門六合彩官方網站",
   "status": 200,
-  "capturedAt": "2026-07-20T12:00:36.263Z",
-  "taipeiDate": "2026-07-20",
+  "capturedAt": "2026-07-21T12:00:58.547Z",
+  "taipeiDate": "2026-07-21",
   "screenshotMode": "random-config-url-viewport-with-browser-frame",
   "waitSeconds": 20,
   "viewport": {
@@ -16,7 +16,7 @@
   "slot": {
     "id": "2000",
     "label": "20:00",
-    "dateCompact": "20260720",
+    "dateCompact": "20260721",
     "source": "nearest-taipei-time"
   },
   "files": {
@@ -25,6 +25,6 @@
     "fixedSlotMetadata": "screenshots/Mark_Six_TIME_2000.json",
     "publicFixedSlotPreview": "screenshots/Mark_Six_TIME_2000.png",
     "publicFixedSlotMetadata": "screenshots/Mark_Six_TIME_2000.json",
-    "runArtifact": "macao-jc-browser-frame-2026-07-20T12-00-36-263Z.png"
+    "runArtifact": "macao-jc-browser-frame-2026-07-21T12-00-58-547Z.png"
   }
 }
