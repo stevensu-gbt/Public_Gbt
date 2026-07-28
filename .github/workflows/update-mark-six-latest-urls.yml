@@ -11,6 +11,7 @@ on:
       - screenshots/Mark_Six_TIME_2030.json
       - screenshots/Mark_Six_TIME_2100.png
       - screenshots/Mark_Six_TIME_2100.json
+      - .github/workflows/update-mark-six-latest-urls.yml
   schedule:
     # Asia/Taipei 20:02, 20:32 and 21:02 fallback runs.
     - cron: "2 12 * * *"
@@ -85,11 +86,15 @@ jobs:
                 changed_files="$(git diff --name-only "$BEFORE_SHA" "$CURRENT_SHA")"
               fi
 
-              for slot in 2000 2030 2100; do
-                if grep -Eq "^screenshots/Mark_Six_TIME_${slot}\\.(png|json)$" <<< "$changed_files"; then
-                  slots+="${slots:+ }${slot}"
-                fi
-              done
+              if grep -Fxq ".github/workflows/update-mark-six-latest-urls.yml" <<< "$changed_files"; then
+                slots="2000 2030 2100"
+              else
+                for slot in 2000 2030 2100; do
+                  if grep -Eq "^screenshots/Mark_Six_TIME_${slot}\\.(png|json)$" <<< "$changed_files"; then
+                    slots+="${slots:+ }${slot}"
+                  fi
+                done
+              fi
               ;;
           esac
 
@@ -136,7 +141,7 @@ jobs:
                 throw new Error(`Metadata slot mismatch: expected ${slot}, received ${metadataSlot}`);
               }
 
-              if (!/^\\d{8}$/.test(dateCompact)) {
+              if (!/^\d{8}$/.test(dateCompact)) {
                 throw new Error(`Invalid dateCompact for slot ${slot}: ${dateCompact}`);
               }
 
