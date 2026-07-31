@@ -1,65 +1,67 @@
 {
-  "capturedAt": "2026-07-31T13:09:55.105Z",
-  "hongKongDate": "2026-07-31",
-  "taipeiDate": "2026-07-31",
-  "dateCompact": "20260731",
+  "capturedAt": "2026-07-31T18:11:17.114Z",
+  "hongKongDate": "2026-08-01",
+  "taipeiDate": "2026-08-01",
+  "dateCompact": "20260801",
   "year": "2026",
-  "month": "07",
-  "day": "31",
+  "month": "08",
+  "day": "01",
   "calendarYear": 2026,
-  "calendarMonth": 7,
+  "calendarMonth": 8,
   "calendarReadable": true,
   "calendarMonthMatches": true,
   "drawDates": [
-    2,
-    5,
-    7,
-    9,
+    1,
+    4,
+    6,
+    8,
     11,
-    14,
-    16,
-    21,
-    23,
+    13,
+    15,
+    18,
+    20,
+    22,
     25,
-    28,
-    30
+    27,
+    29
   ],
-  "isDrawDay": false,
+  "isDrawDay": true,
   "drawStatusSource": "calendar-dom-circle-detection",
   "news": "无",
   "newsStatus": "无",
   "calendarAnalysis": {
     "readable": true,
     "displayedYear": 2026,
-    "displayedMonth": 7,
+    "displayedMonth": 8,
     "monthMatchesExpected": true,
     "expectedYear": 2026,
-    "expectedMonth": 7,
-    "expectedDay": 31,
+    "expectedMonth": 8,
+    "expectedDay": 1,
     "drawDates": [
-      2,
-      5,
-      7,
-      9,
+      1,
+      4,
+      6,
+      8,
       11,
-      14,
-      16,
-      21,
-      23,
+      13,
+      15,
+      18,
+      20,
+      22,
       25,
-      28,
-      30
+      27,
+      29
     ],
-    "isDrawDay": false,
+    "isDrawDay": true,
     "reason": "calendar-dom-circle-detection",
     "diagnostics": {
       "rootCandidateCount": 30,
-      "rawDayCandidateCount": 35,
-      "dedupedDayCandidateCount": 35,
+      "rawDayCandidateCount": 42,
+      "dedupedDayCandidateCount": 42,
       "currentMonthSequenceLength": 31,
       "markedDiagnostics": [
         {
-          "day": 2,
+          "day": 1,
           "method": "style-depth-0",
           "inspected": [
             {
@@ -74,7 +76,7 @@
           ]
         },
         {
-          "day": 5,
+          "day": 4,
           "method": "style-depth-0",
           "inspected": [
             {
@@ -89,7 +91,7 @@
           ]
         },
         {
-          "day": 7,
+          "day": 6,
           "method": "style-depth-0",
           "inspected": [
             {
@@ -104,7 +106,7 @@
           ]
         },
         {
-          "day": 9,
+          "day": 8,
           "method": "style-depth-0",
           "inspected": [
             {
@@ -134,7 +136,7 @@
           ]
         },
         {
-          "day": 14,
+          "day": 13,
           "method": "style-depth-0",
           "inspected": [
             {
@@ -149,7 +151,7 @@
           ]
         },
         {
-          "day": 16,
+          "day": 15,
           "method": "style-depth-0",
           "inspected": [
             {
@@ -164,14 +166,14 @@
           ]
         },
         {
-          "day": 21,
+          "day": 18,
           "method": "style-depth-0",
           "inspected": [
             {
               "depth": 0,
               "tag": "DIV",
-              "className": "fixture-snowball-hl",
-              "backgroundColor": "rgb(228, 150, 14)",
+              "className": "fixture-drawday-hl",
+              "backgroundColor": "rgb(242, 236, 236)",
               "borderRadius": "50%",
               "width": 32,
               "height": 32
@@ -179,7 +181,22 @@
           ]
         },
         {
-          "day": 23,
+          "day": 20,
+          "method": "style-depth-0",
+          "inspected": [
+            {
+              "depth": 0,
+              "tag": "DIV",
+              "className": "fixture-drawday-hl",
+              "backgroundColor": "rgb(242, 236, 236)",
+              "borderRadius": "50%",
+              "width": 32,
+              "height": 32
+            }
+          ]
+        },
+        {
+          "day": 22,
           "method": "style-depth-0",
           "inspected": [
             {
@@ -209,7 +226,7 @@
           ]
         },
         {
-          "day": 28,
+          "day": 27,
           "method": "style-depth-0",
           "inspected": [
             {
@@ -224,7 +241,7 @@
           ]
         },
         {
-          "day": 30,
+          "day": 29,
           "method": "style-depth-0",
           "inspected": [
             {
@@ -249,7 +266,7 @@
   },
   "urls": {
     "fixtures": "https://bet.hkjc.com/ch/marksix/fixtures",
-    "news": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=07"
+    "news": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=08"
   },
   "results": [
     {
@@ -259,9 +276,9 @@
       "finalUrl": "https://bet.hkjc.com/ch/marksix/fixtures",
       "title": "香港賽馬會 - 六合彩",
       "status": 200,
-      "capturedAt": "2026-07-31T13:09:39.041Z",
-      "hongKongDate": "2026-07-31",
-      "dateCompact": "20260731",
+      "capturedAt": "2026-07-31T18:11:01.102Z",
+      "hongKongDate": "2026-08-01",
+      "dateCompact": "20260801",
       "screenshotMode": "viewport-with-browser-frame",
       "waitSeconds": 12,
       "viewport": {
@@ -269,40 +286,41 @@
         "height": 768
       },
       "temporaryImagePath": "/home/runner/work/Auto_Browser/Auto_Browser/capture-result/hkjc/pages/fixtures.png",
-      "bodyTextPreview": "主頁\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\nENG\n賽馬\n足智彩\n六合彩\n網上渠道\n投注處及電話投注\n投注資料\n客戶支援\n因應營運安排，馬會場外投注處於2026年8月10日（星期一）的服務時間將安排為中午12:00至下午4:00。顧客可透過數碼平台，包括eWIN「網上投注」(bet.hkjc.com)、馬會投注三合一及 Racing Touch 投注應用程式，以及電話投注或1886電話投注自動服務系統投注。\n因應營運安排，馬會場外投注處於2026年8月10日（星期一）的服務時間將安排為中午12:00至下午4:00。顧客可透過數碼平台，包括eWIN「網上投注」(bet.hkjc.com)、馬會投注三合一及 Racing Touch 投注應用程式，以及電話投注或1886電話投注自動服務系統投注。\n詳情\n主頁\n核對中獎號碼\n過去攪珠結果\n攪珠日期表\n六合彩計算機\n攪珠結果統計\n六合彩指南\n下期攪珠\n自選單式\n自選複式\n自選膽拖\n運財號碼\n攪珠日期表\n2026年 7月\n日\n一\n二\n三\n四\n五\n六\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n1\n攪珠日\n金多寶\n預售日\n本月金多寶\n\n21-07-2026 - 暑期金多寶\n\n登入\n申請網上\n投注服務\n無法登入\n總注數:\n0\n總投注金額:\n$0\n發送注項\n傳媒通訊系統\n博彩要有節制\n\n未滿十八歲人士不得投注或進入可投注的地方。\n\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線1834 633。\n\n常見問題聯絡我們網頁指南提倡有節制博彩規例私隱條款免責聲明網絡保安\n版權所有 不得轉載\n © 2006-2026 香港馬會獎券有限公司",
+      "bodyTextPreview": "主頁\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\nENG\n賽馬\n足智彩\n六合彩\n網上渠道\n投注處及電話投注\n投注資料\n客戶支援\n因應營運安排，馬會場外投注處於2026年8月10日（星期一）的服務時間將安排為中午12:00至下午4:00。顧客可透過數碼平台，包括eWIN「網上投注」(bet.hkjc.com)、馬會投注三合一及 Racing Touch 投注應用程式，以及電話投注或1886電話投注自動服務系統投注。\n因應營運安排，馬會場外投注處於2026年8月10日（星期一）的服務時間將安排為中午12:00至下午4:00。顧客可透過數碼平台，包括eWIN「網上投注」(bet.hkjc.com)、馬會投注三合一及 Racing Touch 投注應用程式，以及電話投注或1886電話投注自動服務系統投注。\n詳情\n主頁\n核對中獎號碼\n過去攪珠結果\n攪珠日期表\n六合彩計算機\n攪珠結果統計\n六合彩指南\n下期攪珠\n自選單式\n自選複式\n自選膽拖\n運財號碼\n攪珠日期表\n2026年 8月\n日\n一\n二\n三\n四\n五\n六\n26\n27\n28\n29\n30\n31\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n1\n2\n3\n4\n5\n攪珠日\n金多寶\n預售日\n登入\n申請網上\n投注服務\n無法登入\n總注數:\n0\n總投注金額:\n$0\n發送注項\n傳媒通訊系統\n博彩要有節制\n\n未滿十八歲人士不得投注或進入可投注的地方。\n\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線1834 633。\n\n常見問題聯絡我們網頁指南提倡有節制博彩規例私隱條款免責聲明網絡保安\n版權所有 不得轉載\n © 2006-2026 香港馬會獎券有限公司",
       "abnormalNews": "无",
       "calendarAnalysis": {
         "readable": true,
         "displayedYear": 2026,
-        "displayedMonth": 7,
+        "displayedMonth": 8,
         "monthMatchesExpected": true,
         "expectedYear": 2026,
-        "expectedMonth": 7,
-        "expectedDay": 31,
+        "expectedMonth": 8,
+        "expectedDay": 1,
         "drawDates": [
-          2,
-          5,
-          7,
-          9,
+          1,
+          4,
+          6,
+          8,
           11,
-          14,
-          16,
-          21,
-          23,
+          13,
+          15,
+          18,
+          20,
+          22,
           25,
-          28,
-          30
+          27,
+          29
         ],
-        "isDrawDay": false,
+        "isDrawDay": true,
         "reason": "calendar-dom-circle-detection",
         "diagnostics": {
           "rootCandidateCount": 30,
-          "rawDayCandidateCount": 35,
-          "dedupedDayCandidateCount": 35,
+          "rawDayCandidateCount": 42,
+          "dedupedDayCandidateCount": 42,
           "currentMonthSequenceLength": 31,
           "markedDiagnostics": [
             {
-              "day": 2,
+              "day": 1,
               "method": "style-depth-0",
               "inspected": [
                 {
@@ -317,7 +335,7 @@
               ]
             },
             {
-              "day": 5,
+              "day": 4,
               "method": "style-depth-0",
               "inspected": [
                 {
@@ -332,7 +350,7 @@
               ]
             },
             {
-              "day": 7,
+              "day": 6,
               "method": "style-depth-0",
               "inspected": [
                 {
@@ -347,7 +365,7 @@
               ]
             },
             {
-              "day": 9,
+              "day": 8,
               "method": "style-depth-0",
               "inspected": [
                 {
@@ -377,7 +395,7 @@
               ]
             },
             {
-              "day": 14,
+              "day": 13,
               "method": "style-depth-0",
               "inspected": [
                 {
@@ -392,7 +410,7 @@
               ]
             },
             {
-              "day": 16,
+              "day": 15,
               "method": "style-depth-0",
               "inspected": [
                 {
@@ -407,14 +425,14 @@
               ]
             },
             {
-              "day": 21,
+              "day": 18,
               "method": "style-depth-0",
               "inspected": [
                 {
                   "depth": 0,
                   "tag": "DIV",
-                  "className": "fixture-snowball-hl",
-                  "backgroundColor": "rgb(228, 150, 14)",
+                  "className": "fixture-drawday-hl",
+                  "backgroundColor": "rgb(242, 236, 236)",
                   "borderRadius": "50%",
                   "width": 32,
                   "height": 32
@@ -422,7 +440,22 @@
               ]
             },
             {
-              "day": 23,
+              "day": 20,
+              "method": "style-depth-0",
+              "inspected": [
+                {
+                  "depth": 0,
+                  "tag": "DIV",
+                  "className": "fixture-drawday-hl",
+                  "backgroundColor": "rgb(242, 236, 236)",
+                  "borderRadius": "50%",
+                  "width": 32,
+                  "height": 32
+                }
+              ]
+            },
+            {
+              "day": 22,
               "method": "style-depth-0",
               "inspected": [
                 {
@@ -452,7 +485,7 @@
               ]
             },
             {
-              "day": 28,
+              "day": 27,
               "method": "style-depth-0",
               "inspected": [
                 {
@@ -467,7 +500,7 @@
               ]
             },
             {
-              "day": 30,
+              "day": 29,
               "method": "style-depth-0",
               "inspected": [
                 {
@@ -488,13 +521,13 @@
     {
       "key": "news",
       "label": "新闻公告页面",
-      "url": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=07",
-      "finalUrl": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=07",
+      "url": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=08",
+      "finalUrl": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=08",
       "title": "新聞 - 新聞及公司活動 - 馬會知多少 - 香港賽馬會",
       "status": 200,
-      "capturedAt": "2026-07-31T13:09:55.014Z",
-      "hongKongDate": "2026-07-31",
-      "dateCompact": "20260731",
+      "capturedAt": "2026-07-31T18:11:17.048Z",
+      "hongKongDate": "2026-08-01",
+      "dateCompact": "20260801",
       "screenshotMode": "viewport-with-browser-frame",
       "waitSeconds": 12,
       "viewport": {
@@ -502,7 +535,7 @@
         "height": 768
       },
       "temporaryImagePath": "/home/runner/work/Auto_Browser/Auto_Browser/capture-result/hkjc/pages/news.png",
-      "bodyTextPreview": "登入 / 登記 / 常見問題\nEnglish\n香港賽馬會\n主頁\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\n馬會知多少\n公司簡介\n新聞及公司活動\n新聞及公司活動\n新聞\n馬會刊物《駿步人生》\n馬會馬術發展\n業務營運\n歷史及業務報告\n首頁\nEnglish\n登入\n/ 登記\n常見問題\n賽馬\n足智彩\n六合彩\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\n公司簡介\n新聞及公司活動\n業務營運\n歷史及業務報告\n新聞及公司活動\n新聞\n2026\n2025\n2024\n2024\n2023\n2022\n2021\n2020\n馬會刊物《駿步人生》\n馬會馬術發展\n新聞\n字型\n\n下文載列馬會最新的新聞公佈，按此了解本會賽馬業務的最新動向，亦可於新聞資料庫重溫昔日馬會新聞及賽馬新聞。\n\n七月\n六月\n五月\n四月\n三月\n二月\n一月\n馬會連續四年支持「青年節@HK」　培育青年創精彩未來\n28/07/2026\n香港賽馬會連續第四年支持一年一度的「青年節@HK」，其啟動禮於今天（7月28日）假柴灣青年廣場內的民青局賽馬會青立方舉行。「青年節@HK」是香港特別行政區政府《青年發展藍圖》的重點項目之一，旨在營造正向且共融的平台，讓不同背景的青年發掘潛能、拓闊眼界，並培育他們正向價值觀，兼備家國情懷與國際視野，裝備自己自信地迎接未來挑戰。馬會自2023年起，便經由其慈善信託基金每年審批撥捐1千萬港元，透過「行政長官社會資助計劃」支持民政及青年事務局（「民青局」）舉辦「青年節@HK」。\n中國香港馬術代表隊出戰亞琛世錦賽　場地障礙賽及殘疾人盛裝舞步賽雙線出戰\n27/07/2026\n中國香港馬術總會（馬術總會）聯同香港賽馬會（馬會）今日（7月27日）宣佈，將派出四對人馬組合代表中國香港於8月11日至23日出戰於德國亞琛（Aachen）舉行的2026年國際馬聯FEI世界馬術錦標賽，參加場地障礙個人賽、殘疾人盛裝舞步個人及團體賽。\n公益慈善研究院捐助「孩子，圓你故宮夢」2026年度公益夏令營　支持内地及港澳逾百名青少年深入體驗中華傳統文化\n20/07/2026\n［下稿代公益慈善研究院發出］對許多青少年而言，故宮是他們夢想親身探索的文化殿堂。為鼓勵青少年體驗優秀中華傳統文化，由公益慈善研究院（研究院）獨家捐助，故宮博物院及北京故宮文物保護基金會聯合主辦的「孩子，圓你故宮夢」2026年度公益夏令營，今日正式開營，在北京展開為期六天的文化交流之旅。\n香港賽馬會與廣州市人民政府簽署深化合作協議　加強推動穗港馬產業發展\n18/07/2026\n香港賽馬會（馬會）今天（7月18日）與廣州市人民政府簽署深化合作協議，以廣州從化馬場的世界級馬匹主題文化體育旅遊活動為新起點，全力配合廣州市「十五五」規劃綱要，攜手建設「穗港馬產業深度合作區」，促進「穗港馬產業經濟圈」高質量發展，為粵港澳大灣區的創新與融合發展作出更大貢獻。\n賽馬會「飛躍 ‧ 拍住上」計劃舉行青年成果巡禮　展示青年向上流動潛能\n17/07/2026\n青年人是社會發展的重要推動力。為提升青年向上流動的潛能，並配合特區政府的《青年發展藍圖》的目標，香港賽馬會慈善信託基金於2025年撥款逾4億4,000萬港元，策劃及推動賽馬會「飛躍 ‧ 拍住上」計劃（JC YUP），透過創新性的策略，針對青年從求學至投身職場的三個關鍵成長階段作出精準介入，助他們建立自豪感、拓展職志視野，以及建立初入職場的正向事業發展軌跡基礎。\n馬會提交「第一個五年規劃」建議書　支持香港融入和服務國家發展大局\n16/07/2026\n香港賽馬會（馬會）今天（7月16日）就「香港特別行政區經濟和社會發展第一個五年規劃（2026－2030）」（香港首個五年規劃）向香港特區政府提交建議書。馬會藉著在馬匹運動、旅遊、人才培訓、慈善事業及社會創新等領域的豐富經驗和專業優勢，圍繞三大主題提出建議，涵蓋：馬匹運動及產業樞紐、體育經濟，以及公益慈善，以支持經濟增長、加強區域融合、促進人文交流和推動社會進步。\n馬會於書展設運動主題展區　互動體驗助兒童建立正向人生\n15/07/2026\n第36屆香港書展於今日（7月15日）起一連七天舉行，香港賽馬會（馬會）於場內設以運動為主題的展區，透過互動體驗協助兒童及青少年建立積極健康的生活習慣及正向價值觀。\n賽馬會學界體育計劃支持推動學界體育賽事發展\n13/07/2026\n香港賽馬會慈善信託基金聯同中國香港學界體育聯會（學體會）於去年推出「賽馬會學界體育計劃」，支持香港學界的長遠體育發展。作為學體會首個獲馬會慈善信託基金捐助的項目，計劃旨在持續優化學界體育賽事，並進一步提升全港學界體育賽事的質素、普及性及可持續發展。\n馬會支持生命熱線提升情緒支援服務\n11/07/2026\n近年社會對精神健康及情緒支援的需求日益殷切。香港賽馬會慈善信託基金多年來支持不同網上及線下的情緒健康服務，當中包括撥款捐助生命熱線，支持翻新其坪石服務中心，旨在提升其服務能力，為受情緒困擾或高危人士及其家人提供更全面支援。「生命熱線賽馬會坪石服務中心」於今日（7月11日）正式重新啟用。\n馬會呈獻青少年足球精英匯　曼聯 U16 下月與港將較勁\n09/07/2026\n香港賽馬會（馬會）今日（7月9日）公佈，「賽馬會青少年足球精英匯」（「精英匯」）將於8月10日至17日舉行。曼聯16歲以下青年隊將訪港，與本地年輕足球員進行為期一週的文化及足球交流活動，亮點之一是兩場友誼賽，兩地小將同場較勁，切磋球技。\n«\n1\n2\n»\n博彩要有節制\n未滿十八歲人士不得投注或進入可投注的地方。\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線1834 633。\n常見問題 |\n 聯絡我們 |\n 傳媒專用區 |\n 網頁指南 |\n 規例 |\n 提倡有節制博彩 |\n 私隱條款 |\n 免責聲明 |\n 網絡保安 \n\n版權所有 不得轉載 © 2000-2026 香港賽馬會",
+      "bodyTextPreview": "登入 / 登記 / 常見問題\nEnglish\n香港賽馬會\n主頁\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\n馬會知多少\n公司簡介\n新聞及公司活動\n新聞及公司活動\n新聞\n馬會刊物《駿步人生》\n馬會馬術發展\n業務營運\n歷史及業務報告\n首頁\nEnglish\n登入\n/ 登記\n常見問題\n賽馬\n足智彩\n六合彩\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\n公司簡介\n新聞及公司活動\n業務營運\n歷史及業務報告\n新聞及公司活動\n新聞\n2026\n2025\n2024\n2024\n2023\n2022\n2021\n2020\n馬會刊物《駿步人生》\n馬會馬術發展\n新聞\n字型\n\n下文載列馬會最新的新聞公佈，按此了解本會賽馬業務的最新動向，亦可於新聞資料庫重溫昔日馬會新聞及賽馬新聞。\n\n七月\n六月\n五月\n四月\n三月\n二月\n一月\n本月未有新聞消息，請選擇另一月份。\n博彩要有節制\n未滿十八歲人士不得投注或進入可投注的地方。\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線1834 633。\n常見問題 |\n 聯絡我們 |\n 傳媒專用區 |\n 網頁指南 |\n 規例 |\n 提倡有節制博彩 |\n 私隱條款 |\n 免責聲明 |\n 網絡保安 \n\n版權所有 不得轉載 © 2000-2026 香港賽馬會",
       "abnormalNews": "无",
       "calendarAnalysis": null
     }
