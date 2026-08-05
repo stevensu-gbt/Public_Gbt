@@ -1,0 +1,175 @@
+name: 备份澳六固定截图历史
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "screenshots/Mark_Six_TIME_2000.png"
+      - "screenshots/Mark_Six_TIME_2000.json"
+      - "screenshots/Mark_Six_TIME_2030.png"
+      - "screenshots/Mark_Six_TIME_2030.json"
+      - "screenshots/Mark_Six_TIME_2100.png"
+      - "screenshots/Mark_Six_TIME_2100.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive-mark-six-history
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    name: 保存覆盖前的固定时段截图
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 检出公开仓库完整历史
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: 复制覆盖前图片与 JSON 到 HIStory
+        shell: bash
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+
+          if [[ -z "${BEFORE_SHA:-}" || "$BEFORE_SHA" =~ ^0+$ ]]; then
+            echo "No usable previous commit; skip history archive."
+            exit 0
+          fi
+
+          if ! git cat-file -e "${BEFORE_SHA}^{commit}" 2>/dev/null; then
+            git fetch origin "$BEFORE_SHA" --depth=1
+          fi
+
+          TMP_DIR="$(mktemp -d)"
+          trap 'rm -rf "$TMP_DIR"' EXIT
+          ARCHIVED=0
+
+          archive_slot() {
+            local slot_id="$1"
+            local slot_label="$2"
+            local png_path="screenshots/Mark_Six_TIME_${slot_id}.png"
+            local json_path="screenshots/Mark_Six_TIME_${slot_id}.json"
+
+            if git diff --quiet "$BEFORE_SHA" "$AFTER_SHA" -- "$png_path" "$json_path"; then
+              echo "Slot ${slot_label} was not changed; skip."
+              return 0
+            fi
+
+            if ! git cat-file -e "${BEFORE_SHA}:${png_path}" 2>/dev/null; then
+              echo "No previous PNG exists for ${slot_label}; skip first archive."
+              return 0
+            fi
+
+            if ! git cat-file -e "${BEFORE_SHA}:${json_path}" 2>/dev/null; then
+              echo "No previous JSON exists for ${slot_label}; skip because the screenshot date cannot be verified."
+              return 0
+            fi
+
+            local old_png="$TMP_DIR/Mark_Six_TIME_${slot_id}.png"
+            local old_json="$TMP_DIR/Mark_Six_TIME_${slot_id}.json"
+            git show "${BEFORE_SHA}:${png_path}" > "$old_png"
+            git show "${BEFORE_SHA}:${json_path}" > "$old_json"
+
+            local old_date
+            old_date="$(jq -r '.taipeiDate // empty' "$old_json")"
+
+            if [[ ! "$old_date" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+              local captured_at
+              captured_at="$(jq -r '.capturedAt // empty' "$old_json")"
+              if [[ -n "$captured_at" && "$captured_at" != "null" ]]; then
+                old_date="$(TZ=Asia/Taipei date -d "$captured_at" +%F 2>/dev/null || true)"
+              fi
+            fi
+
+            if [[ ! "$old_date" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+              echo "Cannot determine the actual screenshot date for ${slot_label}."
+              return 1
+            fi
+
+            local old_captured_at
+            old_captured_at="$(jq -r '.capturedAt // empty' "$old_json")"
+
+            local history_dir="HIStory/${slot_label}"
+            mkdir -p "$history_dir"
+
+            local max_number=0
+            local duplicate=0
+            shopt -s nullglob
+            local existing_png
+            for existing_png in "$history_dir"/"${old_date} ${slot_label}-"*.png; do
+              local suffix="${existing_png##*-}"
+              local number="${suffix%.png}"
+              if [[ "$number" =~ ^[0-9]+$ ]] && (( number > max_number )); then
+                max_number="$number"
+              fi
+            done
+
+            if [[ -n "$old_captured_at" && "$old_captured_at" != "null" ]]; then
+              local existing_json
+              for existing_json in "$history_dir"/"${old_date} ${slot_label}-"*.json; do
+                local existing_captured_at
+                existing_captured_at="$(jq -r '.capturedAt // empty' "$existing_json" 2>/dev/null || true)"
+                if [[ "$existing_captured_at" == "$old_captured_at" ]]; then
+                  echo "The previous ${slot_label} screenshot was already archived: ${existing_json%.json}.png"
+                  duplicate=1
+                  break
+                fi
+              done
+            fi
+            shopt -u nullglob
+
+            if (( duplicate == 1 )); then
+              return 0
+            fi
+
+            local next_number=$((max_number + 1))
+            local history_base="${history_dir}/${old_date} ${slot_label}-${next_number}"
+            cp "$old_png" "${history_base}.png"
+            cp "$old_json" "${history_base}.json"
+            echo "Archived ${slot_label}: ${history_base}.png"
+            ARCHIVED=1
+          }
+
+          archive_slot "2000" "20:00"
+          archive_slot "2030" "20:30"
+          archive_slot "2100" "21:00"
+
+          if (( ARCHIVED == 0 )); then
+            echo "No new history files need to be committed."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- HIStory
+
+          if git diff --cached --quiet; then
+            echo "No history changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Archive previous Mark Six fixed screenshots"
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "History archive pushed successfully."
+              exit 0
+            fi
+
+            if (( attempt == 3 )); then
+              echo "Unable to push history archive after 3 attempts."
+              exit 1
+            fi
+
+            echo "Push attempt ${attempt} failed; rebasing and retrying."
+            git pull --rebase origin main
+          done
