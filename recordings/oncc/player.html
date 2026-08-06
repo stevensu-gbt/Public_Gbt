@@ -35,18 +35,18 @@ video {
 <body>
 <div id="info">ONCC录像回放<br>状态：检测中...</div>
 
-<video id="video" controls autoplay playsinline>
-  <source id="webm" src="latest.webm?cb=" type="video/webm">
-  <source id="mp4" src="latest.mp4?cb=" type="video/mp4">
+<video id="video" controls autoplay playsinline preload="metadata">
+  <source id="mp4" type="video/mp4">
+  <source id="webm" type="video/webm">
 </video>
 
 <script>
-const cb = Date.now();
-document.getElementById('webm').src = 'latest.webm?cb=' + cb;
-document.getElementById('mp4').src = 'latest.mp4?cb=' + cb;
-
 const video = document.getElementById('video');
 const info = document.getElementById('info');
+const cb = Date.now();
+
+document.getElementById('mp4').src = 'latest.mp4?cb=' + cb;
+document.getElementById('webm').src = 'latest.webm?cb=' + cb;
 
 video.addEventListener('loadedmetadata', () => {
   info.innerHTML = 'ONCC录像回放<br>状态：✅ 可播放<br>长度：' + Math.floor(video.duration) + ' 秒';
@@ -55,6 +55,9 @@ video.addEventListener('loadedmetadata', () => {
 video.addEventListener('error', () => {
   info.innerHTML = 'ONCC录像回放<br>状态：⚠️ 当前录像不可用';
 });
+
+video.load();
+video.play().catch(() => {});
 </script>
 </body>
 </html>
