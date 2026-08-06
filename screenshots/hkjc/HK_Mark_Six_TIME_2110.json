@@ -1,11 +1,11 @@
 {
-  "capturedAt": "2026-08-05T15:05:03.335Z",
-  "hongKongDate": "2026-08-05",
-  "taipeiDate": "2026-08-05",
-  "dateCompact": "20260805",
+  "capturedAt": "2026-08-06T13:09:58.343Z",
+  "hongKongDate": "2026-08-06",
+  "taipeiDate": "2026-08-06",
+  "dateCompact": "20260806",
   "year": "2026",
   "month": "08",
-  "day": "05",
+  "day": "06",
   "calendarYear": 2026,
   "calendarMonth": 8,
   "calendarReadable": true,
@@ -25,7 +25,7 @@
     27,
     29
   ],
-  "isDrawDay": false,
+  "isDrawDay": true,
   "drawStatusSource": "calendar-dom-circle-detection",
   "news": "无",
   "newsStatus": "无",
@@ -36,7 +36,7 @@
     "monthMatchesExpected": true,
     "expectedYear": 2026,
     "expectedMonth": 8,
-    "expectedDay": 5,
+    "expectedDay": 6,
     "drawDates": [
       1,
       4,
@@ -52,7 +52,7 @@
       27,
       29
     ],
-    "isDrawDay": false,
+    "isDrawDay": true,
     "reason": "calendar-dom-circle-detection",
     "diagnostics": {
       "rootCandidateCount": 30,
@@ -276,9 +276,9 @@
       "finalUrl": "https://bet.hkjc.com/ch/marksix/fixtures",
       "title": "香港賽馬會 - 六合彩",
       "status": 200,
-      "capturedAt": "2026-08-05T15:04:47.742Z",
-      "hongKongDate": "2026-08-05",
-      "dateCompact": "20260805",
+      "capturedAt": "2026-08-06T13:09:43.040Z",
+      "hongKongDate": "2026-08-06",
+      "dateCompact": "20260806",
       "screenshotMode": "viewport-with-browser-frame",
       "waitSeconds": 12,
       "viewport": {
@@ -295,7 +295,7 @@
         "monthMatchesExpected": true,
         "expectedYear": 2026,
         "expectedMonth": 8,
-        "expectedDay": 5,
+        "expectedDay": 6,
         "drawDates": [
           1,
           4,
@@ -311,7 +311,7 @@
           27,
           29
         ],
-        "isDrawDay": false,
+        "isDrawDay": true,
         "reason": "calendar-dom-circle-detection",
         "diagnostics": {
           "rootCandidateCount": 30,
@@ -525,9 +525,9 @@
       "finalUrl": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=08",
       "title": "新聞 - 新聞及公司活動 - 馬會知多少 - 香港賽馬會",
       "status": 200,
-      "capturedAt": "2026-08-05T15:05:03.254Z",
-      "hongKongDate": "2026-08-05",
-      "dateCompact": "20260805",
+      "capturedAt": "2026-08-06T13:09:58.261Z",
+      "hongKongDate": "2026-08-06",
+      "dateCompact": "20260806",
       "screenshotMode": "viewport-with-browser-frame",
       "waitSeconds": 12,
       "viewport": {
@@ -535,7 +535,7 @@
         "height": 768
       },
       "temporaryImagePath": "/home/runner/work/Auto_Browser/Auto_Browser/capture-result/hkjc/pages/news.png",
-      "bodyTextPreview": "登入 / 登記 / 常見問題\nEnglish\n香港賽馬會\n主頁\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\n馬會知多少\n公司簡介\n新聞及公司活動\n新聞及公司活動\n新聞\n馬會刊物《駿步人生》\n馬會馬術發展\n業務營運\n歷史及業務報告\n首頁\nEnglish\n登入\n/ 登記\n常見問題\n賽馬\n足智彩\n六合彩\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\n公司簡介\n新聞及公司活動\n業務營運\n歷史及業務報告\n新聞及公司活動\n新聞\n2026\n2025\n2024\n2024\n2023\n2022\n2021\n2020\n馬會刊物《駿步人生》\n馬會馬術發展\n新聞\n字型\n\n下文載列馬會最新的新聞公佈，按此了解本會賽馬業務的最新動向，亦可於新聞資料庫重溫昔日馬會新聞及賽馬新聞。\n\n八月\n七月\n六月\n五月\n四月\n三月\n二月\n一月\n馬會支持「共創明『Teen』計劃」貴州學習交流團　助青年拓闊視野加深認識國家發展\n04/08/2026\n香港賽馬會一直大力支持香港特別行政區政府推行的「共創明『Teen』計劃」。自計劃開展以來，馬會及其慈善信託基金已審批撥捐共4,100萬港元，支持四屆計劃的推行。繼過去兩年由馬會支持的暑期內地學習交流團，反應正面，今年暑假，馬會再度支持100名第四屆學員參與六天的貴州學習交流團。\n博彩要有節制\n未滿十八歲人士不得投注或進入可投注的地方。\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線1834 633。\n常見問題 |\n 聯絡我們 |\n 傳媒專用區 |\n 網頁指南 |\n 規例 |\n 提倡有節制博彩 |\n 私隱條款 |\n 免責聲明 |\n 網絡保安 \n\n版權所有 不得轉載 © 2000-2026 香港賽馬會",
+      "bodyTextPreview": "登入 / 登記 / 常見問題\nEnglish\n香港賽馬會\n主頁\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\n馬會知多少\n公司簡介\n新聞及公司活動\n新聞及公司活動\n新聞\n馬會刊物《駿步人生》\n馬會馬術發展\n業務營運\n歷史及業務報告\n首頁\nEnglish\n登入\n/ 登記\n常見問題\n賽馬\n足智彩\n六合彩\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\n公司簡介\n新聞及公司活動\n業務營運\n歷史及業務報告\n新聞及公司活動\n新聞\n2026\n2025\n2024\n2023\n2022\n2021\n2020\n馬會刊物《駿步人生》\n馬會馬術發展\n新聞\n字型\n\n下文載列馬會最新的新聞公佈，按此了解本會賽馬業務的最新動向，亦可於新聞資料庫重溫昔日馬會新聞及賽馬新聞。\n\n八月\n七月\n六月\n五月\n四月\n三月\n二月\n一月\n馬會支持「共創明『Teen』計劃」貴州學習交流團　助青年拓闊視野加深認識國家發展\n04/08/2026\n香港賽馬會一直大力支持香港特別行政區政府推行的「共創明『Teen』計劃」。自計劃開展以來，馬會及其慈善信託基金已審批撥捐共4,100萬港元，支持四屆計劃的推行。繼過去兩年由馬會支持的暑期內地學習交流團，反應正面，今年暑假，馬會再度支持100名第四屆學員參與六天的貴州學習交流團。\n博彩要有節制\n未滿十八歲人士不得投注或進入可投注的地方。\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線1834 633。\n常見問題 |\n 聯絡我們 |\n 傳媒專用區 |\n 網頁指南 |\n 規例 |\n 提倡有節制博彩 |\n 私隱條款 |\n 免責聲明 |\n 網絡保安 \n\n版權所有 不得轉載 © 2000-2026 香港賽馬會",
       "abnormalNews": "无",
       "calendarAnalysis": null
     }
