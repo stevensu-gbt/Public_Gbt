@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>ONCC Replay</title>
 <style>
 html, body {
@@ -20,10 +23,11 @@ html, body {
   top: 12px;
   left: 12px;
   z-index: 2;
-  background: rgba(0,0,0,.55);
+  background: rgba(0,0,0,.62);
   padding: 8px 12px;
   border-radius: 8px;
   font-size: 14px;
+  line-height: 1.5;
 }
 video {
   width: 100%;
@@ -33,31 +37,73 @@ video {
 </style>
 </head>
 <body>
-<div id="info">ONCC录像回放<br>状态：检测中...</div>
-
-<video id="video" controls autoplay playsinline preload="metadata">
-  <source id="mp4" type="video/mp4">
-  <source id="webm" type="video/webm">
-</video>
+<div id="info">ONCC录像回放<br>状态：正在取得最新影片...</div>
+<video id="video" controls autoplay playsinline preload="metadata"></video>
 
 <script>
+const OWNER = 'stevensu-gbt';
+const REPO = 'Public_Gbt';
+const VIDEO_PATH = 'recordings/oncc/latest.mp4';
 const video = document.getElementById('video');
 const info = document.getElementById('info');
-const cb = Date.now();
+let fallbackUsed = false;
+let resolvedCommit = '';
 
-document.getElementById('mp4').src = 'latest.mp4?cb=' + cb;
-document.getElementById('webm').src = 'latest.webm?cb=' + cb;
+function setVideoSource(url) {
+  video.pause();
+  video.removeAttribute('src');
+  video.load();
+  video.src = url;
+  video.load();
+  video.play().catch(() => {});
+}
+
+async function loadLatestVideo() {
+  try {
+    const apiUrl = `https://api.github.com/repos/${OWNER}/${REPO}/commits?path=${encodeURIComponent(VIDEO_PATH)}&per_page=1&_=${Date.now()}`;
+    const response = await fetch(apiUrl, {
+      cache: 'no-store',
+      headers: {
+        Accept: 'application/vnd.github+json'
+      }
+    });
+
+    if (!response.ok) {
+      throw new Error(`GitHub API ${response.status}`);
+    }
+
+    const commits = await response.json();
+    if (!Array.isArray(commits) || !commits[0] || !commits[0].sha) {
+      throw new Error('找不到最新影片提交');
+    }
+
+    resolvedCommit = commits[0].sha;
+    const immutableUrl = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${resolvedCommit}/${VIDEO_PATH}`;
+    info.innerHTML = `ONCC录像回放<br>状态：正在载入最新版本<br>版本：${resolvedCommit.slice(0, 7)}`;
+    setVideoSource(immutableUrl);
+  } catch (error) {
+    fallbackUsed = true;
+    info.innerHTML = 'ONCC录像回放<br>状态：使用备用最新来源';
+    setVideoSource(`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${VIDEO_PATH}?cb=${Date.now()}`);
+  }
+}
 
 video.addEventListener('loadedmetadata', () => {
-  info.innerHTML = 'ONCC录像回放<br>状态：✅ 可播放<br>长度：' + Math.floor(video.duration) + ' 秒';
+  const versionLine = resolvedCommit ? `<br>版本：${resolvedCommit.slice(0, 7)}` : '';
+  info.innerHTML = `ONCC录像回放<br>状态：✅ 可播放<br>长度：${Math.floor(video.duration)} 秒${versionLine}`;
 });
 
 video.addEventListener('error', () => {
+  if (!fallbackUsed) {
+    fallbackUsed = true;
+    info.innerHTML = 'ONCC录像回放<br>状态：切换备用来源...';
+    setVideoSource(`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${VIDEO_PATH}?cb=${Date.now()}`);
+    return;
+  }
   info.innerHTML = 'ONCC录像回放<br>状态：⚠️ 当前录像不可用';
 });
 
-video.load();
-video.play().catch(() => {});
+loadLatestVideo();
 </script>
 </body>
 </html>
