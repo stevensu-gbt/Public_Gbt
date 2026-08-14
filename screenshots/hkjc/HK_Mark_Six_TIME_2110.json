@@ -1,11 +1,11 @@
 {
-  "capturedAt": "2026-08-13T14:08:20.653Z",
-  "hongKongDate": "2026-08-13",
-  "taipeiDate": "2026-08-13",
-  "dateCompact": "20260813",
+  "capturedAt": "2026-08-14T13:09:10.026Z",
+  "hongKongDate": "2026-08-14",
+  "taipeiDate": "2026-08-14",
+  "dateCompact": "20260814",
   "year": "2026",
   "month": "08",
-  "day": "13",
+  "day": "14",
   "calendarYear": 2026,
   "calendarMonth": 8,
   "calendarReadable": true,
@@ -25,10 +25,10 @@
     27,
     29
   ],
-  "isDrawDay": true,
+  "isDrawDay": false,
   "drawStatusSource": "calendar-dom-circle-detection",
-  "news": "无",
-  "newsStatus": "无",
+  "news": "客戶支援 本會將於8月15日凌晨5時正至上午7時正進行系統提升，期間投注、賠率及資訊更新、轉賬、投注戶口管理、網上開戶服務、HKJC網上客戶中心、馬場公眾設施及投注站訂座、電話投注及1886電話投注自動服務，以及香港賽馬會「優越」計劃服務暫停。顧客如有需要可提前進行網上或現金存款及提款。顧客可留意本會網頁之最新公佈或致電1817或1818查詢。 本會將...",
+  "newsStatus": "客戶支援 本會將於8月15日凌晨5時正至上午7時正進行系統提升，期間投注、賠率及資訊更新、轉賬、投注戶口管理、網上開戶服務、HKJC網上客戶中心、馬場公眾設施及投注站訂座、電話投注及1886電話投注自動服務，以及香港賽馬會「優越」計劃服務暫停。顧客如有需要可提前進行網上或現金存款及提款。顧客可留意本會網頁之最新公佈或致電1817或1818查詢。 本會將...",
   "calendarAnalysis": {
     "readable": true,
     "displayedYear": 2026,
@@ -36,7 +36,7 @@
     "monthMatchesExpected": true,
     "expectedYear": 2026,
     "expectedMonth": 8,
-    "expectedDay": 13,
+    "expectedDay": 14,
     "drawDates": [
       1,
       4,
@@ -52,7 +52,7 @@
       27,
       29
     ],
-    "isDrawDay": true,
+    "isDrawDay": false,
     "reason": "calendar-dom-circle-detection",
     "diagnostics": {
       "rootCandidateCount": 30,
@@ -276,9 +276,9 @@
       "finalUrl": "https://bet.hkjc.com/ch/marksix/fixtures",
       "title": "香港賽馬會 - 六合彩",
       "status": 200,
-      "capturedAt": "2026-08-13T14:08:03.516Z",
-      "hongKongDate": "2026-08-13",
-      "dateCompact": "20260813",
+      "capturedAt": "2026-08-14T13:08:53.893Z",
+      "hongKongDate": "2026-08-14",
+      "dateCompact": "20260814",
       "screenshotMode": "viewport-with-browser-frame",
       "waitSeconds": 12,
       "viewport": {
@@ -286,8 +286,8 @@
         "height": 768
       },
       "temporaryImagePath": "/home/runner/work/Auto_Browser/Auto_Browser/capture-result/hkjc/pages/fixtures.png",
-      "bodyTextPreview": "主頁\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\nENG\n賽馬\n足智彩\n六合彩\n網上渠道\n投注處及電話投注\n投注資料\n客戶支援\n主頁\n核對中獎號碼\n過去攪珠結果\n攪珠日期表\n六合彩計算機\n攪珠結果統計\n六合彩指南\n下期攪珠\n自選單式\n自選複式\n自選膽拖\n運財號碼\n攪珠日期表\n2026年 8月\n日\n一\n二\n三\n四\n五\n六\n26\n27\n28\n29\n30\n31\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n1\n2\n3\n4\n5\n攪珠日\n金多寶\n預售日\n登入\n申請網上\n投注服務\n無法登入\n總注數:\n0\n總投注金額:\n$0\n發送注項\n傳媒通訊系統\n博彩要有節制\n\n未滿十八歲人士不得投注或進入可投注的地方。\n\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線1834 633。\n\n常見問題聯絡我們網頁指南提倡有節制博彩規例私隱條款免責聲明網絡保安\n版權所有 不得轉載\n © 2006-2026 香港馬會獎券有限公司",
-      "abnormalNews": "无",
+      "bodyTextPreview": "主頁\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\nENG\n賽馬\n足智彩\n六合彩\n網上渠道\n投注處及電話投注\n投注資料\n客戶支援\n本會將於8月15日凌晨5時正至上午7時正進行系統提升，期間投注、賠率及資訊更新、轉賬、投注戶口管理、網上開戶服務、HKJC網上客戶中心、馬場公眾設施及投注站訂座、電話投注及1886電話投注自動服務，以及香港賽馬會「優越」計劃服務暫停。顧客如有需要可提前進行網上或現金存款及提款。顧客可留意本會網頁之最新公佈或致電1817或1818查詢。\n本會將於8月15日上午7時正至上午7時30分進行系統提升，期間賽馬投注及六合彩售票服務、電話投注及1886電話投注自動服務，以及轉賬（「香港賽馬會轉數快即時轉賬」服務除外）暫停。\n本會將於8月15日凌晨5時正至上午7時正進行系統提升，期間投注、賠率及資訊更新、轉賬、投注戶口管理、網上開戶服務、HKJC網上客戶中心、馬場公眾設施及投注站訂座、電話投注及1886電話投注自動服務，以及香港賽馬會「優越」計劃服務暫停。顧客如有需要可提前進行網上或現金存款及提款。顧客可留意本會網頁之最新公佈或致電1817或1818查詢。\n本會將於8月15日上午7時正至上午7時30分進行系統提升，期間賽馬投注及六合彩售票服務、電話投注及1886電話投注自動服務，以及轉賬（「香港賽馬會轉數快即時轉賬」服務除外）暫停。\n詳情\n主頁\n核對中獎號碼\n過去攪珠結果\n攪珠日期表\n六合彩計算機\n攪珠結果統計\n六合彩指南\n下期攪珠\n自選單式\n自選複式\n自選膽拖\n運財號碼\n攪珠日期表\n2026年 8月\n日\n一\n二\n三\n四\n五\n六\n26\n27\n28\n29\n30\n31\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n1\n2\n3\n4\n5\n攪珠日\n金多寶\n預售日\n登入\n申請網上\n投注服務\n無法登入\n總注數:\n0\n總投注金額:\n$0\n發送注項\n傳媒通訊系統\n博彩要有節制\n\n未滿十八歲人士不得投注或進入可投注的地方。\n\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線1834 633。\n\n常見問題聯絡我們網頁指南提倡有節制博彩規例私隱條款免責聲明網絡保安\n版權所有 不得轉載\n © 2006-2026 香港馬會獎券有限公司",
+      "abnormalNews": "客戶支援 本會將於8月15日凌晨5時正至上午7時正進行系統提升，期間投注、賠率及資訊更新、轉賬、投注戶口管理、網上開戶服務、HKJC網上客戶中心、馬場公眾設施及投注站訂座、電話投注及1886電話投注自動服務，以及香港賽馬會「優越」計劃服務暫停。顧客如有需要可提前進行網上或現金存款及提款。顧客可留意本會網頁之最新公佈或致電1817或1818查詢。 本會將...",
       "calendarAnalysis": {
         "readable": true,
         "displayedYear": 2026,
@@ -295,7 +295,7 @@
         "monthMatchesExpected": true,
         "expectedYear": 2026,
         "expectedMonth": 8,
-        "expectedDay": 13,
+        "expectedDay": 14,
         "drawDates": [
           1,
           4,
@@ -311,7 +311,7 @@
           27,
           29
         ],
-        "isDrawDay": true,
+        "isDrawDay": false,
         "reason": "calendar-dom-circle-detection",
         "diagnostics": {
           "rootCandidateCount": 30,
@@ -525,9 +525,9 @@
       "finalUrl": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=08",
       "title": "新聞 - 新聞及公司活動 - 馬會知多少 - 香港賽馬會",
       "status": 200,
-      "capturedAt": "2026-08-13T14:08:20.386Z",
-      "hongKongDate": "2026-08-13",
-      "dateCompact": "20260813",
+      "capturedAt": "2026-08-14T13:09:09.945Z",
+      "hongKongDate": "2026-08-14",
+      "dateCompact": "20260814",
       "screenshotMode": "viewport-with-browser-frame",
       "waitSeconds": 12,
       "viewport": {
