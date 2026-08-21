@@ -1,261 +1,34 @@
 {
-  "capturedAt": "2026-08-21T13:09:30.636Z",
+  "capturedAt": "2026-08-21T13:32:02.490Z",
   "hongKongDate": "2026-08-21",
   "taipeiDate": "2026-08-21",
   "dateCompact": "20260821",
   "year": "2026",
   "month": "08",
   "day": "21",
-  "calendarYear": 2026,
-  "calendarMonth": 8,
-  "calendarReadable": true,
-  "calendarMonthMatches": true,
-  "drawDates": [
-    1,
-    4,
-    6,
-    8,
-    11,
-    13,
-    15,
-    18,
-    20,
-    22,
-    25,
-    27,
-    29
-  ],
+  "calendarYear": null,
+  "calendarMonth": null,
+  "calendarReadable": false,
+  "calendarMonthMatches": false,
+  "drawDates": [],
   "isDrawDay": false,
   "drawStatusSource": "calendar-dom-circle-detection",
   "news": "无",
   "newsStatus": "无",
   "calendarAnalysis": {
-    "readable": true,
-    "displayedYear": 2026,
-    "displayedMonth": 8,
-    "monthMatchesExpected": true,
+    "readable": false,
+    "displayedYear": null,
+    "displayedMonth": null,
+    "monthMatchesExpected": false,
     "expectedYear": 2026,
     "expectedMonth": 8,
     "expectedDay": 21,
-    "drawDates": [
-      1,
-      4,
-      6,
-      8,
-      11,
-      13,
-      15,
-      18,
-      20,
-      22,
-      25,
-      27,
-      29
-    ],
+    "drawDates": [],
     "isDrawDay": false,
-    "reason": "calendar-dom-circle-detection",
+    "reason": "calendar-root-not-found",
     "diagnostics": {
-      "rootCandidateCount": 30,
-      "rawDayCandidateCount": 42,
-      "dedupedDayCandidateCount": 42,
-      "currentMonthSequenceLength": 31,
-      "markedDiagnostics": [
-        {
-          "day": 1,
-          "method": "style-depth-0",
-          "inspected": [
-            {
-              "depth": 0,
-              "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
-              "borderRadius": "50%",
-              "width": 32,
-              "height": 32
-            }
-          ]
-        },
-        {
-          "day": 4,
-          "method": "style-depth-0",
-          "inspected": [
-            {
-              "depth": 0,
-              "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
-              "borderRadius": "50%",
-              "width": 32,
-              "height": 32
-            }
-          ]
-        },
-        {
-          "day": 6,
-          "method": "style-depth-0",
-          "inspected": [
-            {
-              "depth": 0,
-              "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
-              "borderRadius": "50%",
-              "width": 32,
-              "height": 32
-            }
-          ]
-        },
-        {
-          "day": 8,
-          "method": "style-depth-0",
-          "inspected": [
-            {
-              "depth": 0,
-              "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
-              "borderRadius": "50%",
-              "width": 32,
-              "height": 32
-            }
-          ]
-        },
-        {
-          "day": 11,
-          "method": "style-depth-0",
-          "inspected": [
-            {
-              "depth": 0,
-              "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
-              "borderRadius": "50%",
-              "width": 32,
-              "height": 32
-            }
-          ]
-        },
-        {
-          "day": 13,
-          "method": "style-depth-0",
-          "inspected": [
-            {
-              "depth": 0,
-              "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
-              "borderRadius": "50%",
-              "width": 32,
-              "height": 32
-            }
-          ]
-        },
-        {
-          "day": 15,
-          "method": "style-depth-0",
-          "inspected": [
-            {
-              "depth": 0,
-              "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
-              "borderRadius": "50%",
-              "width": 32,
-              "height": 32
-            }
-          ]
-        },
-        {
-          "day": 18,
-          "method": "style-depth-0",
-          "inspected": [
-            {
-              "depth": 0,
-              "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
-              "borderRadius": "50%",
-              "width": 32,
-              "height": 32
-            }
-          ]
-        },
-        {
-          "day": 20,
-          "method": "style-depth-0",
-          "inspected": [
-            {
-              "depth": 0,
-              "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
-              "borderRadius": "50%",
-              "width": 32,
-              "height": 32
-            }
-          ]
-        },
-        {
-          "day": 22,
-          "method": "style-depth-0",
-          "inspected": [
-            {
-              "depth": 0,
-              "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
-              "borderRadius": "50%",
-              "width": 32,
-              "height": 32
-            }
-          ]
-        },
-        {
-          "day": 25,
-          "method": "style-depth-0",
-          "inspected": [
-            {
-              "depth": 0,
-              "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
-              "borderRadius": "50%",
-              "width": 32,
-              "height": 32
-            }
-          ]
-        },
-        {
-          "day": 27,
-          "method": "style-depth-0",
-          "inspected": [
-            {
-              "depth": 0,
-              "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
-              "borderRadius": "50%",
-              "width": 32,
-              "height": 32
-            }
-          ]
-        },
-        {
-          "day": 29,
-          "method": "style-depth-0",
-          "inspected": [
-            {
-              "depth": 0,
-              "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
-              "borderRadius": "50%",
-              "width": 32,
-              "height": 32
-            }
-          ]
-        }
-      ]
+      "monthLabelCount": 0,
+      "rootCandidateCount": 0
     }
   },
   "screenshotMode": "combined-fixtures-news-fixed-file",
@@ -273,10 +46,10 @@
       "key": "fixtures",
       "label": "开奖日页面",
       "url": "https://bet.hkjc.com/ch/marksix/fixtures",
-      "finalUrl": "https://bet.hkjc.com/ch/marksix/fixtures",
-      "title": "香港賽馬會 - 六合彩",
+      "finalUrl": "https://common.hkjc.com/maint/generic.html",
+      "title": "Access Denied",
       "status": 200,
-      "capturedAt": "2026-08-21T13:09:12.973Z",
+      "capturedAt": "2026-08-21T13:31:46.682Z",
       "hongKongDate": "2026-08-21",
       "dateCompact": "20260821",
       "screenshotMode": "viewport-with-browser-frame",
@@ -286,235 +59,22 @@
         "height": 768
       },
       "temporaryImagePath": "/home/runner/work/Auto_Browser/Auto_Browser/capture-result/hkjc/pages/fixtures.png",
-      "bodyTextPreview": "主頁\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\nENG\n賽馬\n足智彩\n六合彩\n網上渠道\n投注處及電話投注\n投注資料\n客戶支援\n主頁\n核對中獎號碼\n過去攪珠結果\n攪珠日期表\n六合彩計算機\n攪珠結果統計\n六合彩指南\n下期攪珠\n自選單式\n自選複式\n自選膽拖\n運財號碼\n攪珠日期表\n2026年 8月\n日\n一\n二\n三\n四\n五\n六\n26\n27\n28\n29\n30\n31\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n1\n2\n3\n4\n5\n攪珠日\n金多寶\n預售日\n登入\n申請網上\n投注服務\n無法登入\n總注數:\n0\n總投注金額:\n$0\n發送注項\n傳媒通訊系統\n博彩要有節制\n\n未滿十八歲人士不得投注或進入可投注的地方。\n\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線1834 633。\n\n常見問題聯絡我們網頁指南提倡有節制博彩規例私隱條款免責聲明網絡保安\n版權所有 不得轉載\n © 2006-2026 香港馬會獎券有限公司",
+      "bodyTextPreview": "Access Denied\nYou don't have permission to access \"http://common.hkjc.com/maint/generic.html\" on this server.\n\nReference #18.a5813217.1787319093.23698dda\n\nhttps://errors.edgesuite.net/18.a5813217.1787319093.23698dda",
       "abnormalNews": "无",
       "calendarAnalysis": {
-        "readable": true,
-        "displayedYear": 2026,
-        "displayedMonth": 8,
-        "monthMatchesExpected": true,
+        "readable": false,
+        "displayedYear": null,
+        "displayedMonth": null,
+        "monthMatchesExpected": false,
         "expectedYear": 2026,
         "expectedMonth": 8,
         "expectedDay": 21,
-        "drawDates": [
-          1,
-          4,
-          6,
-          8,
-          11,
-          13,
-          15,
-          18,
-          20,
-          22,
-          25,
-          27,
-          29
-        ],
+        "drawDates": [],
         "isDrawDay": false,
-        "reason": "calendar-dom-circle-detection",
+        "reason": "calendar-root-not-found",
         "diagnostics": {
-          "rootCandidateCount": 30,
-          "rawDayCandidateCount": 42,
-          "dedupedDayCandidateCount": 42,
-          "currentMonthSequenceLength": 31,
-          "markedDiagnostics": [
-            {
-              "day": 1,
-              "method": "style-depth-0",
-              "inspected": [
-                {
-                  "depth": 0,
-                  "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
-                  "borderRadius": "50%",
-                  "width": 32,
-                  "height": 32
-                }
-              ]
-            },
-            {
-              "day": 4,
-              "method": "style-depth-0",
-              "inspected": [
-                {
-                  "depth": 0,
-                  "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
-                  "borderRadius": "50%",
-                  "width": 32,
-                  "height": 32
-                }
-              ]
-            },
-            {
-              "day": 6,
-              "method": "style-depth-0",
-              "inspected": [
-                {
-                  "depth": 0,
-                  "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
-                  "borderRadius": "50%",
-                  "width": 32,
-                  "height": 32
-                }
-              ]
-            },
-            {
-              "day": 8,
-              "method": "style-depth-0",
-              "inspected": [
-                {
-                  "depth": 0,
-                  "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
-                  "borderRadius": "50%",
-                  "width": 32,
-                  "height": 32
-                }
-              ]
-            },
-            {
-              "day": 11,
-              "method": "style-depth-0",
-              "inspected": [
-                {
-                  "depth": 0,
-                  "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
-                  "borderRadius": "50%",
-                  "width": 32,
-                  "height": 32
-                }
-              ]
-            },
-            {
-              "day": 13,
-              "method": "style-depth-0",
-              "inspected": [
-                {
-                  "depth": 0,
-                  "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
-                  "borderRadius": "50%",
-                  "width": 32,
-                  "height": 32
-                }
-              ]
-            },
-            {
-              "day": 15,
-              "method": "style-depth-0",
-              "inspected": [
-                {
-                  "depth": 0,
-                  "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
-                  "borderRadius": "50%",
-                  "width": 32,
-                  "height": 32
-                }
-              ]
-            },
-            {
-              "day": 18,
-              "method": "style-depth-0",
-              "inspected": [
-                {
-                  "depth": 0,
-                  "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
-                  "borderRadius": "50%",
-                  "width": 32,
-                  "height": 32
-                }
-              ]
-            },
-            {
-              "day": 20,
-              "method": "style-depth-0",
-              "inspected": [
-                {
-                  "depth": 0,
-                  "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
-                  "borderRadius": "50%",
-                  "width": 32,
-                  "height": 32
-                }
-              ]
-            },
-            {
-              "day": 22,
-              "method": "style-depth-0",
-              "inspected": [
-                {
-                  "depth": 0,
-                  "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
-                  "borderRadius": "50%",
-                  "width": 32,
-                  "height": 32
-                }
-              ]
-            },
-            {
-              "day": 25,
-              "method": "style-depth-0",
-              "inspected": [
-                {
-                  "depth": 0,
-                  "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
-                  "borderRadius": "50%",
-                  "width": 32,
-                  "height": 32
-                }
-              ]
-            },
-            {
-              "day": 27,
-              "method": "style-depth-0",
-              "inspected": [
-                {
-                  "depth": 0,
-                  "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
-                  "borderRadius": "50%",
-                  "width": 32,
-                  "height": 32
-                }
-              ]
-            },
-            {
-              "day": 29,
-              "method": "style-depth-0",
-              "inspected": [
-                {
-                  "depth": 0,
-                  "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
-                  "borderRadius": "50%",
-                  "width": 32,
-                  "height": 32
-                }
-              ]
-            }
-          ]
+          "monthLabelCount": 0,
+          "rootCandidateCount": 0
         }
       }
     },
@@ -525,7 +85,7 @@
       "finalUrl": "https://corporate.hkjc.com/zh-HK/news-and-publications/corporate-news?y=2026&m=08",
       "title": "新聞 - 新聞及刊物 - 馬會知多少 - 香港賽馬會",
       "status": 200,
-      "capturedAt": "2026-08-21T13:09:30.493Z",
+      "capturedAt": "2026-08-21T13:32:02.392Z",
       "hongKongDate": "2026-08-21",
       "dateCompact": "20260821",
       "screenshotMode": "viewport-with-browser-frame",
@@ -535,7 +95,7 @@
         "height": 768
       },
       "temporaryImagePath": "/home/runner/work/Auto_Browser/Auto_Browser/capture-result/hkjc/pages/news.png",
-      "bodyTextPreview": "首頁\n>\n關於香港賽馬會\n>\n新聞及刊物\n>\n新聞\n新聞\n馬會新聞\n瀏覽馬會新聞稿及馬會慈善信託基金的最新消息。\n賽馬新聞\n緊貼最新的賽馬新聞，包括本地及越洋轉播賽事、賽事資料更新、賽事通告及公告等。\n查看賽馬新聞\n公益慈善研究院聯動頂尖學府培育衞健精英\n2026年8月21日\n馬會支持計劃推動跨境社福協作和創新發展\n2026年8月18日\n「賽馬會青少年足球精英匯」圓滿落幕　曼聯U16青年隊結束訪港之旅\n2026年8月17日\n最新文章\n2026年8月\n公益慈善研究院聯動頂尖學府培育衞健精英\n與國家衞生健康委員會（「國家衞健委」）合作、由公益慈善研究院（「研究院」）捐助的「公益慈善研究院國家衞生健康高端人才獎學金」（「項目」），在8月21日於北京舉行的授予儀式上，正式公布第三屆長期課程獎學金得主。本屆共有30位來自內地的衞生健康專才，經過內地及香港專家評審委員會的兩輪嚴謹遴選脫穎而出，將於今年8月起赴香港及海外八所大學修讀碩士或博士課程，或進行博士後研究。\n2026年8月21日\n馬會支持計劃推動跨境社福協作和創新發展\n隨着香港居民在內地生活、工作及退休愈趨普遍，跨境社福服務需求持續增加。社會福利服務持續創新發展，有助回應社會不斷轉變的需要。有見及此，香港賽馬會慈善信託基金審批撥捐接近7,000萬港元，支持香港社福界心連心大行動推行為期三年的「賽馬會社福界『心連心』同行向前」計劃。\n2026年8月18日\n「賽馬會青少年足球精英匯」圓滿落幕　曼聯U16青年隊結束訪港之旅\n「賽馬會青少年足球精英匯」今日（8月17日）圓滿結束，兩地青年球員經過一週的文化及足球交流活動後獲益良多，曼聯 16歲以下青年隊亦結束行程離港。\n2026年8月17日\n「賽馬會『何以中華』文化大使計劃」表揚學生推動中華文化傳承\n中華文化源遠流長、博大精深，馬會深信要讓中華文明薪火相傳，有賴一代又一代人的理解及參與，特別是年輕一代。為支持此遠景，「賽馬會『何以中華』文化大使計劃」第二屆學員於今天（8月16日）舉行嘉許禮，表彰完成整個計劃的優秀文化大使學員，讚揚他們學習和傳承文化的精神。\n2026年8月16日\n「賽馬會青少年足球精英匯」重頭戲　本地球隊歷來首次勝出友誼賽\n「賽馬會青少年足球精英匯」首場友誼賽今晚（8月14日）於旺角大球場上演，由香港超級青年聯賽18歲以下冠軍 ─ 傑志迎戰曼聯16歲以下青年隊，吸引超過4,400名觀眾捧場，場外場內氣氛熱烈。兩隊球員施展渾身解數，並於法定時間打成 1-1平手，需以十二碼分勝負，賽事最終由香港超級青年聯賽18歲以下冠軍 ─ 傑志以4-3勝出，是本地年青球隊首次勝出「精英匯」。\n2026年8月15日\n馬會延續優秀運動員獎勵計劃　支持港將於大型運動會再創佳績\n香港賽馬會（馬會）今日（8月12日）宣佈，延續贊助香港體育學院（體院）推出「賽馬會優秀運動員獎勵計劃」（「計劃」），繼續向在大型運動會中取得佳績的中國香港運動員提供現金獎勵，以鼓勵及表揚他們的卓越成就。計劃涵蓋七項大型運動會，其中包括下月舉行的愛知．名古屋亞運會，以及洛杉磯2028奧運會。\n2026年8月12日\n馬會支持「共創明『Teen』計劃」貴州學習交流團　助青年拓闊視野加深認識國家發展\n香港賽馬會一直大力支持香港特別行政區政府推行的「共創明『Teen』計劃」。自計劃開展以來，馬會及其慈善信託基金已審批撥捐共4,100萬港元，支持四屆計劃的推行。繼過去兩年由馬會支持的暑期內地學習交流團，反應正面，今年暑假，馬會再度支持100名第四屆學員參與六天的貴州學習交流團。\n2026年8月4日\n2026年7月\n馬場活動\n焦點賽馬日及一級賽事\n快活星期三\n餐飲及活動場地\n計劃行程\n賽馬資訊\n報名表\n排位表\n即時賠率\n賽果\n視聽播放區\n速勢能量\n足球資訊\n賠率及賽程\n賽果\n專業分析\n投注參考\n通知\n影片\n馬會會員\n關於會籍\nThe Hilltop in The Valley\n沙田會所\n雙魚河鄉村會所\n北京會所\n競駿會\n慈善及社區貢獻\n我們的工作\n社區項目\n精彩活動\n社區足跡\n馬會知多少\n應家柏網誌\n傳媒專用區\n新聞\n獎項及榮譽\n加入香港賽馬會\n新供應商登記\n博彩要有節制\n未滿十八歲人士不得投注或進入可投注的地方。\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線183 4633。\n常見問題 | 聯絡我們 | 傳媒專用區 | 網頁指南 | 規例 | 提倡有節制博彩 | 私隱條款 | 免責聲明 | 網絡保安\n版權所有 不得轉載 © 2000-2026 香港賽馬會",
+      "bodyTextPreview": "馬會知多少\n公司簡介\n新聞及刊物\n加入香港賽馬會\n馬會馬術發展\n新聞\n馬會新聞\n瀏覽馬會新聞稿及馬會慈善信託基金的最新消息。\n賽馬新聞\n緊貼最新的賽馬新聞，包括本地及越洋轉播賽事、賽事資料更新、賽事通告及公告等。\n查看賽馬新聞\n公益慈善研究院聯動頂尖學府培育衞健精英\n2026年8月21日\n馬會支持計劃推動跨境社福協作和創新發展\n2026年8月18日\n「賽馬會青少年足球精英匯」圓滿落幕　曼聯U16青年隊結束訪港之旅\n2026年8月17日\n最新文章\n2026年8月\n公益慈善研究院聯動頂尖學府培育衞健精英\n與國家衞生健康委員會（「國家衞健委」）合作、由公益慈善研究院（「研究院」）捐助的「公益慈善研究院國家衞生健康高端人才獎學金」（「項目」），在8月21日於北京舉行的授予儀式上，正式公布第三屆長期課程獎學金得主。本屆共有30位來自內地的衞生健康專才，經過內地及香港專家評審委員會的兩輪嚴謹遴選脫穎而出，將於今年8月起赴香港及海外八所大學修讀碩士或博士課程，或進行博士後研究。\n2026年8月21日\n馬會支持計劃推動跨境社福協作和創新發展\n隨着香港居民在內地生活、工作及退休愈趨普遍，跨境社福服務需求持續增加。社會福利服務持續創新發展，有助回應社會不斷轉變的需要。有見及此，香港賽馬會慈善信託基金審批撥捐接近7,000萬港元，支持香港社福界心連心大行動推行為期三年的「賽馬會社福界『心連心』同行向前」計劃。\n2026年8月18日\n「賽馬會青少年足球精英匯」圓滿落幕　曼聯U16青年隊結束訪港之旅\n「賽馬會青少年足球精英匯」今日（8月17日）圓滿結束，兩地青年球員經過一週的文化及足球交流活動後獲益良多，曼聯 16歲以下青年隊亦結束行程離港。\n2026年8月17日\n「賽馬會『何以中華』文化大使計劃」表揚學生推動中華文化傳承\n中華文化源遠流長、博大精深，馬會深信要讓中華文明薪火相傳，有賴一代又一代人的理解及參與，特別是年輕一代。為支持此遠景，「賽馬會『何以中華』文化大使計劃」第二屆學員於今天（8月16日）舉行嘉許禮，表彰完成整個計劃的優秀文化大使學員，讚揚他們學習和傳承文化的精神。\n2026年8月16日\n「賽馬會青少年足球精英匯」重頭戲　本地球隊歷來首次勝出友誼賽\n「賽馬會青少年足球精英匯」首場友誼賽今晚（8月14日）於旺角大球場上演，由香港超級青年聯賽18歲以下冠軍 ─ 傑志迎戰曼聯16歲以下青年隊，吸引超過4,400名觀眾捧場，場外場內氣氛熱烈。兩隊球員施展渾身解數，並於法定時間打成 1-1平手，需以十二碼分勝負，賽事最終由香港超級青年聯賽18歲以下冠軍 ─ 傑志以4-3勝出，是本地年青球隊首次勝出「精英匯」。\n2026年8月15日\n馬會延續優秀運動員獎勵計劃　支持港將於大型運動會再創佳績\n香港賽馬會（馬會）今日（8月12日）宣佈，延續贊助香港體育學院（體院）推出「賽馬會優秀運動員獎勵計劃」（「計劃」），繼續向在大型運動會中取得佳績的中國香港運動員提供現金獎勵，以鼓勵及表揚他們的卓越成就。計劃涵蓋七項大型運動會，其中包括下月舉行的愛知．名古屋亞運會，以及洛杉磯2028奧運會。\n2026年8月12日\n馬會支持「共創明『Teen』計劃」貴州學習交流團　助青年拓闊視野加深認識國家發展\n香港賽馬會一直大力支持香港特別行政區政府推行的「共創明『Teen』計劃」。自計劃開展以來，馬會及其慈善信託基金已審批撥捐共4,100萬港元，支持四屆計劃的推行。繼過去兩年由馬會支持的暑期內地學習交流團，反應正面，今年暑假，馬會再度支持100名第四屆學員參與六天的貴州學習交流團。\n2026年8月4日\n2026年7月\n馬場活動\n焦點賽馬日及一級賽事\n快活星期三\n餐飲及活動場地\n計劃行程\n賽馬資訊\n報名表\n排位表\n即時賠率\n賽果\n視聽播放區\n速勢能量\n足球資訊\n賠率及賽程\n賽果\n專業分析\n投注參考\n通知\n影片\n馬會會員\n關於會籍\nThe Hilltop in The Valley\n沙田會所\n雙魚河鄉村會所\n北京會所\n競駿會\n慈善及社區貢獻\n我們的工作\n社區項目\n精彩活動\n社區足跡\n馬會知多少\n應家柏網誌\n傳媒專用區\n新聞\n獎項及榮譽\n加入香港賽馬會\n新供應商登記\n博彩要有節制\n未滿十八歲人士不得投注或進入可投注的地方。\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線183 4633。\n常見問題 | 聯絡我們 | 傳媒專用區 | 網頁指南 | 規例 | 提倡有節制博彩 | 私隱條款 | 免責聲明 | 網絡保安\n版權所有 不得轉載 © 2000-2026 香港賽馬會",
       "abnormalNews": "无",
       "calendarAnalysis": null
     }
