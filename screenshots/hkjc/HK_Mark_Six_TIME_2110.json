@@ -1,28 +1,25 @@
 {
-  "capturedAt": "2026-08-31T01:12:23.676Z",
-  "hongKongDate": "2026-08-31",
-  "taipeiDate": "2026-08-31",
-  "dateCompact": "20260831",
+  "capturedAt": "2026-09-01T13:09:23.735Z",
+  "hongKongDate": "2026-09-01",
+  "taipeiDate": "2026-09-01",
+  "dateCompact": "20260901",
   "year": "2026",
-  "month": "08",
-  "day": "31",
+  "month": "09",
+  "day": "01",
   "calendarYear": 2026,
-  "calendarMonth": 8,
+  "calendarMonth": 9,
   "calendarReadable": true,
   "calendarMonthMatches": true,
   "drawDates": [
-    1,
-    4,
-    6,
+    5,
     8,
-    11,
-    13,
+    10,
+    12,
     15,
-    18,
-    20,
+    17,
+    19,
     22,
-    25,
-    27,
+    26,
     29
   ],
   "isDrawDay": false,
@@ -32,73 +29,40 @@
   "calendarAnalysis": {
     "readable": true,
     "displayedYear": 2026,
-    "displayedMonth": 8,
+    "displayedMonth": 9,
     "monthMatchesExpected": true,
     "expectedYear": 2026,
-    "expectedMonth": 8,
-    "expectedDay": 31,
+    "expectedMonth": 9,
+    "expectedDay": 1,
     "drawDates": [
-      1,
-      4,
-      6,
+      5,
       8,
-      11,
-      13,
+      10,
+      12,
       15,
-      18,
-      20,
+      17,
+      19,
       22,
-      25,
-      27,
+      26,
       29
     ],
     "isDrawDay": false,
     "reason": "calendar-dom-circle-detection",
     "diagnostics": {
       "rootCandidateCount": 30,
-      "rawDayCandidateCount": 42,
-      "dedupedDayCandidateCount": 42,
-      "currentMonthSequenceLength": 31,
+      "rawDayCandidateCount": 35,
+      "dedupedDayCandidateCount": 35,
+      "currentMonthSequenceLength": 30,
       "markedDiagnostics": [
         {
-          "day": 1,
+          "day": 5,
           "method": "style-depth-0",
           "inspected": [
             {
               "depth": 0,
               "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
-              "borderRadius": "50%",
-              "width": 32,
-              "height": 32
-            }
-          ]
-        },
-        {
-          "day": 4,
-          "method": "style-depth-0",
-          "inspected": [
-            {
-              "depth": 0,
-              "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
-              "borderRadius": "50%",
-              "width": 32,
-              "height": 32
-            }
-          ]
-        },
-        {
-          "day": 6,
-          "method": "style-depth-0",
-          "inspected": [
-            {
-              "depth": 0,
-              "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
+              "className": "fixture-snowball-hl",
+              "backgroundColor": "rgb(228, 150, 14)",
               "borderRadius": "50%",
               "width": 32,
               "height": 32
@@ -121,7 +85,7 @@
           ]
         },
         {
-          "day": 11,
+          "day": 10,
           "method": "style-depth-0",
           "inspected": [
             {
@@ -136,7 +100,7 @@
           ]
         },
         {
-          "day": 13,
+          "day": 12,
           "method": "style-depth-0",
           "inspected": [
             {
@@ -166,7 +130,7 @@
           ]
         },
         {
-          "day": 18,
+          "day": 17,
           "method": "style-depth-0",
           "inspected": [
             {
@@ -181,7 +145,7 @@
           ]
         },
         {
-          "day": 20,
+          "day": 19,
           "method": "style-depth-0",
           "inspected": [
             {
@@ -211,29 +175,14 @@
           ]
         },
         {
-          "day": 25,
+          "day": 26,
           "method": "style-depth-0",
           "inspected": [
             {
               "depth": 0,
               "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
-              "borderRadius": "50%",
-              "width": 32,
-              "height": 32
-            }
-          ]
-        },
-        {
-          "day": 27,
-          "method": "style-depth-0",
-          "inspected": [
-            {
-              "depth": 0,
-              "tag": "DIV",
-              "className": "fixture-drawday-hl",
-              "backgroundColor": "rgb(242, 236, 236)",
+              "className": "fixture-snowball-hl",
+              "backgroundColor": "rgb(228, 150, 14)",
               "borderRadius": "50%",
               "width": 32,
               "height": 32
@@ -266,7 +215,7 @@
   },
   "urls": {
     "fixtures": "https://bet.hkjc.com/ch/marksix/fixtures",
-    "news": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=08"
+    "news": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=09"
   },
   "results": [
     {
@@ -276,9 +225,9 @@
       "finalUrl": "https://bet.hkjc.com/ch/marksix/fixtures",
       "title": "香港賽馬會 - 六合彩",
       "status": 200,
-      "capturedAt": "2026-08-31T01:12:06.343Z",
-      "hongKongDate": "2026-08-31",
-      "dateCompact": "20260831",
+      "capturedAt": "2026-09-01T13:09:06.015Z",
+      "hongKongDate": "2026-09-01",
+      "dateCompact": "20260901",
       "screenshotMode": "viewport-with-browser-frame",
       "waitSeconds": 12,
       "viewport": {
@@ -286,78 +235,45 @@
         "height": 768
       },
       "temporaryImagePath": "/home/runner/work/Auto_Browser/Auto_Browser/capture-result/hkjc/pages/fixtures.png",
-      "bodyTextPreview": "主頁\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\nENG\n賽馬\n足智彩\n六合彩\n網上渠道\n投注處及電話投注\n投注資料\n客戶支援\n六合彩50週年金多寶（第二期）攪珠將於2026年9月5日(星期六)舉行，估計頭獎基金2.28億。截止售票時間為攪珠日晚上九時十五分。\n六合彩50週年金多寶（第二期）攪珠將於2026年9月5日(星期六)舉行，估計頭獎基金2.28億。截止售票時間為攪珠日晚上九時十五分。\n詳情\n主頁\n核對中獎號碼\n過去攪珠結果\n攪珠日期表\n六合彩計算機\n攪珠結果統計\n六合彩指南\n下期攪珠\n自選單式\n自選複式\n自選膽拖\n運財號碼\n攪珠日期表\n2026年 8月\n日\n一\n二\n三\n四\n五\n六\n26\n27\n28\n29\n30\n31\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n1\n2\n3\n4\n5\n攪珠日\n金多寶\n預售日\n登入\n申請網上\n投注服務\n無法登入\n總注數:\n0\n總投注金額:\n$0\n發送注項\n傳媒通訊系統\n博彩要有節制\n\n未滿十八歲人士不得投注或進入可投注的地方。\n\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線1834 633。\n\n常見問題聯絡我們網頁指南提倡有節制博彩規例私隱條款免責聲明網絡保安\n版權所有 不得轉載\n © 2006-2026 香港馬會獎券有限公司",
+      "bodyTextPreview": "主頁\n馬場活動\n賽馬資訊\n足球資訊\n馬會會員\n慈善及社區貢獻\n馬會知多少\nENG\n賽馬\n足智彩\n六合彩\n網上渠道\n投注處及電話投注\n投注資料\n客戶支援\n六合彩50週年金多寶（第二期）攪珠將於2026年9月5日(星期六)舉行，估計頭獎基金2.28億。截止售票時間為攪珠日晚上九時十五分。\n六合彩50週年金多寶（第二期）攪珠將於2026年9月5日(星期六)舉行，估計頭獎基金2.28億。截止售票時間為攪珠日晚上九時十五分。\n詳情\n主頁\n核對中獎號碼\n過去攪珠結果\n攪珠日期表\n六合彩計算機\n攪珠結果統計\n六合彩指南\n下期攪珠\n自選單式\n自選複式\n自選膽拖\n運財號碼\n攪珠日期表\n2026年 9月\n日\n一\n二\n三\n四\n五\n六\n30\n31\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n1\n2\n3\n攪珠日\n金多寶\n預售日\n本月金多寶\n\n05-09-2026 - 六合彩50週年金多寶（第二期）\n\n26-09-2026 - 中秋金多寶\n\n詳情請留意馬會最新公佈。\n\n登入\n申請網上\n投注服務\n無法登入\n總注數:\n0\n總投注金額:\n$0\n發送注項\n傳媒通訊系統\n博彩要有節制\n\n未滿十八歲人士不得投注或進入可投注的地方。\n\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線1834 633。\n\n常見問題聯絡我們網頁指南提倡有節制博彩規例私隱條款免責聲明網絡保安\n版權所有 不得轉載\n © 2006-2026 香港馬會獎券有限公司",
       "abnormalNews": "无",
       "calendarAnalysis": {
         "readable": true,
         "displayedYear": 2026,
-        "displayedMonth": 8,
+        "displayedMonth": 9,
         "monthMatchesExpected": true,
         "expectedYear": 2026,
-        "expectedMonth": 8,
-        "expectedDay": 31,
+        "expectedMonth": 9,
+        "expectedDay": 1,
         "drawDates": [
-          1,
-          4,
-          6,
+          5,
           8,
-          11,
-          13,
+          10,
+          12,
           15,
-          18,
-          20,
+          17,
+          19,
           22,
-          25,
-          27,
+          26,
           29
         ],
         "isDrawDay": false,
         "reason": "calendar-dom-circle-detection",
         "diagnostics": {
           "rootCandidateCount": 30,
-          "rawDayCandidateCount": 42,
-          "dedupedDayCandidateCount": 42,
-          "currentMonthSequenceLength": 31,
+          "rawDayCandidateCount": 35,
+          "dedupedDayCandidateCount": 35,
+          "currentMonthSequenceLength": 30,
           "markedDiagnostics": [
             {
-              "day": 1,
+              "day": 5,
               "method": "style-depth-0",
               "inspected": [
                 {
                   "depth": 0,
                   "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
-                  "borderRadius": "50%",
-                  "width": 32,
-                  "height": 32
-                }
-              ]
-            },
-            {
-              "day": 4,
-              "method": "style-depth-0",
-              "inspected": [
-                {
-                  "depth": 0,
-                  "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
-                  "borderRadius": "50%",
-                  "width": 32,
-                  "height": 32
-                }
-              ]
-            },
-            {
-              "day": 6,
-              "method": "style-depth-0",
-              "inspected": [
-                {
-                  "depth": 0,
-                  "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
+                  "className": "fixture-snowball-hl",
+                  "backgroundColor": "rgb(228, 150, 14)",
                   "borderRadius": "50%",
                   "width": 32,
                   "height": 32
@@ -380,7 +296,7 @@
               ]
             },
             {
-              "day": 11,
+              "day": 10,
               "method": "style-depth-0",
               "inspected": [
                 {
@@ -395,7 +311,7 @@
               ]
             },
             {
-              "day": 13,
+              "day": 12,
               "method": "style-depth-0",
               "inspected": [
                 {
@@ -425,7 +341,7 @@
               ]
             },
             {
-              "day": 18,
+              "day": 17,
               "method": "style-depth-0",
               "inspected": [
                 {
@@ -440,7 +356,7 @@
               ]
             },
             {
-              "day": 20,
+              "day": 19,
               "method": "style-depth-0",
               "inspected": [
                 {
@@ -470,29 +386,14 @@
               ]
             },
             {
-              "day": 25,
+              "day": 26,
               "method": "style-depth-0",
               "inspected": [
                 {
                   "depth": 0,
                   "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
-                  "borderRadius": "50%",
-                  "width": 32,
-                  "height": 32
-                }
-              ]
-            },
-            {
-              "day": 27,
-              "method": "style-depth-0",
-              "inspected": [
-                {
-                  "depth": 0,
-                  "tag": "DIV",
-                  "className": "fixture-drawday-hl",
-                  "backgroundColor": "rgb(242, 236, 236)",
+                  "className": "fixture-snowball-hl",
+                  "backgroundColor": "rgb(228, 150, 14)",
                   "borderRadius": "50%",
                   "width": 32,
                   "height": 32
@@ -521,13 +422,13 @@
     {
       "key": "news",
       "label": "新闻公告页面",
-      "url": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=08",
-      "finalUrl": "https://corporate.hkjc.com/zh-HK/news-and-publications/corporate-news?y=2026&m=08",
+      "url": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=09",
+      "finalUrl": "https://corporate.hkjc.com/zh-HK/news-and-publications/corporate-news?y=2026&m=09",
       "title": "新聞 - 新聞及刊物 - 馬會知多少 - 香港賽馬會",
       "status": 200,
-      "capturedAt": "2026-08-31T01:12:23.541Z",
-      "hongKongDate": "2026-08-31",
-      "dateCompact": "20260831",
+      "capturedAt": "2026-09-01T13:09:23.594Z",
+      "hongKongDate": "2026-09-01",
+      "dateCompact": "20260901",
       "screenshotMode": "viewport-with-browser-frame",
       "waitSeconds": 12,
       "viewport": {
@@ -535,7 +436,7 @@
         "height": 768
       },
       "temporaryImagePath": "/home/runner/work/Auto_Browser/Auto_Browser/capture-result/hkjc/pages/news.png",
-      "bodyTextPreview": "首頁\n>\n關於香港賽馬會\n>\n新聞及刊物\n>\n新聞\n新聞\n馬會新聞\n瀏覽馬會新聞稿及馬會慈善信託基金的最新消息。\n賽馬新聞\n緊貼最新的賽馬新聞，包括本地及越洋轉播賽事、賽事資料更新、賽事通告及公告等。\n查看賽馬新聞\n香港國際公益慈善論壇邁向十週年 匯聚全球領袖「躍動惠群 善行致遠」\n2026年8月26日\n馬會捐款2,000萬港元　支援西藏自治區泥石流受災地區\n2026年8月29日\n馬會支持「馭．鑒——中法馬主題文化展」在北京開幕　展出逾200件馬相關藏品\n2026年8月25日\n最新文章\n2026年8月\n馬會捐款2,000萬港元　支援西藏自治區泥石流受災地區\n香港賽馬會（「馬會」）今天（8月29日）宣佈，透過中央人民政府駐香港特別行政區聯絡辦公室（「中聯辦」）捐款2,000萬港元，以支援西藏自治區吉隆縣泥石流受災地區的救災工作，並向受災群眾及其家屬表達關心和慰問，祝願傷者早日康復，受災地區逐步回復正常。\n2026年8月29日\n香港國際公益慈善論壇邁向十週年 匯聚全球領袖「躍動惠群 善行致遠」\n由香港賽馬會慈善信託基金主辦、公益慈善研究院協辦的2026香港國際公益慈善論壇（PBC 2026）將於9月7日至8日假西九文化區舉行。今年論壇已是第五屆，亦是踏入十週年的重要里程碑，以「躍動惠群 善行致遠」為主題，雲集一眾來自世界各地的體育、公益慈善、學術、商界、政府和社會各界的領袖。是次論壇從奧運精神追求卓越、友誼和尊重，與殘奧精神崇尚勇氣、決心、啟發和平等的價值汲取靈感，探討如何借鏡體育運動的自律、專注、堅韌及團隊協作，為社會帶來持續而具體的改變。\n2026年8月26日\n馬會支持「馭．鑒——中法馬主題文化展」在北京開幕　展出逾200件馬相關藏品\n由文化和旅遊部恭王府博物館和法國尚蒂伊莊園主辦，香港賽馬會（馬會）與中國旅遊集團聯合主辦的「馭．鑒——中法馬主題文化展」（北京站），日前在北京恭王府博物館揭幕。展覽是馬會馬年系列活動的重點之一，以中法馬文化對話為主線，展出200多件與馬相關的珍貴文物及藝術品，呈現馬在中法兩國文明中的重要地位，同時促進中法之間的馬文化交流與互鑒。\n2026年8月25日\n公益慈善研究院聯動頂尖學府培育衞健精英\n與國家衞生健康委員會（「國家衞健委」）合作、由公益慈善研究院（「研究院」）捐助的「公益慈善研究院國家衞生健康高端人才獎學金」（「項目」），在8月21日於北京舉行的授予儀式上，正式公布第三屆長期課程獎學金得主。本屆共有30位來自內地的衞生健康專才，經過內地及香港專家評審委員會的兩輪嚴謹遴選脫穎而出，將於今年8月起赴香港及海外八所大學修讀碩士或博士課程，或進行博士後研究。\n2026年8月21日\n馬會支持計劃推動跨境社福協作和創新發展\n隨着香港居民在內地生活、工作及退休愈趨普遍，跨境社福服務需求持續增加。社會福利服務持續創新發展，有助回應社會不斷轉變的需要。有見及此，香港賽馬會慈善信託基金審批撥捐接近7,000萬港元，支持香港社福界心連心大行動推行為期三年的「賽馬會社福界『心連心』同行向前」計劃。\n2026年8月18日\n「賽馬會青少年足球精英匯」圓滿落幕　曼聯U16青年隊結束訪港之旅\n「賽馬會青少年足球精英匯」今日（8月17日）圓滿結束，兩地青年球員經過一週的文化及足球交流活動後獲益良多，曼聯 16歲以下青年隊亦結束行程離港。\n2026年8月17日\n「賽馬會『何以中華』文化大使計劃」表揚學生推動中華文化傳承\n中華文化源遠流長、博大精深，馬會深信要讓中華文明薪火相傳，有賴一代又一代人的理解及參與，特別是年輕一代。為支持此遠景，「賽馬會『何以中華』文化大使計劃」第二屆學員於今天（8月16日）舉行嘉許禮，表彰完成整個計劃的優秀文化大使學員，讚揚他們學習和傳承文化的精神。\n2026年8月16日\n「賽馬會青少年足球精英匯」重頭戲　本地球隊歷來首次勝出友誼賽\n「賽馬會青少年足球精英匯」首場友誼賽今晚（8月14日）於旺角大球場上演，由香港超級青年聯賽18歲以下冠軍 ─ 傑志迎戰曼聯16歲以下青年隊，吸引超過4,400名觀眾捧場，場外場內氣氛熱烈。兩隊球員施展渾身解數，並於法定時間打成 1-1平手，需以十二碼分勝負，賽事最終由香港超級青年聯賽18歲以下冠軍 ─ 傑志以4-3勝出，是本地年青球隊首次勝出「精英匯」。\n2026年8月15日\n馬會延續優秀運動員獎勵計劃　支持港將於大型運動會再創佳績\n香港賽馬會（馬會）今日（8月12日）宣佈，延續贊助香港體育學院（體院）推出「賽馬會優秀運動員獎勵計劃」（「計劃」），繼續向在大型運動會中取得佳績的中國香港運動員提供現金獎勵，以鼓勵及表揚他們的卓越成就。計劃涵蓋七項大型運動會，其中包括下月舉行的愛知．名古屋亞運會，以及洛杉磯2028奧運會。\n2026年8月12日\n馬會支持「共創明『Teen』計劃」貴州學習交流團　助青年拓闊視野加深認識國家發展\n香港賽馬會一直大力支持香港特別行政區政府推行的「共創明『Teen』計劃」。自計劃開展以來，馬會及其慈善信託基金已審批撥捐共4,100萬港元，支持四屆計劃的推行。繼過去兩年由馬會支持的暑期內地學習交流團，反應正面，今年暑假，馬會再度支持100名第四屆學員參與六天的貴州學習交流團。\n2026年8月4日\n2026年7月\n馬場活動\n焦點賽馬日及一級賽事\n快活星期三\n餐飲及活動場地\n計劃行程\n賽馬資訊\n報名表\n排位表\n即時賠率\n賽果\n視聽播放區\n速勢能量\n足球資訊\n賠率及賽程\n賽果\n專業分析\n投注參考\n通知\n影片\n馬會會員\n關於會籍\nThe Hilltop in The Valley\n沙田會所\n雙魚河鄉村會所\n北京會所\n競駿會\n慈善及社區貢獻\n我們的工作\n社區項目\n精彩活動\n社區足跡\n馬會知多少\n應家柏網誌\n傳媒專用區\n新聞\n獎項及榮譽\n加入香港賽馬會\n新供應商登記\n博彩要有節制\n未滿十八歲人士不得投注或進入可投注的地方。\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線183 4633。\n常見問題 | 聯絡我們 | 傳媒專用區 | 網頁指南 | 規例 | 提倡有節制博彩 | 私隱條款 | 免責聲明 | 網絡保安\n版權所有 不得轉載 © 2000-2026 香港賽馬會",
+      "bodyTextPreview": "首頁\n>\n關於香港賽馬會\n>\n新聞及刊物\n>\n新聞\n新聞\n馬會新聞\n瀏覽馬會新聞稿及馬會慈善信託基金的最新消息。\n賽馬新聞\n緊貼最新的賽馬新聞，包括本地及越洋轉播賽事、賽事資料更新、賽事通告及公告等。\n查看賽馬新聞\n馬會全力支持港隊出戰亞運會　設獎金冀運動員旗開得勝\n2026年9月1日\n香港國際公益慈善論壇邁向十週年 匯聚全球領袖「躍動惠群 善行致遠」\n2026年8月26日\n馬會捐款2,000萬港元　支援西藏自治區泥石流受災地區\n2026年8月29日\n最新文章\n2026年9月\n馬會全力支持港隊出戰亞運會　設獎金冀運動員旗開得勝\n香港賽馬會（馬會）全力支持中國香港運動員出戰愛知．名古屋2026亞洲運動會。馬會主席廖長江及行政總裁應家柏今日（9月1日）出席第20屆亞洲運動會中國香港代表團授旗典禮，為他們打氣。馬會更將向亞運會得獎港將頒發獎金。\n2026年9月1日\n2026年8月\n馬場活動\n焦點賽馬日及一級賽事\n快活星期三\n餐飲及活動場地\n計劃行程\n賽馬資訊\n報名表\n排位表\n即時賠率\n賽果\n視聽播放區\n速勢能量\n足球資訊\n賠率及賽程\n賽果\n專業分析\n投注參考\n通知\n影片\n馬會會員\n關於會籍\nThe Hilltop in The Valley\n沙田會所\n雙魚河鄉村會所\n北京會所\n競駿會\n慈善及社區貢獻\n我們的工作\n社區項目\n精彩活動\n社區足跡\n馬會知多少\n應家柏網誌\n傳媒專用區\n新聞\n獎項及榮譽\n加入香港賽馬會\n新供應商登記\n博彩要有節制\n未滿十八歲人士不得投注或進入可投注的地方。\n向非法或海外莊家下注，即屬違法，且可被判監禁。\n切勿沉迷賭博，如需尋求輔導協助，可致電平和基金熱線183 4633。\n常見問題 | 聯絡我們 | 傳媒專用區 | 網頁指南 | 規例 | 提倡有節制博彩 | 私隱條款 | 免責聲明 | 網絡保安\n版權所有 不得轉載 © 2000-2026 香港賽馬會",
       "abnormalNews": "无",
       "calendarAnalysis": null
     }
