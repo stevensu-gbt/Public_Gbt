@@ -1,11 +1,11 @@
 {
-  "capturedAt": "2026-09-04T13:09:21.006Z",
-  "hongKongDate": "2026-09-04",
-  "taipeiDate": "2026-09-04",
-  "dateCompact": "20260904",
+  "capturedAt": "2026-09-05T13:09:23.566Z",
+  "hongKongDate": "2026-09-05",
+  "taipeiDate": "2026-09-05",
+  "dateCompact": "20260905",
   "year": "2026",
   "month": "09",
-  "day": "04",
+  "day": "05",
   "calendarYear": 2026,
   "calendarMonth": 9,
   "calendarReadable": true,
@@ -22,7 +22,7 @@
     26,
     29
   ],
-  "isDrawDay": false,
+  "isDrawDay": true,
   "drawStatusSource": "calendar-dom-circle-detection",
   "news": "无",
   "newsStatus": "无",
@@ -33,7 +33,7 @@
     "monthMatchesExpected": true,
     "expectedYear": 2026,
     "expectedMonth": 9,
-    "expectedDay": 4,
+    "expectedDay": 5,
     "drawDates": [
       5,
       8,
@@ -46,7 +46,7 @@
       26,
       29
     ],
-    "isDrawDay": false,
+    "isDrawDay": true,
     "reason": "calendar-dom-circle-detection",
     "diagnostics": {
       "rootCandidateCount": 30,
@@ -225,9 +225,9 @@
       "finalUrl": "https://bet.hkjc.com/ch/marksix/fixtures",
       "title": "香港賽馬會 - 六合彩",
       "status": 200,
-      "capturedAt": "2026-09-04T13:09:04.291Z",
-      "hongKongDate": "2026-09-04",
-      "dateCompact": "20260904",
+      "capturedAt": "2026-09-05T13:09:06.873Z",
+      "hongKongDate": "2026-09-05",
+      "dateCompact": "20260905",
       "screenshotMode": "viewport-with-browser-frame",
       "waitSeconds": 12,
       "viewport": {
@@ -244,7 +244,7 @@
         "monthMatchesExpected": true,
         "expectedYear": 2026,
         "expectedMonth": 9,
-        "expectedDay": 4,
+        "expectedDay": 5,
         "drawDates": [
           5,
           8,
@@ -257,7 +257,7 @@
           26,
           29
         ],
-        "isDrawDay": false,
+        "isDrawDay": true,
         "reason": "calendar-dom-circle-detection",
         "diagnostics": {
           "rootCandidateCount": 30,
@@ -426,9 +426,9 @@
       "finalUrl": "https://corporate.hkjc.com/zh-HK/news-and-publications/corporate-news?y=2026&m=09",
       "title": "新聞 - 新聞及刊物 - 馬會知多少 - 香港賽馬會",
       "status": 200,
-      "capturedAt": "2026-09-04T13:09:20.878Z",
-      "hongKongDate": "2026-09-04",
-      "dateCompact": "20260904",
+      "capturedAt": "2026-09-05T13:09:23.429Z",
+      "hongKongDate": "2026-09-05",
+      "dateCompact": "20260905",
       "screenshotMode": "viewport-with-browser-frame",
       "waitSeconds": 12,
       "viewport": {
