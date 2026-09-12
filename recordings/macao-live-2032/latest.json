@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "task": "macao-live-2032-record",
+  "recordMode": "h264-dynamic-under45mb-direct",
+  "liveRoute": "/live/2032",
+  "baseUrl": "https://d2.xiyangjia.com/pc/",
+  "liveUrl": "https://d2.xiyangjia.com/pc/#/live/2032",
+  "finalUrl": "https://d2.xiyangjia.com/pc/#/live/2032",
+  "capturedAt": "2026-09-12T13:32:08.675Z",
+  "capturedAtTaipei": "2026-09-12 21:32:08 Asia/Taipei",
+  "taipeiDate": "2026-09-12",
+  "recordEndTimeTaipei": "21:37:00",
+  "recordingStartedAt": "2026-09-12T13:32:08.675Z",
+  "recordingStartedAtTaipei": "2026-09-12 21:32:08 Asia/Taipei",
+  "recordingEndedAt": "2026-09-12T13:37:01.276Z",
+  "recordingEndedAtTaipei": "2026-09-12 21:37:01 Asia/Taipei",
+  "effectiveRecordSeconds": 292,
+  "videoKbps": 1136,
+  "videoMaxrateKbps": 1205,
+  "videoBufsizeKbps": 2410,
+  "videoPreset": "fast",
+  "videoTargetBytes": 41500000,
+  "videoHardLimitBytes": 45000000,
+  "maxBytes": 45000000,
+  "latestMp4Bytes": 38077480,
+  "mediaCandidates": [
+    "https://vdm6-ali.cokim5.com/live/2032-2.flv"
+  ],
+  "playback": {
+    "ready": false,
+    "details": []
+  },
+  "outputFiles": [
+    "latest.mp4",
+    "ffmpeg-x11grab.log",
+    "before-live-check.png",
+    "ready-record.png"
+  ],
+  "baseUrlsCount": 2,
+  "github": {
+    "runId": "34696619821",
+    "runNumber": "18",
+    "runAttempt": "1",
+    "headSha": "b3d4d867e739a39ec5f4d4e7410904a3df6fb13c"
+  }
+}
