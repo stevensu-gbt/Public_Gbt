@@ -3,28 +3,28 @@
   "task": "macao-live-2032-record",
   "recordMode": "h264-dynamic-under45mb-direct",
   "liveRoute": "/live/2032",
-  "baseUrl": "https://d2.innocenhigh.com/pc/",
-  "liveUrl": "https://d2.innocenhigh.com/pc/#/live/2032",
-  "finalUrl": "https://d2.innocenhigh.com/pc/#/live/2032",
-  "capturedAt": "2026-09-14T13:32:06.027Z",
-  "capturedAtTaipei": "2026-09-14 21:32:06 Asia/Taipei",
-  "taipeiDate": "2026-09-14",
+  "baseUrl": "https://d2.xiyangjia.com/pc/",
+  "liveUrl": "https://d2.xiyangjia.com/pc/#/live/2032",
+  "finalUrl": "https://d2.xiyangjia.com/pc/#/live/2032",
+  "capturedAt": "2026-09-15T13:32:08.035Z",
+  "capturedAtTaipei": "2026-09-15 21:32:08 Asia/Taipei",
+  "taipeiDate": "2026-09-15",
   "recordEndTimeTaipei": "21:37:00",
-  "recordingStartedAt": "2026-09-14T13:32:06.027Z",
-  "recordingStartedAtTaipei": "2026-09-14 21:32:06 Asia/Taipei",
-  "recordingEndedAt": "2026-09-14T13:37:00.989Z",
-  "recordingEndedAtTaipei": "2026-09-14 21:37:00 Asia/Taipei",
-  "effectiveRecordSeconds": 294,
-  "videoKbps": 1129,
-  "videoMaxrateKbps": 1197,
-  "videoBufsizeKbps": 2394,
+  "recordingStartedAt": "2026-09-15T13:32:08.035Z",
+  "recordingStartedAtTaipei": "2026-09-15 21:32:08 Asia/Taipei",
+  "recordingEndedAt": "2026-09-15T13:37:00.961Z",
+  "recordingEndedAtTaipei": "2026-09-15 21:37:00 Asia/Taipei",
+  "effectiveRecordSeconds": 292,
+  "videoKbps": 1136,
+  "videoMaxrateKbps": 1205,
+  "videoBufsizeKbps": 2410,
   "videoPreset": "fast",
   "videoTargetBytes": 41500000,
   "videoHardLimitBytes": 45000000,
   "maxBytes": 45000000,
-  "latestMp4Bytes": 40355470,
+  "latestMp4Bytes": 40281875,
   "mediaCandidates": [
-    "https://vdm6-ali.86lwpq.com/live/2032-2.flv"
+    "https://vdm6-hw.180ymzl.com/live/2032-2.flv"
   ],
   "playback": {
     "ready": false,
@@ -38,9 +38,9 @@
   ],
   "baseUrlsCount": 2,
   "github": {
-    "runId": "34849675318",
-    "runNumber": "20",
+    "runId": "34975444145",
+    "runNumber": "21",
     "runAttempt": "1",
-    "headSha": "f6f23f1bd44b6d2d7eeb8869e4d7cbee365a8750"
+    "headSha": "21b121095b9d017071e2bf87df9f84993060c5c7"
   }
 }
