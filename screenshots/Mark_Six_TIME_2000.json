@@ -5,8 +5,8 @@
   "finalUrl": "https://d2.innocenhigh.com/pc/#/",
   "title": "澳門六合彩官方網站",
   "status": 200,
-  "capturedAt": "2026-10-04T12:00:37.900Z",
-  "taipeiDate": "2026-10-04",
+  "capturedAt": "2026-10-05T12:00:46.449Z",
+  "taipeiDate": "2026-10-05",
   "screenshotMode": "random-config-url-viewport-with-browser-frame",
   "waitSeconds": 20,
   "viewport": {
@@ -16,7 +16,7 @@
   "slot": {
     "id": "2000",
     "label": "20:00",
-    "dateCompact": "20261004",
+    "dateCompact": "20261005",
     "source": "nearest-taipei-time"
   },
   "files": {
@@ -25,12 +25,12 @@
     "fixedSlotMetadata": "screenshots/Mark_Six_TIME_2000.json",
     "publicFixedSlotPreview": "screenshots/Mark_Six_TIME_2000.png",
     "publicFixedSlotMetadata": "screenshots/Mark_Six_TIME_2000.json",
-    "runArtifact": "macao-jc-browser-frame-2026-10-04T12-00-37-900Z.png"
+    "runArtifact": "macao-jc-browser-frame-2026-10-05T12-00-46-449Z.png"
   },
   "github": {
-    "runId": "37200564113",
-    "runNumber": "332",
+    "runId": "37306483174",
+    "runNumber": "335",
     "runAttempt": "1",
-    "headSha": "e8d4d1a02b8c0f8d21554c44e79e7b49fdb7cbe7"
+    "headSha": "dbb7516a95565c7a90ac377b650817f2268ca709"
   }
 }
