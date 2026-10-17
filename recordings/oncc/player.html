@@ -1,109 +1,275 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
-<title>ONCC Replay</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache">
+<title>香港六合彩录像｜精准截图播放器</title>
 <style>
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  color: #fff;
-  font-family: Arial, sans-serif;
-  overflow: hidden;
-}
-#info {
-  position: fixed;
-  top: 12px;
-  left: 12px;
-  z-index: 2;
-  background: rgba(0,0,0,.62);
-  padding: 8px 12px;
-  border-radius: 8px;
-  font-size: 14px;
-  line-height: 1.5;
-}
-video {
-  width: 100%;
-  height: 100vh;
-  object-fit: contain;
+:root { color-scheme: dark; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Noto Sans SC",sans-serif; }
+* { box-sizing: border-box; }
+body { margin:0; color:#eef2f8; background:#10151e; }
+main { max-width:1480px; padding:15px 20px 24px; margin:0 auto; }
+header { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:12px; padding-bottom:10px; }
+h1 { font-size:19px; margin:0 0 4px; font-weight:650; }
+.subtle { color:#a5b0be; font-size:13px; }
+#status { font-size:13px; color:#c2d1e2; background:#1e2939; padding:9px 12px; border-radius:8px; }
+#status.error { color:#ffc2b9; background:#462625; }
+.stage { background:#000; border:1px solid #344255; border-radius:10px; overflow:hidden; display:flex; justify-content:center; align-items:center; min-height:200px; }
+video { display:block; background:#000; max-height:calc(100vh - 260px); min-height:180px; width:100%; object-fit:contain; }
+.panel { margin-top:12px; padding:12px; background:#1b2635; border:1px solid #344255; border-radius:10px; }
+.buttons { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:10px; }
+button,select,input { font:inherit; }
+button { background:#344255; color:#fff; border:1px solid #52647a; padding:8px 12px; border-radius:7px; cursor:pointer; }
+button:hover { background:#49607d; }
+button:focus-visible,input:focus-visible,select:focus-visible { outline:2px solid #93c5fd; outline-offset:2px; }
+button.primary { background:#2464b7; border-color:#3c82d8; }
+button:disabled { opacity:.45; cursor:not-allowed; }
+#scrubber { width:100%; accent-color:#6aa8ff; }
+.readout { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:8px; font-variant-numeric:tabular-nums; font-size:14px; }
+.seekrow { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-top:10px; font-size:13px; }
+.seekrow input { width:120px; padding:8px; border-radius:7px; border:1px solid #52647a; color:#fff; background:#111927; }
+.seekrow select { border-radius:7px; border:1px solid #52647a; padding:8px; color:#fff; background:#111927; }
+.details { margin-top:12px; font-size:13px; color:#c2cedd; line-height:1.65; overflow-wrap:anywhere; }
+.details a { color:#8ec5ff; }
+.hint { margin-top:10px; font-size:12px; color:#9caabc; }
+body.compact .panel,body.compact .details,body.compact .hint { display:none; }
+body.compact video { max-height:calc(100vh - 115px); }
+#toggle { position:fixed; right:16px; top:12px; z-index:5; font-size:12px; padding:6px 9px; }
+@media(max-width:640px) {
+  main { padding:12px; }
+  h1 { font-size:16px; }
+  video { max-height:65vh; }
+  button { padding:9px 10px; }
 }
 </style>
 </head>
 <body>
-<div id="info">ONCC录像回放<br>状态：正在取得最新影片...</div>
-<video id="video" controls autoplay playsinline preload="metadata"></video>
+<button id="toggle" type="button" aria-label="隐藏或显示控制区">隐藏控制区</button>
+<main>
+  <header>
+    <div>
+      <h1>香港六合彩｜ONCC 录像精准截图</h1>
+      <div class="subtle">优先检查影片最后 30 秒；七颗球刚就位、重新排序前暂停</div>
+    </div>
+    <div id="status" role="status" aria-live="polite">正在检查当期录像资讯...</div>
+  </header>
 
+  <div class="stage"><video id="video" controls playsinline preload="metadata" aria-label="香港六合彩原始录像"></video></div>
+
+  <section class="panel" aria-label="录像检查控制台">
+    <div class="buttons">
+      <button id="last30" class="primary" data-last="30" type="button">跳到最后 30 秒</button>
+      <button id="last90" data-last="90" type="button">跳到最后 90 秒</button>
+      <button data-delta="-5" type="button">后退 5 秒</button>
+      <button data-delta="-1" type="button">后退 1 秒</button>
+      <button data-frame="-1" type="button">上一帧 (约 0.04 秒)</button>
+      <button data-frame="1" type="button">下一帧 (约 0.04 秒)</button>
+      <button data-delta="1" type="button">前进 1 秒</button>
+      <button data-delta="5" type="button">前进 5 秒</button>
+      <button id="playPause" type="button">播放 / 暂停</button>
+    </div>
+    <input id="scrubber" type="range" min="0" max="1" step="0.04" value="0" aria-label="影片时间轴">
+    <div class="readout">
+      <strong id="elapsed">00:00.00 / 00:00.00</strong>
+      <span id="wallClock">对应北京时间：载入中</span>
+    </div>
+    <div class="seekrow">
+      <label for="seekInput">跳转位置</label>
+      <input id="seekInput" type="text" placeholder="MM:SS 或秒数" aria-label="跳转秒数或分钟冒号秒数">
+      <button id="seekButton" type="button">跳转</button>
+      <label for="speed">播放速度</label>
+      <select id="speed">
+        <option value="0.25">0.25×</option>
+        <option value="0.5">0.5×</option>
+        <option value="1" selected>1×</option>
+        <option value="2">2×</option>
+      </select>
+      <button id="reload" type="button">重新检查最新影片</button>
+    </div>
+  </section>
+
+  <div class="details" id="details">录像资讯：读取中...</div>
+  <div class="hint">本播放器从 GitHub Pages 同站点读取 MP4，不请求 raw.githubusercontent.com。逐帧按钮以录影 25fps 计算时间，浏览器实际定位精度取决于解码能力。截图请使用云端浏览器原生截图功能，不得修改原始影片画面。</div>
+</main>
 <script>
-const OWNER = 'stevensu-gbt';
-const REPO = 'Public_Gbt';
-const VIDEO_PATH = 'recordings/oncc/latest.mp4';
-const video = document.getElementById('video');
-const info = document.getElementById('info');
-let fallbackUsed = false;
-let resolvedCommit = '';
+"use strict";
+(function () {
+  const FPS = 25;
+  const $ = (id) => document.getElementById(id);
+  const video = $("video");
+  const slider = $("scrubber");
+  const status = $("status");
+  let manifest = null;
+  let busySeek = false;
 
-function setVideoSource(url) {
-  video.pause();
-  video.removeAttribute('src');
-  video.load();
-  video.src = url;
-  video.load();
-  video.play().catch(() => {});
-}
+  function setStatus(message, error) {
+    status.textContent = message;
+    status.classList.toggle("error", Boolean(error));
+  }
 
-async function loadLatestVideo() {
-  try {
-    const apiUrl = `https://api.github.com/repos/${OWNER}/${REPO}/commits?path=${encodeURIComponent(VIDEO_PATH)}&per_page=1&_=${Date.now()}`;
-    const response = await fetch(apiUrl, {
-      cache: 'no-store',
-      headers: {
-        Accept: 'application/vnd.github+json'
+  function formatTime(seconds) {
+    if (!Number.isFinite(seconds) || seconds < 0) return "--:--.--";
+    const minutes = Math.floor(seconds / 60);
+    const wholeSeconds = Math.floor(seconds % 60);
+    const hundredths = Math.floor((seconds % 1) * 100);
+    return String(minutes).padStart(2, "0") + ":" +
+      String(wholeSeconds).padStart(2, "0") + "." +
+      String(hundredths).padStart(2, "0");
+  }
+
+  function estimatedTaipeiTime(seconds) {
+    if (!manifest || !manifest.recordingStartedAtTaipei) return "未知";
+    const m = /^(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2})/.exec(manifest.recordingStartedAtTaipei);
+    if (!m) return "未知";
+    const start = Date.UTC(Number(m[1]), Number(m[2]) - 1, Number(m[3]), Number(m[4]) - 8, Number(m[5]), Number(m[6]));
+    const date = new Date(start + Math.round(seconds * 1000));
+    return new Intl.DateTimeFormat("zh-CN", {
+      timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit",
+      hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false
+    }).format(date);
+  }
+
+  function getDuration() {
+    return Number.isFinite(video.duration) && video.duration > 0 ? video.duration : 0;
+  }
+
+  function render() {
+    const duration = getDuration();
+    const current = Number.isFinite(video.currentTime) ? video.currentTime : 0;
+    $("elapsed").textContent = formatTime(current) + " / " + formatTime(duration);
+    $("wallClock").textContent = "约北京时间：" + estimatedTaipeiTime(current);
+    if (duration) {
+      slider.max = String(duration);
+      slider.value = String(Math.min(current, duration));
+    }
+  }
+
+  function seekTo(seconds) {
+    const duration = getDuration();
+    if (!duration || !Number.isFinite(seconds)) {
+      setStatus("影片尚未载入，无法定位时间轴", true);
+      return;
+    }
+    const upper = Math.max(0, duration - 0.001);
+    const target = Math.max(0, Math.min(upper, seconds));
+    video.pause();
+    try {
+      busySeek = true;
+      video.currentTime = target;
+      render();
+      setStatus("正在定位：" + formatTime(target), false);
+    } catch (error) {
+      busySeek = false;
+      setStatus("跳转失败：" + String(error.message || error), true);
+    }
+  }
+
+  function stepFrame(direction) {
+    const targetFrame = Math.round((Number(video.currentTime) || 0) * FPS) + direction;
+    seekTo(targetFrame / FPS);
+  }
+
+  function parsePosition(raw) {
+    const input = String(raw || "").trim();
+    if (!input) return NaN;
+    if (/^\d+(\.\d+)?$/.test(input)) return Number(input);
+    const m = /^(\d+):([0-5]?\d)(?:\.(\d+))?$/.exec(input);
+    if (!m) return NaN;
+    return Number(m[1]) * 60 + Number(m[2]) + Number("0." + (m[3] || "0"));
+  }
+
+  async function loadVideo() {
+    setStatus("正在检查同站点录像资讯...", false);
+    $("details").textContent = "录像资讯：读取中...";
+    video.pause();
+    video.removeAttribute("src");
+    video.load();
+    manifest = null;
+    try {
+      const response = await fetch("./manifest.json?ts=" + Date.now(), { cache:"no-store" });
+      if (!response.ok) throw new Error("读取 manifest.json 失败：HTTP " + response.status);
+      const data = await response.json();
+      if (!data || data.ok !== true || !/^oncc-run-[0-9]+\.mp4$/.test(String(data.videoFile || ""))) {
+        throw new Error("最新录像清单无效或影片档名不符合格式");
       }
+      manifest = data;
+      const videoUrl = new URL("./" + data.videoFile, document.baseURI);
+      if (videoUrl.origin !== location.origin) throw new Error("禁止从跨站点读取影片");
+      $("details").textContent = "来源 Run：" + data.runId +
+        "　｜　录影开始：" + (data.recordingStartedAtTaipei || "未知") +
+        "　｜　录影结束：" + (data.recordingEndedAtTaipei || "未知") +
+        "　｜　影片大小：" + (Number(data.videoBytes || 0) / 1000000).toFixed(2) + " MB" +
+        "　｜　来源：本 GitHub Pages 站点（" + data.videoFile + "）";
+      video.src = videoUrl.href;
+      video.load();
+      setStatus("正在读取影片，可播放后将自动跳到最后 30 秒...", false);
+    } catch (error) {
+      setStatus("载入失败：" + String(error.message || error), true);
+    }
+  }
+
+  video.addEventListener("loadedmetadata", function () {
+    if (!getDuration()) { setStatus("影片时间长度异常，无法控制时间轴", true); return; }
+    seekTo(Math.max(0, getDuration() - 30));
+  });
+  video.addEventListener("seeked", function () {
+    busySeek = false;
+    render();
+    setStatus("已暂停于 " + formatTime(video.currentTime) + "，可逐帧检查", false);
+  });
+  video.addEventListener("timeupdate", render);
+  video.addEventListener("durationchange", render);
+  video.addEventListener("error", function () {
+    if (!video.currentSrc) return;
+    const code = video.error && video.error.code ? video.error.code : "?";
+    setStatus("影片播放失败（媒体错误 " + code + "）。云端浏览器可能不支持此影片来源或格式。", true);
+  });
+
+  document.querySelectorAll("[data-last]").forEach(function (button) {
+    button.addEventListener("click", function () {
+      seekTo(getDuration() - Number(button.dataset.last));
     });
+  });
+  document.querySelectorAll("[data-delta]").forEach(function (button) {
+    button.addEventListener("click", function () {
+      seekTo(video.currentTime + Number(button.dataset.delta));
+    });
+  });
+  document.querySelectorAll("[data-frame]").forEach(function (button) {
+    button.addEventListener("click", function () {
+      stepFrame(Number(button.dataset.frame));
+    });
+  });
 
-    if (!response.ok) {
-      throw new Error(`GitHub API ${response.status}`);
-    }
-
-    const commits = await response.json();
-    if (!Array.isArray(commits) || !commits[0] || !commits[0].sha) {
-      throw new Error('找不到最新影片提交');
-    }
-
-    resolvedCommit = commits[0].sha;
-    const immutableUrl = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${resolvedCommit}/${VIDEO_PATH}`;
-    info.innerHTML = `ONCC录像回放<br>状态：正在载入最新版本<br>版本：${resolvedCommit.slice(0, 7)}`;
-    setVideoSource(immutableUrl);
-  } catch (error) {
-    fallbackUsed = true;
-    info.innerHTML = 'ONCC录像回放<br>状态：使用备用最新来源';
-    setVideoSource(`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${VIDEO_PATH}?cb=${Date.now()}`);
-  }
-}
-
-video.addEventListener('loadedmetadata', () => {
-  const versionLine = resolvedCommit ? `<br>版本：${resolvedCommit.slice(0, 7)}` : '';
-  info.innerHTML = `ONCC录像回放<br>状态：✅ 可播放<br>长度：${Math.floor(video.duration)} 秒${versionLine}`;
-});
-
-video.addEventListener('error', () => {
-  if (!fallbackUsed) {
-    fallbackUsed = true;
-    info.innerHTML = 'ONCC录像回放<br>状态：切换备用来源...';
-    setVideoSource(`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${VIDEO_PATH}?cb=${Date.now()}`);
-    return;
-  }
-  info.innerHTML = 'ONCC录像回放<br>状态：⚠️ 当前录像不可用';
-});
-
-loadLatestVideo();
+  $("playPause").addEventListener("click", function () {
+    if (video.paused) video.play().catch(function (error) { setStatus("播放失败：" + error.message, true); });
+    else video.pause();
+  });
+  $("seekButton").addEventListener("click", function () {
+    const seconds = parsePosition($("seekInput").value);
+    if (!Number.isFinite(seconds)) { setStatus("请输入有效秒数或 MM:SS", true); return; }
+    seekTo(seconds);
+  });
+  $("seekInput").addEventListener("keydown", function (event) {
+    if (event.key === "Enter") $("seekButton").click();
+  });
+  slider.addEventListener("input", function () { seekTo(Number(slider.value)); });
+  $("speed").addEventListener("change", function () { video.playbackRate = Number($("speed").value); });
+  $("reload").addEventListener("click", loadVideo);
+  $("toggle").addEventListener("click", function () {
+    const hidden = document.body.classList.toggle("compact");
+    $("toggle").textContent = hidden ? "显示控制区" : "隐藏控制区";
+  });
+  document.addEventListener("keydown", function (event) {
+    const tag = event.target && event.target.tagName;
+    if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || event.ctrlKey || event.altKey || event.metaKey) return;
+    if (event.key === "ArrowLeft") { event.preventDefault(); stepFrame(-1); }
+    if (event.key === "ArrowRight") { event.preventDefault(); stepFrame(1); }
+  });
+  render();
+  loadVideo();
+})();
 </script>
 </body>
 </html>

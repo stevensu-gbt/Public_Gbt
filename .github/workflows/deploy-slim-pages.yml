@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - "recordings/oncc/player.html"
+      - "recordings/oncc/latest.mp4"
+      - "recordings/oncc/latest.json"
       - "screenshots/hkjc/HK_Mark_Six_TIME_2110.json"
       - ".github/workflows/deploy-slim-pages.yml"
   workflow_dispatch:
@@ -39,6 +41,39 @@ jobs:
 
           cp recordings/oncc/player.html _site/recordings/oncc/player.html
           cp screenshots/hkjc/HK_Mark_Six_TIME_2110.json _site/screenshots/hkjc/HK_Mark_Six_TIME_2110.json
+
+          # 同站点 MP4：避免 Work 浏览器直接访问 raw.githubusercontent.com。
+          # 每次仅部署当前影片，使用来源 Run ID 作为不可变档名防止旧影片缓存。
+          META="recordings/oncc/latest.json"
+          MP4="recordings/oncc/latest.mp4"
+          test -s "$META"
+          test -s "$MP4"
+          jq -e '.ok == true and ((.outputFiles // []) | index("latest.mp4") != null)' "$META" >/dev/null
+
+          RUN_ID="$(jq -r '.github.runId // empty' "$META")"
+          [[ "$RUN_ID" =~ ^[0-9]+$ ]] || { echo "Invalid source run ID: $RUN_ID"; exit 1; }
+          FILE_BYTES="$(stat -c '%s' "$MP4")"
+          META_BYTES="$(jq -r '.latestMp4Bytes // 0' "$META")"
+          [ "$FILE_BYTES" -gt 0 ] && [ "$FILE_BYTES" -lt 45000000 ] || {
+            echo "MP4 size invalid: $FILE_BYTES"; exit 1;
+          }
+          [ "$FILE_BYTES" -eq "$META_BYTES" ] || {
+            echo "MP4 metadata byte mismatch: file=$FILE_BYTES meta=$META_BYTES"; exit 1;
+          }
+
+          VIDEO_NAME="oncc-run-$RUN_ID.mp4"
+          cp "$MP4" "_site/recordings/oncc/$VIDEO_NAME"
+          cp "$META" _site/recordings/oncc/latest.json
+          jq -n \
+            --arg videoFile "$VIDEO_NAME" \
+            --arg runId "$RUN_ID" \
+            --argjson videoBytes "$FILE_BYTES" \
+            --arg recordingStartedAtTaipei "$(jq -r '.recordingStartedAtTaipei // ""' "$META")" \
+            --arg recordingEndedAtTaipei "$(jq -r '.recordingEndedAtTaipei // ""' "$META")" \
+            --arg recordEndTimeTaipei "$(jq -r '.recordEndTimeTaipei // ""' "$META")" \
+            --arg sourceSha "$GITHUB_SHA" \
+            '{version:1,ok:true,videoFile:$videoFile,videoBytes:$videoBytes,runId:$runId,recordingStartedAtTaipei:$recordingStartedAtTaipei,recordingEndedAtTaipei:$recordingEndedAtTaipei,recordEndTimeTaipei:$recordEndTimeTaipei,sourceSha:$sourceSha,fps:25}' \
+            > _site/recordings/oncc/manifest.json
 
           touch _site/.nojekyll
 
