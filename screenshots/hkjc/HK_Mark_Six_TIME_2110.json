@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-10-21T13:09:58.324Z",
+  "capturedAt": "2026-10-21T15:48:49.773Z",
   "hongKongDate": "2026-10-21",
   "taipeiDate": "2026-10-21",
   "dateCompact": "20261021",
@@ -49,7 +49,7 @@
       "finalUrl": "https://bet.hkjc.com/ch/marksix/fixtures",
       "title": "Access Denied",
       "status": 403,
-      "capturedAt": "2026-10-21T13:09:44.210Z",
+      "capturedAt": "2026-10-21T15:48:35.030Z",
       "hongKongDate": "2026-10-21",
       "dateCompact": "20261021",
       "screenshotMode": "viewport-with-browser-frame",
@@ -59,7 +59,7 @@
         "height": 768
       },
       "temporaryImagePath": "/home/runner/work/Auto_Browser/Auto_Browser/capture-result/hkjc/pages/fixtures.png",
-      "bodyTextPreview": "Access Denied\nYou don't have permission to access \"http://bet.hkjc.com/ch/marksix/fixtures\" on this server.\n\nReference #18.c869dc17.1792588171.1b3668e7\n\nhttps://errors.edgesuite.net/18.c869dc17.1792588171.1b3668e7",
+      "bodyTextPreview": "Access Denied\nYou don't have permission to access \"http://bet.hkjc.com/ch/marksix/fixtures\" on this server.\n\nReference #18.8a6bdc17.1792597702.64dac95\n\nhttps://errors.edgesuite.net/18.8a6bdc17.1792597702.64dac95",
       "abnormalNews": "无",
       "calendarAnalysis": {
         "readable": false,
@@ -85,7 +85,7 @@
       "finalUrl": "https://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?y=2026&m=10",
       "title": "Access Denied",
       "status": 403,
-      "capturedAt": "2026-10-21T13:09:58.165Z",
+      "capturedAt": "2026-10-21T15:48:49.632Z",
       "hongKongDate": "2026-10-21",
       "dateCompact": "20261021",
       "screenshotMode": "viewport-with-browser-frame",
@@ -95,7 +95,7 @@
         "height": 768
       },
       "temporaryImagePath": "/home/runner/work/Auto_Browser/Auto_Browser/capture-result/hkjc/pages/news.png",
-      "bodyTextPreview": "Access Denied\nYou don't have permission to access \"http://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?\" on this server.\n\nReference #18.d569dc17.1792588184.184aadc5\n\nhttps://errors.edgesuite.net/18.d569dc17.1792588184.184aadc5",
+      "bodyTextPreview": "Access Denied\nYou don't have permission to access \"http://corporate.hkjc.com/zh-HK/jc-news-and-activities/corporate-news-archive?\" on this server.\n\nReference #18.896bdc17.1792597715.7bd3368\n\nhttps://errors.edgesuite.net/18.896bdc17.1792597715.7bd3368",
       "abnormalNews": "无",
       "calendarAnalysis": null
     }
