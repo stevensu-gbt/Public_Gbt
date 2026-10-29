@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-10-29T20:33:55.265Z",
+  "capturedAt": "2026-10-29T20:42:55.523Z",
   "hongKongDate": "2026-10-30",
   "taipeiDate": "2026-10-30",
   "dateCompact": "20261030",
@@ -242,7 +242,7 @@
     }
   },
   "screenshotMode": "combined-fixtures-news-fixed-file",
-  "captureNetwork": "cloudflare-warp",
+  "captureNetwork": "native",
   "fixedBaseName": "HK_Mark_Six_TIME_2110",
   "files": {
     "fixedImage": "screenshots/hkjc/HK_Mark_Six_TIME_2110.png",
@@ -260,7 +260,7 @@
       "finalUrl": "https://bet.hkjc.com/ch/marksix/fixtures",
       "title": "香港賽馬會 - 六合彩",
       "status": 200,
-      "capturedAt": "2026-10-29T20:33:36.427Z",
+      "capturedAt": "2026-10-29T20:42:39.004Z",
       "hongKongDate": "2026-10-30",
       "dateCompact": "20261030",
       "screenshotMode": "viewport-with-browser-frame",
@@ -493,7 +493,7 @@
       "finalUrl": "https://corporate.hkjc.com/zh-HK/news-and-publications/corporate-news?y=2026&m=10",
       "title": "新聞 - 新聞及刊物 - 馬會知多少 - 香港賽馬會",
       "status": 200,
-      "capturedAt": "2026-10-29T20:33:55.083Z",
+      "capturedAt": "2026-10-29T20:42:55.338Z",
       "hongKongDate": "2026-10-30",
       "dateCompact": "20261030",
       "screenshotMode": "viewport-with-browser-frame",
