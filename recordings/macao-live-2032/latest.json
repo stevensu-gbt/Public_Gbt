@@ -6,14 +6,14 @@
   "baseUrl": "https://d2.innocenhigh.com/pc/",
   "liveUrl": "https://d2.innocenhigh.com/pc/#/live/2032",
   "finalUrl": "https://d2.innocenhigh.com/pc/#/live/2032",
-  "capturedAt": "2026-10-30T13:32:06.380Z",
-  "capturedAtTaipei": "2026-10-30 21:32:06 Asia/Taipei",
-  "taipeiDate": "2026-10-30",
+  "capturedAt": "2026-10-31T13:32:06.102Z",
+  "capturedAtTaipei": "2026-10-31 21:32:06 Asia/Taipei",
+  "taipeiDate": "2026-10-31",
   "recordEndTimeTaipei": "21:37:00",
-  "recordingStartedAt": "2026-10-30T13:32:06.380Z",
-  "recordingStartedAtTaipei": "2026-10-30 21:32:06 Asia/Taipei",
-  "recordingEndedAt": "2026-10-30T13:37:00.902Z",
-  "recordingEndedAtTaipei": "2026-10-30 21:37:00 Asia/Taipei",
+  "recordingStartedAt": "2026-10-31T13:32:06.102Z",
+  "recordingStartedAtTaipei": "2026-10-31 21:32:06 Asia/Taipei",
+  "recordingEndedAt": "2026-10-31T13:37:00.757Z",
+  "recordingEndedAtTaipei": "2026-10-31 21:37:00 Asia/Taipei",
   "effectiveRecordSeconds": 294,
   "videoKbps": 1129,
   "videoMaxrateKbps": 1197,
@@ -22,9 +22,9 @@
   "videoTargetBytes": 41500000,
   "videoHardLimitBytes": 45000000,
   "maxBytes": 45000000,
-  "latestMp4Bytes": 37012684,
+  "latestMp4Bytes": 39005539,
   "mediaCandidates": [
-    "https://vdm6-ali.86lwpq.com/live/2032-2.flv"
+    "https://vdm6-ali.cokim5.com/live/2032-2.flv"
   ],
   "playback": {
     "ready": false,
@@ -38,9 +38,9 @@
   ],
   "baseUrlsCount": 2,
   "github": {
-    "runId": "41063827385",
-    "runNumber": "66",
+    "runId": "41205869849",
+    "runNumber": "67",
     "runAttempt": "1",
-    "headSha": "20d220bfd09c159feb6ec9cd4ce74b0f08b4714c"
+    "headSha": "e9a1f8c3365b562b02ba6f7db07ee96539fcf73a"
   }
 }
