@@ -7,7 +7,7 @@
   "finalUrl": "https://tv.on.cc/?page=live&liveID=event_20191022_114028_6573",
   "defaultDurationSec": 480,
   "recordEndTimeTaipei": "21:35:30",
-  "effectiveRecordSeconds": 389,
+  "effectiveRecordSeconds": 377,
   "display": ":99",
   "screen": {
     "width": 1366,
@@ -17,16 +17,16 @@
     "width": 1280,
     "height": 760
   },
-  "capturedAt": "2026-11-12T13:35:30.196Z",
-  "capturedAtTaipei": "2026-11-12 21:35:30 Asia/Taipei",
-  "videoKbps": 853,
-  "videoMaxrateKbps": 905,
-  "videoBufsizeKbps": 1810,
+  "capturedAt": "2026-11-15T13:35:29.750Z",
+  "capturedAtTaipei": "2026-11-15 21:35:29 Asia/Taipei",
+  "videoKbps": 880,
+  "videoMaxrateKbps": 933,
+  "videoBufsizeKbps": 1866,
   "videoPreset": "fast",
   "videoTargetBytes": 41500000,
   "videoHardLimitBytes": 45000000,
   "maxSendBytes": 45000000,
-  "latestMp4Bytes": 39968895,
+  "latestMp4Bytes": 40272044,
   "mediaCandidates": [
     {
       "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/playlist.m3u8",
@@ -41,12 +41,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:28:49.661Z",
-      "lastSeenAt": "2026-11-12T13:28:50.116Z",
+      "firstSeenAt": "2026-11-15T13:29:01.369Z",
+      "lastSeenAt": "2026-11-15T13:29:01.906Z",
       "seenCount": 2
     },
     {
-      "url": "https://tv.on.cc/img/__utm.gif?utmwv=1&utmn=1821350053&utmcs=UTF-8&utmsr=1280x760&utmsc=24-bit&utmul=zh-hk&utmje=0&utmfl=-&utmcn=1&utmdt=%E6%9D%B1%E7%B6%B2%E9%9B%BB%E8%A6%96_%E6%9D%B1%E5%91%BC%E5%8D%B3%E6%87%89_%2Flive%2Fplaylist.m3u8&utmhn=tv.on.cc&utmr=-&utmp=/ontv/web/683/video/%E6%9D%B1%E7%B6%B2%E7%9B%B4%E6%92%AD__%E5%85%AD%E5%90%88%E5%BD%A9%20%E7%9B%B4%E6%92%AD",
+      "url": "https://tv.on.cc/img/__utm.gif?utmwv=1&utmn=631600185&utmcs=UTF-8&utmsr=1280x760&utmsc=24-bit&utmul=zh-hk&utmje=0&utmfl=-&utmcn=1&utmdt=%E6%9D%B1%E7%B6%B2%E9%9B%BB%E8%A6%96_%E6%9D%B1%E5%91%BC%E5%8D%B3%E6%87%89_%2Flive%2Fplaylist.m3u8&utmhn=tv.on.cc&utmr=-&utmp=/ontv/web/683/video/%E6%9D%B1%E7%B6%B2%E7%9B%B4%E6%92%AD__%E5%85%AD%E5%90%88%E5%BD%A9%20%E7%9B%B4%E6%92%AD",
       "type": "hls-m3u8",
       "from": "request",
       "sources": [
@@ -58,8 +58,8 @@
       "status": null,
       "resourceType": "image",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:28:49.661Z",
-      "lastSeenAt": "2026-11-12T13:28:49.996Z",
+      "firstSeenAt": "2026-11-15T13:29:01.371Z",
+      "lastSeenAt": "2026-11-15T13:29:01.794Z",
       "seenCount": 2
     },
     {
@@ -75,12 +75,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:28:50.117Z",
-      "lastSeenAt": "2026-11-12T13:28:50.364Z",
+      "firstSeenAt": "2026-11-15T13:29:01.906Z",
+      "lastSeenAt": "2026-11-15T13:29:02.106Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-uuq0vk7de_b332000_706.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u9iucc3ug_b332000_955.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -92,12 +92,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:28:50.364Z",
-      "lastSeenAt": "2026-11-12T13:28:50.421Z",
+      "firstSeenAt": "2026-11-15T13:29:02.122Z",
+      "lastSeenAt": "2026-11-15T13:29:02.367Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-uuq0vk7de_b332000_707.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u9iucc3ug_b332000_956.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -109,8 +109,42 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:28:50.544Z",
-      "lastSeenAt": "2026-11-12T13:28:50.828Z",
+      "firstSeenAt": "2026-11-15T13:29:02.446Z",
+      "lastSeenAt": "2026-11-15T13:29:02.706Z",
+      "seenCount": 2
+    },
+    {
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/chunklist_b2296000.m3u8",
+      "type": "hls-m3u8",
+      "from": "request",
+      "sources": [
+        "request",
+        "response"
+      ],
+      "contentType": null,
+      "method": null,
+      "status": null,
+      "resourceType": "xhr",
+      "initiatorType": null,
+      "firstSeenAt": "2026-11-15T13:29:02.740Z",
+      "lastSeenAt": "2026-11-15T13:29:02.976Z",
+      "seenCount": 2
+    },
+    {
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-uwpnoiz88_b2296000_957.ts",
+      "type": "ts-segment",
+      "from": "request",
+      "sources": [
+        "request",
+        "response"
+      ],
+      "contentType": null,
+      "method": null,
+      "status": null,
+      "resourceType": "xhr",
+      "initiatorType": null,
+      "firstSeenAt": "2026-11-15T13:29:02.978Z",
+      "lastSeenAt": "2026-11-15T13:29:03.228Z",
       "seenCount": 2
     },
     {
@@ -126,12 +160,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:28:50.884Z",
-      "lastSeenAt": "2026-11-12T13:35:29.745Z",
-      "seenCount": 136
+      "firstSeenAt": "2026-11-15T13:29:03.315Z",
+      "lastSeenAt": "2026-11-15T13:35:24.864Z",
+      "seenCount": 132
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_708.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_958.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -143,12 +177,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:28:51.130Z",
-      "lastSeenAt": "2026-11-12T13:28:51.164Z",
+      "firstSeenAt": "2026-11-15T13:29:03.560Z",
+      "lastSeenAt": "2026-11-15T13:29:03.792Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_709.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_957.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -160,12 +194,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:28:51.213Z",
-      "lastSeenAt": "2026-11-12T13:28:51.470Z",
+      "firstSeenAt": "2026-11-15T13:29:03.897Z",
+      "lastSeenAt": "2026-11-15T13:29:03.913Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_710.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_959.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -177,12 +211,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:28:51.570Z",
-      "lastSeenAt": "2026-11-12T13:28:51.841Z",
+      "firstSeenAt": "2026-11-15T13:29:09.563Z",
+      "lastSeenAt": "2026-11-15T13:29:09.805Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_711.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_960.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -194,12 +228,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:28:57.137Z",
-      "lastSeenAt": "2026-11-12T13:28:57.433Z",
+      "firstSeenAt": "2026-11-15T13:29:15.558Z",
+      "lastSeenAt": "2026-11-15T13:29:15.810Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_712.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_961.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -211,12 +245,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:29:03.151Z",
-      "lastSeenAt": "2026-11-12T13:29:03.398Z",
+      "firstSeenAt": "2026-11-15T13:29:21.558Z",
+      "lastSeenAt": "2026-11-15T13:29:21.815Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_713.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_962.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -228,12 +262,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:29:09.151Z",
-      "lastSeenAt": "2026-11-12T13:29:09.415Z",
+      "firstSeenAt": "2026-11-15T13:29:27.567Z",
+      "lastSeenAt": "2026-11-15T13:29:27.817Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_714.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_963.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -245,12 +279,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:29:15.125Z",
-      "lastSeenAt": "2026-11-12T13:29:15.379Z",
+      "firstSeenAt": "2026-11-15T13:29:33.565Z",
+      "lastSeenAt": "2026-11-15T13:29:33.811Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_715.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_964.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -262,12 +296,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:29:21.128Z",
-      "lastSeenAt": "2026-11-12T13:29:21.384Z",
+      "firstSeenAt": "2026-11-15T13:29:39.573Z",
+      "lastSeenAt": "2026-11-15T13:29:39.850Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_716.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_965.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -279,12 +313,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:29:27.154Z",
-      "lastSeenAt": "2026-11-12T13:29:27.427Z",
+      "firstSeenAt": "2026-11-15T13:29:45.556Z",
+      "lastSeenAt": "2026-11-15T13:29:45.810Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_717.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_966.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -296,12 +330,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:29:33.121Z",
-      "lastSeenAt": "2026-11-12T13:29:33.371Z",
+      "firstSeenAt": "2026-11-15T13:29:51.559Z",
+      "lastSeenAt": "2026-11-15T13:29:51.794Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_718.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_967.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -313,12 +347,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:29:39.122Z",
-      "lastSeenAt": "2026-11-12T13:29:39.378Z",
+      "firstSeenAt": "2026-11-15T13:29:57.562Z",
+      "lastSeenAt": "2026-11-15T13:29:57.964Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_719.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_968.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -330,12 +364,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:29:45.124Z",
-      "lastSeenAt": "2026-11-12T13:29:45.364Z",
+      "firstSeenAt": "2026-11-15T13:30:03.555Z",
+      "lastSeenAt": "2026-11-15T13:30:03.803Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_720.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_969.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -347,12 +381,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:29:51.153Z",
-      "lastSeenAt": "2026-11-12T13:29:51.410Z",
+      "firstSeenAt": "2026-11-15T13:30:09.572Z",
+      "lastSeenAt": "2026-11-15T13:30:09.816Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_721.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_970.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -364,12 +398,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:29:57.118Z",
-      "lastSeenAt": "2026-11-12T13:29:57.368Z",
+      "firstSeenAt": "2026-11-15T13:30:15.468Z",
+      "lastSeenAt": "2026-11-15T13:30:15.709Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_722.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_971.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -381,12 +415,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:30:03.157Z",
-      "lastSeenAt": "2026-11-12T13:30:03.438Z",
+      "firstSeenAt": "2026-11-15T13:30:21.368Z",
+      "lastSeenAt": "2026-11-15T13:30:21.604Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_723.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_972.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -398,12 +432,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:30:09.139Z",
-      "lastSeenAt": "2026-11-12T13:30:09.403Z",
+      "firstSeenAt": "2026-11-15T13:30:27.479Z",
+      "lastSeenAt": "2026-11-15T13:30:27.717Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_724.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_973.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -415,12 +449,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:30:14.898Z",
-      "lastSeenAt": "2026-11-12T13:30:15.162Z",
+      "firstSeenAt": "2026-11-15T13:30:33.591Z",
+      "lastSeenAt": "2026-11-15T13:30:33.830Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_725.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_974.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -432,12 +466,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:30:20.695Z",
-      "lastSeenAt": "2026-11-12T13:30:20.970Z",
+      "firstSeenAt": "2026-11-15T13:30:39.697Z",
+      "lastSeenAt": "2026-11-15T13:30:39.940Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_726.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_975.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -449,12 +483,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:30:26.640Z",
-      "lastSeenAt": "2026-11-12T13:30:27.361Z",
+      "firstSeenAt": "2026-11-15T13:30:45.795Z",
+      "lastSeenAt": "2026-11-15T13:30:46.051Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_727.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_976.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -466,12 +500,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:30:32.602Z",
-      "lastSeenAt": "2026-11-12T13:30:32.860Z",
+      "firstSeenAt": "2026-11-15T13:30:46.757Z",
+      "lastSeenAt": "2026-11-15T13:30:47.009Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_728.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_977.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -483,12 +517,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:30:38.597Z",
-      "lastSeenAt": "2026-11-12T13:30:38.870Z",
+      "firstSeenAt": "2026-11-15T13:30:51.771Z",
+      "lastSeenAt": "2026-11-15T13:30:52.022Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_729.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_978.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -500,12 +534,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:30:44.552Z",
-      "lastSeenAt": "2026-11-12T13:30:44.803Z",
+      "firstSeenAt": "2026-11-15T13:31:00.632Z",
+      "lastSeenAt": "2026-11-15T13:31:00.873Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_730.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_979.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -517,12 +551,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:30:50.754Z",
-      "lastSeenAt": "2026-11-12T13:30:51.003Z",
+      "firstSeenAt": "2026-11-15T13:31:06.409Z",
+      "lastSeenAt": "2026-11-15T13:31:06.646Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_731.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_980.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -534,12 +568,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:30:56.764Z",
-      "lastSeenAt": "2026-11-12T13:30:57.020Z",
+      "firstSeenAt": "2026-11-15T13:31:12.113Z",
+      "lastSeenAt": "2026-11-15T13:31:12.352Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_732.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_981.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -551,12 +585,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:31:02.615Z",
-      "lastSeenAt": "2026-11-12T13:31:02.918Z",
+      "firstSeenAt": "2026-11-15T13:31:17.848Z",
+      "lastSeenAt": "2026-11-15T13:31:18.090Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_733.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_982.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -568,12 +602,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:31:08.417Z",
-      "lastSeenAt": "2026-11-12T13:31:08.704Z",
+      "firstSeenAt": "2026-11-15T13:31:23.581Z",
+      "lastSeenAt": "2026-11-15T13:31:23.810Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_734.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_983.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -585,12 +619,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:31:14.353Z",
-      "lastSeenAt": "2026-11-12T13:31:14.601Z",
+      "firstSeenAt": "2026-11-15T13:31:29.537Z",
+      "lastSeenAt": "2026-11-15T13:31:29.789Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_735.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_984.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -602,12 +636,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:31:20.278Z",
-      "lastSeenAt": "2026-11-12T13:31:20.576Z",
+      "firstSeenAt": "2026-11-15T13:31:35.508Z",
+      "lastSeenAt": "2026-11-15T13:31:35.743Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_736.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_985.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -619,12 +653,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:31:26.192Z",
-      "lastSeenAt": "2026-11-12T13:31:26.459Z",
+      "firstSeenAt": "2026-11-15T13:31:41.472Z",
+      "lastSeenAt": "2026-11-15T13:31:41.718Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_737.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_986.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -636,12 +670,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:31:32.270Z",
-      "lastSeenAt": "2026-11-12T13:31:32.533Z",
+      "firstSeenAt": "2026-11-15T13:31:50.720Z",
+      "lastSeenAt": "2026-11-15T13:31:50.977Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_738.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_987.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -653,12 +687,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:31:38.366Z",
-      "lastSeenAt": "2026-11-12T13:31:38.615Z",
+      "firstSeenAt": "2026-11-15T13:31:56.956Z",
+      "lastSeenAt": "2026-11-15T13:31:57.188Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_739.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_988.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -670,12 +704,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:31:44.468Z",
-      "lastSeenAt": "2026-11-12T13:31:44.734Z",
+      "firstSeenAt": "2026-11-15T13:31:57.832Z",
+      "lastSeenAt": "2026-11-15T13:31:58.080Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_740.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_989.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -687,12 +721,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:31:50.454Z",
-      "lastSeenAt": "2026-11-12T13:31:50.702Z",
+      "firstSeenAt": "2026-11-15T13:32:06.178Z",
+      "lastSeenAt": "2026-11-15T13:32:06.425Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_741.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_990.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -704,12 +738,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:31:56.420Z",
-      "lastSeenAt": "2026-11-12T13:31:56.691Z",
+      "firstSeenAt": "2026-11-15T13:32:12.186Z",
+      "lastSeenAt": "2026-11-15T13:32:12.425Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_742.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_991.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -721,12 +755,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:32:02.479Z",
-      "lastSeenAt": "2026-11-12T13:32:02.750Z",
+      "firstSeenAt": "2026-11-15T13:32:18.152Z",
+      "lastSeenAt": "2026-11-15T13:32:18.386Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_743.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_992.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -738,12 +772,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:32:08.600Z",
-      "lastSeenAt": "2026-11-12T13:32:08.846Z",
+      "firstSeenAt": "2026-11-15T13:32:24.223Z",
+      "lastSeenAt": "2026-11-15T13:32:24.467Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_744.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_993.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -755,12 +789,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:32:14.719Z",
-      "lastSeenAt": "2026-11-12T13:32:14.963Z",
+      "firstSeenAt": "2026-11-15T13:32:30.048Z",
+      "lastSeenAt": "2026-11-15T13:32:30.292Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_745.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_994.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -772,12 +806,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:32:20.838Z",
-      "lastSeenAt": "2026-11-12T13:32:21.133Z",
+      "firstSeenAt": "2026-11-15T13:32:36.114Z",
+      "lastSeenAt": "2026-11-15T13:32:36.373Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_746.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_995.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -789,12 +823,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:32:26.842Z",
-      "lastSeenAt": "2026-11-12T13:32:27.096Z",
+      "firstSeenAt": "2026-11-15T13:32:42.428Z",
+      "lastSeenAt": "2026-11-15T13:32:42.661Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_747.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_996.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -806,12 +840,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:32:33.035Z",
-      "lastSeenAt": "2026-11-12T13:32:33.307Z",
+      "firstSeenAt": "2026-11-15T13:32:48.742Z",
+      "lastSeenAt": "2026-11-15T13:32:48.980Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_748.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_997.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -823,12 +857,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:32:39.034Z",
-      "lastSeenAt": "2026-11-12T13:32:39.285Z",
+      "firstSeenAt": "2026-11-15T13:32:55.060Z",
+      "lastSeenAt": "2026-11-15T13:32:55.294Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_749.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_998.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -840,12 +874,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:32:44.876Z",
-      "lastSeenAt": "2026-11-12T13:32:45.132Z",
+      "firstSeenAt": "2026-11-15T13:33:01.131Z",
+      "lastSeenAt": "2026-11-15T13:33:01.378Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_750.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_999.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -857,12 +891,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:32:50.644Z",
-      "lastSeenAt": "2026-11-12T13:32:50.900Z",
+      "firstSeenAt": "2026-11-15T13:33:07.220Z",
+      "lastSeenAt": "2026-11-15T13:33:07.463Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_751.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1000.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -874,12 +908,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:32:56.451Z",
-      "lastSeenAt": "2026-11-12T13:32:56.712Z",
+      "firstSeenAt": "2026-11-15T13:33:13.335Z",
+      "lastSeenAt": "2026-11-15T13:33:13.595Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_752.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1001.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -891,12 +925,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:33:05.648Z",
-      "lastSeenAt": "2026-11-12T13:33:05.914Z",
+      "firstSeenAt": "2026-11-15T13:33:19.188Z",
+      "lastSeenAt": "2026-11-15T13:33:19.432Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_753.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1002.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -908,12 +942,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:33:11.600Z",
-      "lastSeenAt": "2026-11-12T13:33:11.869Z",
+      "firstSeenAt": "2026-11-15T13:33:24.899Z",
+      "lastSeenAt": "2026-11-15T13:33:25.145Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_754.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1003.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -925,12 +959,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:33:17.612Z",
-      "lastSeenAt": "2026-11-12T13:33:17.875Z",
+      "firstSeenAt": "2026-11-15T13:33:30.584Z",
+      "lastSeenAt": "2026-11-15T13:33:30.834Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_755.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1004.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -942,12 +976,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:33:23.447Z",
-      "lastSeenAt": "2026-11-12T13:33:23.694Z",
+      "firstSeenAt": "2026-11-15T13:33:36.462Z",
+      "lastSeenAt": "2026-11-15T13:33:36.695Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_756.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1005.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -959,12 +993,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:33:29.535Z",
-      "lastSeenAt": "2026-11-12T13:33:29.789Z",
+      "firstSeenAt": "2026-11-15T13:33:42.596Z",
+      "lastSeenAt": "2026-11-15T13:33:42.834Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_757.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1006.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -976,12 +1010,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:33:35.616Z",
-      "lastSeenAt": "2026-11-12T13:33:35.875Z",
+      "firstSeenAt": "2026-11-15T13:33:48.688Z",
+      "lastSeenAt": "2026-11-15T13:33:48.928Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_758.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1007.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -993,12 +1027,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:33:41.643Z",
-      "lastSeenAt": "2026-11-12T13:33:41.895Z",
+      "firstSeenAt": "2026-11-15T13:33:54.782Z",
+      "lastSeenAt": "2026-11-15T13:33:55.018Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_759.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1008.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -1010,12 +1044,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:33:47.470Z",
-      "lastSeenAt": "2026-11-12T13:33:47.754Z",
+      "firstSeenAt": "2026-11-15T13:34:01.028Z",
+      "lastSeenAt": "2026-11-15T13:34:01.267Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_760.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1009.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -1027,12 +1061,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:33:53.302Z",
-      "lastSeenAt": "2026-11-12T13:33:53.614Z",
+      "firstSeenAt": "2026-11-15T13:34:07.118Z",
+      "lastSeenAt": "2026-11-15T13:34:07.355Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_761.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1010.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -1044,12 +1078,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:33:59.431Z",
-      "lastSeenAt": "2026-11-12T13:33:59.755Z",
+      "firstSeenAt": "2026-11-15T13:34:13.207Z",
+      "lastSeenAt": "2026-11-15T13:34:13.444Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_762.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1011.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -1061,12 +1095,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:34:05.294Z",
-      "lastSeenAt": "2026-11-12T13:34:05.554Z",
+      "firstSeenAt": "2026-11-15T13:34:19.156Z",
+      "lastSeenAt": "2026-11-15T13:34:19.411Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_763.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1012.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -1078,12 +1112,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:34:11.372Z",
-      "lastSeenAt": "2026-11-12T13:34:11.628Z",
+      "firstSeenAt": "2026-11-15T13:34:25.014Z",
+      "lastSeenAt": "2026-11-15T13:34:25.255Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_764.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1013.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -1095,12 +1129,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:34:17.440Z",
-      "lastSeenAt": "2026-11-12T13:34:17.733Z",
+      "firstSeenAt": "2026-11-15T13:34:30.830Z",
+      "lastSeenAt": "2026-11-15T13:34:31.069Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_765.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1014.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -1112,12 +1146,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:34:23.329Z",
-      "lastSeenAt": "2026-11-12T13:34:23.589Z",
+      "firstSeenAt": "2026-11-15T13:34:36.673Z",
+      "lastSeenAt": "2026-11-15T13:34:36.904Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_766.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1015.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -1129,12 +1163,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:34:29.307Z",
-      "lastSeenAt": "2026-11-12T13:34:29.565Z",
+      "firstSeenAt": "2026-11-15T13:34:42.654Z",
+      "lastSeenAt": "2026-11-15T13:34:42.894Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_767.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1016.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -1146,12 +1180,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:34:35.318Z",
-      "lastSeenAt": "2026-11-12T13:34:35.589Z",
+      "firstSeenAt": "2026-11-15T13:34:48.637Z",
+      "lastSeenAt": "2026-11-15T13:34:48.875Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_768.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1017.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -1163,12 +1197,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:34:41.375Z",
-      "lastSeenAt": "2026-11-12T13:34:41.652Z",
+      "firstSeenAt": "2026-11-15T13:34:54.467Z",
+      "lastSeenAt": "2026-11-15T13:34:54.704Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_769.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1018.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -1180,12 +1214,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:34:47.243Z",
-      "lastSeenAt": "2026-11-12T13:34:47.626Z",
+      "firstSeenAt": "2026-11-15T13:35:00.536Z",
+      "lastSeenAt": "2026-11-15T13:35:00.772Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_770.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1019.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -1197,12 +1231,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:34:53.100Z",
-      "lastSeenAt": "2026-11-12T13:34:53.354Z",
+      "firstSeenAt": "2026-11-15T13:35:06.618Z",
+      "lastSeenAt": "2026-11-15T13:35:06.852Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_771.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1020.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -1214,12 +1248,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:34:59.178Z",
-      "lastSeenAt": "2026-11-12T13:34:59.423Z",
+      "firstSeenAt": "2026-11-15T13:35:13.135Z",
+      "lastSeenAt": "2026-11-15T13:35:13.369Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_772.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1021.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -1231,12 +1265,12 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:35:05.295Z",
-      "lastSeenAt": "2026-11-12T13:35:05.548Z",
+      "firstSeenAt": "2026-11-15T13:35:18.777Z",
+      "lastSeenAt": "2026-11-15T13:35:19.023Z",
       "seenCount": 2
     },
     {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_773.ts",
+      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-ux2uc0r38_b6628000_1022.ts",
       "type": "ts-segment",
       "from": "request",
       "sources": [
@@ -1248,59 +1282,9 @@
       "status": null,
       "resourceType": "xhr",
       "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:35:11.398Z",
-      "lastSeenAt": "2026-11-12T13:35:11.662Z",
+      "firstSeenAt": "2026-11-15T13:35:24.865Z",
+      "lastSeenAt": "2026-11-15T13:35:25.110Z",
       "seenCount": 2
-    },
-    {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_774.ts",
-      "type": "ts-segment",
-      "from": "request",
-      "sources": [
-        "request",
-        "response"
-      ],
-      "contentType": null,
-      "method": null,
-      "status": null,
-      "resourceType": "xhr",
-      "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:35:17.513Z",
-      "lastSeenAt": "2026-11-12T13:35:17.761Z",
-      "seenCount": 2
-    },
-    {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_775.ts",
-      "type": "ts-segment",
-      "from": "request",
-      "sources": [
-        "request",
-        "response"
-      ],
-      "contentType": null,
-      "method": null,
-      "status": null,
-      "resourceType": "xhr",
-      "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:35:23.639Z",
-      "lastSeenAt": "2026-11-12T13:35:23.880Z",
-      "seenCount": 2
-    },
-    {
-      "url": "https://streamw-azs-51.on.cc/src/smil:remote1_hd.smil/media-u7k6n91kd_b6628000_776.ts",
-      "type": "ts-segment",
-      "from": "request",
-      "sources": [
-        "request"
-      ],
-      "contentType": null,
-      "method": null,
-      "status": null,
-      "resourceType": "xhr",
-      "initiatorType": null,
-      "firstSeenAt": "2026-11-12T13:35:29.747Z",
-      "lastSeenAt": "2026-11-12T13:35:29.747Z",
-      "seenCount": 1
     }
   ],
   "selectedMediaCandidate": {
@@ -1316,8 +1300,8 @@
     "status": null,
     "resourceType": "xhr",
     "initiatorType": null,
-    "firstSeenAt": "2026-11-12T13:28:50.884Z",
-    "lastSeenAt": "2026-11-12T13:28:57.136Z",
+    "firstSeenAt": "2026-11-15T13:29:03.315Z",
+    "lastSeenAt": "2026-11-15T13:29:09.563Z",
     "seenCount": 4,
     "score": 1184
   },
@@ -1352,7 +1336,7 @@
     "videoDetails": [
       {
         "index": 0,
-        "currentSrc": "blob:https://tv.on.cc/4d58d77a-416a-4dbf-9092-d2fdf447075a",
+        "currentSrc": "blob:https://tv.on.cc/fa715b3a-3360-43a3-b084-f53a785cb0fb",
         "readyState": 4,
         "networkState": 2,
         "paused": false,
@@ -1368,19 +1352,19 @@
   "recordPlan": {
     "defaultDurationSec": 480,
     "endTimeTaipei": "21:35:30",
-    "currentTaipeiTime": "2026-11-12 21:29:00 Asia/Taipei",
-    "remainingSecondsToEndTime": 389,
-    "effectiveDurationSec": 389,
+    "currentTaipeiTime": "2026-11-15 21:29:12 Asia/Taipei",
+    "remainingSecondsToEndTime": 377,
+    "effectiveDurationSec": 377,
     "mode": "record-until-taipei-time-capped-by-default-minutes"
   },
-  "recordingStartedAt": "2026-11-12T13:29:00.454Z",
-  "recordingStartedAtTaipei": "2026-11-12 21:29:00 Asia/Taipei",
-  "recordingEndedAt": "2026-11-12T13:35:29.957Z",
-  "recordingEndedAtTaipei": "2026-11-12 21:35:29 Asia/Taipei",
+  "recordingStartedAt": "2026-11-15T13:29:12.066Z",
+  "recordingStartedAtTaipei": "2026-11-15 21:29:12 Asia/Taipei",
+  "recordingEndedAt": "2026-11-15T13:35:29.577Z",
+  "recordingEndedAtTaipei": "2026-11-15 21:35:29 Asia/Taipei",
   "github": {
-    "runId": "43227546667",
-    "runNumber": "147",
+    "runId": "43719137986",
+    "runNumber": "150",
     "runAttempt": "1",
-    "headSha": "14855a46d5c09f1acf31da4a0b6e9f7dc09da8bd"
+    "headSha": "51d12a91494c4cc3a25d35e337f1a0fd35f56735"
   }
 }
