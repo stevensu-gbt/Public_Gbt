@@ -1,12 +1,12 @@
 {
-  "url": "https://d2.xiyangjia.com/pc/",
-  "selectedUrl": "https://d2.xiyangjia.com/pc/",
+  "url": "https://d2.innocenhigh.com/pc/",
+  "selectedUrl": "https://d2.innocenhigh.com/pc/",
   "candidateUrlsCount": 2,
-  "finalUrl": "https://d2.xiyangjia.com/pc/#/",
+  "finalUrl": "https://d2.innocenhigh.com/pc/#/",
   "title": "澳門六合彩官方網站",
   "status": 200,
-  "capturedAt": "2026-11-18T12:00:27.513Z",
-  "taipeiDate": "2026-11-18",
+  "capturedAt": "2026-11-19T12:00:47.650Z",
+  "taipeiDate": "2026-11-19",
   "screenshotMode": "random-config-url-viewport-with-browser-frame",
   "waitSeconds": 20,
   "viewport": {
@@ -16,7 +16,7 @@
   "slot": {
     "id": "2000",
     "label": "20:00",
-    "dateCompact": "20261118",
+    "dateCompact": "20261119",
     "source": "workflow-input"
   },
   "files": {
@@ -25,12 +25,12 @@
     "fixedSlotMetadata": "screenshots/Mark_Six_TIME_2000.json",
     "publicFixedSlotPreview": "screenshots/Mark_Six_TIME_2000.png",
     "publicFixedSlotMetadata": "screenshots/Mark_Six_TIME_2000.json",
-    "runArtifact": "macao-jc-browser-frame-2026-11-18T12-00-27-513Z.png"
+    "runArtifact": "macao-jc-browser-frame-2026-11-19T12-00-47-650Z.png"
   },
   "github": {
-    "runId": "44299652484",
-    "runNumber": "445",
+    "runId": "44519700504",
+    "runNumber": "447",
     "runAttempt": "1",
-    "headSha": "13dd595eaea52a88dc3b22bc9b4b302e68f82e97"
+    "headSha": "72428ea7c6432d44582df9655789173a25a3599a"
   }
 }
