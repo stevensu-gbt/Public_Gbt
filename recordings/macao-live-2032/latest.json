@@ -3,24 +3,25 @@
   "site": "macao",
   "task": "macao-live-2032-record",
   "recordMode": "live-end-or-900s-h264-compress-if-needed",
-  "capturedAt": "2026-11-26T13:32:08.806Z",
-  "capturedAtTaipei": "2026-11-26 21:32:08 Asia/Taipei",
-  "taipeiDate": "2026-11-26",
+  "capturedAt": "2026-11-27T13:32:05.258Z",
+  "capturedAtTaipei": "2026-11-27 21:32:05 Asia/Taipei",
+  "taipeiDate": "2026-11-27",
   "liveUrl": "https://d2.innocenhigh.com/pc/#/live/2032",
   "targetUrl": "https://d2.innocenhigh.com/pc/#/live/2032",
   "finalUrl": "https://d2.innocenhigh.com/pc/#/live/2032",
   "lastObservedUrl": "https://d2.innocenhigh.com/pc/#/live/2032",
   "maxRecordSeconds": 900,
   "recordEndTimeTaipei": null,
-  "effectiveRecordSeconds": 900,
+  "effectiveRecordSeconds": 899.88,
   "videoPreset": "veryfast",
   "videoTargetBytes": 41500000,
   "videoHardLimitBytes": 45000000,
   "videoKbps": 368,
   "videoMaxrateKbps": 380,
   "videoBufsizeKbps": 760,
-  "latestMp4Bytes": 23995126,
+  "latestMp4Bytes": 23753108,
   "outputFiles": [
+    "before-record.png",
     "ready-record.png",
     "end-record.png",
     "latest.mp4",
@@ -30,7 +31,7 @@
     "latest.json"
   ],
   "mediaCandidates": [],
-  "recoveryCount": 17,
+  "recoveryCount": 16,
   "stopReason": "MAX_DURATION",
   "confirmedLiveEnd": false,
   "sevenBallConfirmed": false,
@@ -48,11 +49,11 @@
     "details": [],
     "evidence": "FLV_CONTINUOUS_DATA"
   },
-  "recordingStartedAt": "2026-11-26T13:32:08.823Z",
-  "recordingStartedAtTaipei": "2026-11-26 21:32:08 Asia/Taipei",
-  "recordingEndedAt": "2026-11-26T13:47:09.301Z",
-  "recordingEndedAtTaipei": "2026-11-26 21:47:09 Asia/Taipei",
-  "wallRecordSeconds": 900,
+  "recordingStartedAt": "2026-11-27T13:32:05.278Z",
+  "recordingStartedAtTaipei": "2026-11-27 21:32:05 Asia/Taipei",
+  "recordingEndedAt": "2026-11-27T13:47:05.938Z",
+  "recordingEndedAtTaipei": "2026-11-27 21:47:05 Asia/Taipei",
+  "wallRecordSeconds": 901,
   "mediaActivity": {
     "flvActive": false,
     "mediaRecent": false,
@@ -61,12 +62,12 @@
     "segments": 0,
     "counts": {}
   },
-  "rawMp4Bytes": 69258423,
+  "rawMp4Bytes": 71194938,
   "reencoded": true,
   "github": {
-    "runId": "45829815047",
-    "runNumber": "93",
+    "runId": "46007704310",
+    "runNumber": "94",
     "runAttempt": "1",
-    "headSha": "c8a0a0b09e04232a1dd82c021ed61ba6d5da5d05"
+    "headSha": "04de458f03c9e0cb1e9dec5206c1c31b61bb244e"
   }
 }
