@@ -3,13 +3,13 @@
   "site": "macao",
   "task": "macao-live-2032-record",
   "recordMode": "live-end-or-900s-h264-compress-if-needed",
-  "capturedAt": "2026-11-27T13:32:05.258Z",
-  "capturedAtTaipei": "2026-11-27 21:32:05 Asia/Taipei",
-  "taipeiDate": "2026-11-27",
-  "liveUrl": "https://d2.innocenhigh.com/pc/#/live/2032",
-  "targetUrl": "https://d2.innocenhigh.com/pc/#/live/2032",
-  "finalUrl": "https://d2.innocenhigh.com/pc/#/live/2032",
-  "lastObservedUrl": "https://d2.innocenhigh.com/pc/#/live/2032",
+  "capturedAt": "2026-11-28T13:32:05.314Z",
+  "capturedAtTaipei": "2026-11-28 21:32:05 Asia/Taipei",
+  "taipeiDate": "2026-11-28",
+  "liveUrl": "https://d2.xiyangjia.com/pc/#/live/2032",
+  "targetUrl": "https://d2.xiyangjia.com/pc/#/live/2032",
+  "finalUrl": "https://d2.xiyangjia.com/pc/#/live/2032",
+  "lastObservedUrl": "https://d2.xiyangjia.com/pc/#/live/2032",
   "maxRecordSeconds": 900,
   "recordEndTimeTaipei": null,
   "effectiveRecordSeconds": 899.88,
@@ -19,9 +19,8 @@
   "videoKbps": 368,
   "videoMaxrateKbps": 380,
   "videoBufsizeKbps": 760,
-  "latestMp4Bytes": 23753108,
+  "latestMp4Bytes": 22838977,
   "outputFiles": [
-    "before-record.png",
     "ready-record.png",
     "end-record.png",
     "latest.mp4",
@@ -31,7 +30,7 @@
     "latest.json"
   ],
   "mediaCandidates": [],
-  "recoveryCount": 16,
+  "recoveryCount": 3,
   "stopReason": "MAX_DURATION",
   "confirmedLiveEnd": false,
   "sevenBallConfirmed": false,
@@ -40,7 +39,22 @@
     "status": "NO_MATCH",
     "fps": 10,
     "stableSeconds": 1,
-    "postRollSeconds": 5
+    "postRollSeconds": 5,
+    "algorithm": "MACAO_SCREENSHOT_CLASSIFIER",
+    "fallbackAfterSeconds": 45,
+    "fallbackStableSeconds": 2,
+    "lastDiagnostic": {
+      "type": "progress",
+      "generation": 3,
+      "active": false,
+      "elapsedSeconds": 887.41,
+      "detection": {
+        "frames": 0,
+        "candidateFrames": 0,
+        "maxSixBallCount": 0,
+        "everEmptyObserved": false
+      }
+    }
   },
   "baseUrlsCount": 2,
   "startEvidence": "FLV_CONTINUOUS_DATA",
@@ -49,10 +63,11 @@
     "details": [],
     "evidence": "FLV_CONTINUOUS_DATA"
   },
-  "recordingStartedAt": "2026-11-27T13:32:05.278Z",
-  "recordingStartedAtTaipei": "2026-11-27 21:32:05 Asia/Taipei",
-  "recordingEndedAt": "2026-11-27T13:47:05.938Z",
-  "recordingEndedAtTaipei": "2026-11-27 21:47:05 Asia/Taipei",
+  "recordingStartedAt": "2026-11-28T13:32:05.338Z",
+  "recordingStartedAtTaipei": "2026-11-28 21:32:05 Asia/Taipei",
+  "recoveryLimitReached": true,
+  "recordingEndedAt": "2026-11-28T13:47:05.965Z",
+  "recordingEndedAtTaipei": "2026-11-28 21:47:05 Asia/Taipei",
   "wallRecordSeconds": 901,
   "mediaActivity": {
     "flvActive": false,
@@ -62,12 +77,12 @@
     "segments": 0,
     "counts": {}
   },
-  "rawMp4Bytes": 71194938,
+  "rawMp4Bytes": 69016251,
   "reencoded": true,
   "github": {
-    "runId": "46007704310",
-    "runNumber": "94",
+    "runId": "46149950863",
+    "runNumber": "95",
     "runAttempt": "1",
-    "headSha": "04de458f03c9e0cb1e9dec5206c1c31b61bb244e"
+    "headSha": "6cd683a23b6e1d8795b42e0160de4c48415ef126"
   }
 }
